@@ -1,0 +1,41 @@
+'use strict';
+
+/**
+ * @ngdoc overview
+ * @name tempGitApp
+ * @description
+ * # tempGitApp
+ *
+ * Main module of the application.
+ */
+angular
+  .module('tempGitApp', [
+    'ngAnimate',
+    'ngCookies',
+    'ngResource',
+    'ngRoute',
+    'ngSanitize',
+    'ngTouch'
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
+      })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/locs',{
+        templateUrl:'views/locs.html',
+        controller: 'LocateCtrl'
+      }).
+      when('/locs/:storeId', {
+        templateUrl:'views/store-detail.html',
+        controller: 'LocdetailCtrl'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });

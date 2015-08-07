@@ -18,6 +18,7 @@
 
 				{{store}}
 
+<<<<<<< HEAD
 		Gives out the whole json file. 
 
 
@@ -30,3 +31,15 @@
 		So if I do {{store[ENTER URL PARAMS]}} I should get the desired object. Nothing comes out though, so something isn't reading the params. 
 
 		{{store[0]}} works though. 
+=======
+		Gives out the whole json file.
+
+8/6 part 2 - electric boogaloo
+
+		Chris, along with some people over on reddit's /r/angularjs brought up a good point to me. 
+
+		The json is passing as an array, so I can still access the objects inside of it through an index. Now I have to make a filter that checks for that id tag and returns the proper object within the json.
+
+		What's weird is that I followed the same format as the official 
+		angular tutorial. I should re check my steps. 
+>>>>>>> 3235a9a149944cc01434a631a3ef0192d6b3960c

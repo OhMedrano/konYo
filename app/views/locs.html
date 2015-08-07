@@ -1,6 +1,6 @@
 <div class='container locNav navbar-nav'>
 	<ul>
-		<li class='col-md-3 active' ng-repeat='store in stores'><a href='#/locs/{{store.id}}'>{{store.name}}</a></li>
+		<li class='col-md-3 active' ng-repeat='store in storeVar | filter:query1'><a href='#/locs/{{storeVar.indexOf(store)}}'>{{store.name}}</a></li>
 		<li class='col-md-3' ng-repeat='store in stores'>{{store.address}}</li>
 	</ul>
 </div>

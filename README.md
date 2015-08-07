@@ -19,3 +19,14 @@
 				{{store}}
 
 		Gives out the whole json file. 
+
+
+8/7 - 
+
+		So searching on reddit's /r/angularjs and talking to Chris, brough up an interesting point. Since the file is still loading and it's coming in as an array. I can simply put a param in there and search for the index. 
+
+		Now my main problem is that the app doesn't seem to read the params from the link. 
+
+		So if I do {{store[ENTER URL PARAMS]}} I should get the desired object. Nothing comes out though, so something isn't reading the params. 
+
+		{{store[0]}} works though. 

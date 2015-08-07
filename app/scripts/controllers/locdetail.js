@@ -8,7 +8,9 @@
  * Controller of the tempGitApp
  */
 angular.module('tempGitApp')
-  .controller('LocdetailCtrl', function ($scope, $routeParams, konStores) {
-    $scope.stores = konStores.query({storeId: $routeParams.storeId});
-    $scope.store = $scope.stores;
+  .controller('LocdetailCtrl', function ($scope, $http, $routeParams) {
+    $http.get('stores/stores.json').success (function(data){
+    	$scope.storeVar = data;
+    	$scope.whichStore = $routeParams.storeID;
+    });
   });

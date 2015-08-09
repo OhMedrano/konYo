@@ -58,10 +58,17 @@
 		...I gotta stop playing Earthbound.
 
 		Alright, so new/same stuff. It seems that at first, the $scope.
-		whichScope kept coming up undefined. I've added the whichStore outside of the http.get to make it a bit more of a global variable
-		FOR THAT FUNCTION. 
+		whichScope kept coming up undefined. I've added the whichStore
+		outside of the http.get to make it a bit more of a global 
+		variable FOR THAT FUNCTION. 
 
-		It does output the proper array index, oh yeah more about that later, into the console. So, I'm not sure what's the problem. 
-		It's probably the way I'm calling it into the {{ }} (<-- completely forgot what that was called again).  
+		It does output the proper array index, oh yeah more 
+		about that later, into the console. So, I'm not 
+		sure what's the problem. It's probably the way I'm 
+		calling it into the {{ }} (<-- completely forgot what
+		 that was called again).  
 
-		About the array index, since the json file was being called, and I was able to reference any object within that json array through the index; I've put a .indexOf() to catch that index int. That's part of the whole $scope.whichStore var. 
+		About the array index, since the json file was being called,
+		 and I was able to reference any object within that json array 
+		through the index; I've put a .indexOf() to catch that 
+		index int. That's part of the whole $scope.whichStore var. 

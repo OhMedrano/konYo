@@ -18,8 +18,6 @@
 
 				{{store}}
 
-<<<<<<< HEAD
-		Gives out the whole json file. 
 
 
 8/7 - 
@@ -31,8 +29,7 @@
 		So if I do {{store[ENTER URL PARAMS]}} I should get the desired object. Nothing comes out though, so something isn't reading the params. 
 
 		{{store[0]}} works though. 
-=======
-		Gives out the whole json file.
+
 
 8/6 part 2 - electric boogaloo
 
@@ -42,4 +39,29 @@
 
 		What's weird is that I followed the same format as the official 
 		angular tutorial. I should re check my steps. 
->>>>>>> 3235a9a149944cc01434a631a3ef0192d6b3960c
+
+
+
+8/9 - 
+
+		
+		Sup.
+
+		...
+
+		How you been? 
+
+		...
+
+		Awesome. 
+
+		...I gotta stop playing Earthbound.
+
+		Alright, so new/same stuff. It seems that at first, the $scope.
+		whichScope kept coming up undefined. I've added the whichStore outside of the http.get to make it a bit more of a global variable
+		FOR THAT FUNCTION. 
+
+		It does output the proper array index, oh yeah more about that later, into the console. So, I'm not sure what's the problem. 
+		It's probably the way I'm calling it into the {{ }} (<-- completely forgot what that was called again).  
+
+		About the array index, since the json file was being called, and I was able to reference any object within that json array through the index; I've put a .indexOf() to catch that index int. That's part of the whole $scope.whichStore var. 

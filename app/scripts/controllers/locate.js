@@ -8,9 +8,9 @@
  * Controller of the tempGitApp
  */
 angular.module('tempGitApp')
-  .controller('LocateCtrl', function ($scope, $http) {
+  .controller('LocateCtrl', function ($scope, $routeParams, $http) {
    		$http.get('stores/stores.json').success (function(data){
-   			$scope.storeVar = data;
+   			$scope.storeVar = data; 
    		});
-   	
+   		
   });

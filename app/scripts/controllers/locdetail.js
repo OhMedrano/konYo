@@ -9,13 +9,13 @@
  */
 angular.module('tempGitApp') // ...Change this soon.
   .controller('LocdetailCtrl', function ($scope, $http, $routeParams) {
-    
-    $http.get('stores/stores.json').success (function(data){
-    	$scope.storeVar = data;
-    	
+    $scope.storeId = $routeParams.storeId;
 
+    $http.get('stores/stores.json').success(function(data){
+    	$scope.store = data.filter(function(entry){ 
+
+    		return entry.id === $scope.storeId;
+    	})[0];
+    });
     
-    }); 
-    $scope.whichStore = $routeParams.storeId;
-    console.log($scope.whichStore);
   });

@@ -1,18 +1,19 @@
-<div class='container' ng-repeat='store in storeVar'>
-<p>{{store[whichStore]}}</p>
-</div>
 
 
 <div class='container storePage'>
 	<div id='storeImage'>
-	<!-- <img src="http://placekitten.com/g/400/500"> -->
+	<!-- <img src="http://placekitten.com/g/600/500"> -->
 	</div>
 
-	<!-- <div id='storeDetails'>
-		<ul> Name of Store
-			<li>Address</li>
-			<li>Telephone</li>
-			<li>Instagram</li>
+	<div id='storeDetails'>
+		<ul>{{store.name}}
+		<br>
+		<br>
+			<li>-- {{store.address}}</li>
+			<br>
+			
+			<li>-- {{store.phone}}</li>
 		</ul>
-	</div> -->
+	</div>
+	
 </div>

@@ -1,4 +1,19 @@
 8/6 	
+		...I tend to use this README to help me troubleshoot. It's 
+		a version of the rubber ducky method, except I won't be 
+		talking to myself outloud. Also, figuring that some of my
+		friends might find this repo, I'll detail each part of it;
+		so you can follow along with the code. 
+
+
+		So I shall be addressing this as if I'm talking to you. 
+
+		Yes. 
+
+		You. 
+
+		Lets' continue. 
+
 
 		Ok so, the angular app is coming along. I had to use Yeoman for a scaffolding. For some reason, they never bother updating their tutorials since a lot of the controller functions weren't working. After checking into the problem, I find that the version of angular that the tutorial uses and the one it loads, are different. 
 
@@ -72,3 +87,32 @@
 		 and I was able to reference any object within that json array 
 		through the index; I've put a .indexOf() to catch that 
 		index int. That's part of the whole $scope.whichStore var. 
+
+
+8/10 - 
+
+		Alright! Awesome! 
+
+		I fixed the routing issue. 
+
+		Making the filter, I was able to now use the id tag in
+		the json file to call the info that I need. The way I did
+		it was by making a scope variable called storeId in the 
+		locdetail.js file. 
+
+		In this storeId, it gets the value of the $routeParams.storeId.
+		Back in the loc.html, you can see that the a href tag, that 
+		there is an expression (It's these things {{ }} ). When the
+		$http.get activates, it searches the directory for the json file;
+		when successful, it filters the file. The "entry" parameter
+		is an empty variable for the json array objects. The filter
+		won't stop until it finds the object containing the EXACT 
+		(indicated with the triple equal signs === ). Once it does,
+		it returns as an array of objects except that the found object
+		will be the first item on the index or index[0]. That's what 
+		the [0] at the end of it is for. 
+
+		That all carries over to the store-details.html, which now 
+		needs to be styled. 
+
+		Btw, that cat has been giving me the badass look the whole time.

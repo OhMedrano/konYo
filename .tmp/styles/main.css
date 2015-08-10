@@ -8820,10 +8820,24 @@ body {
   background-image: url(http://placekitten.com/g/400/500);
   height: 350px;
   width: 50%;
+  margin: 10px;
+  padding: 5px;
 }
-/* line 120, ../../app/styles/main.scss */
+/* line 122, ../../app/styles/main.scss */
 .storePage #storeDetails {
   float: right;
+  border: 1px solid;
+  position: relative;
+  top: 45%;
+  padding: 5px;
+  font-weight: bold;
+  margin: 10px;
+  height: auto;
 }
-
-/*# sourceMappingURL=main.css.map */
+/* line 133, ../../app/styles/main.scss */
+.storePage #storeDetails ul {
+  margin: 4px;
+  padding: 3px;
+  display: block;
+  list-style-type: none;
+}

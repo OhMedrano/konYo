@@ -1,4 +1,6 @@
 8/6 	
+		
+
 		...I tend to use this README to help me troubleshoot. It's 
 		a version of the rubber ducky method, except I won't be 
 		talking to myself outloud. Also, figuring that some of my

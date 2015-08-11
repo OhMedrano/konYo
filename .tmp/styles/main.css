@@ -8711,10 +8711,15 @@ button.close {
 /* line 13, ../../app/styles/main.scss */
 body {
   padding: 0;
+  background: url(/images/backgroundV2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 19, ../../app/styles/main.scss */
+/* line 28, ../../app/styles/main.scss */
 .header,
 .marketing,
 .footer {
@@ -8723,13 +8728,13 @@ body {
 }
 
 /* Custom page header */
-/* line 27, ../../app/styles/main.scss */
+/* line 36, ../../app/styles/main.scss */
 .header {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
   /* Make the masthead heading the same height as the navigation */
 }
-/* line 32, ../../app/styles/main.scss */
+/* line 41, ../../app/styles/main.scss */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -8738,36 +8743,38 @@ body {
 }
 
 /* Custom page footer */
-/* line 41, ../../app/styles/main.scss */
+/* line 50, ../../app/styles/main.scss */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  position: absolute;
+  bottom: 0px;
 }
 
-/* line 47, ../../app/styles/main.scss */
+/* line 58, ../../app/styles/main.scss */
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-/* line 52, ../../app/styles/main.scss */
+/* line 63, ../../app/styles/main.scss */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 56, ../../app/styles/main.scss */
+/* line 67, ../../app/styles/main.scss */
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-/* line 63, ../../app/styles/main.scss */
+/* line 74, ../../app/styles/main.scss */
 .marketing {
   margin: 40px 0;
 }
-/* line 66, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/main.scss */
 .marketing p {
   margin-top: 28px;
   float: right;
@@ -8775,13 +8782,13 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 74, ../../app/styles/main.scss */
+  /* line 85, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 79, ../../app/styles/main.scss */
+  /* line 90, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8790,29 +8797,50 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 86, ../../app/styles/main.scss */
+  /* line 97, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 90, ../../app/styles/main.scss */
+  /* line 101, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
-/* line 97, ../../app/styles/main.scss */
+/* All original scss*/
+/* line 106, ../../app/styles/main.scss */
+.mainNav {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 110, ../../app/styles/main.scss */
+.footStyle {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+/* line 116, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 101, ../../app/styles/main.scss */
+/* line 120, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 110, ../../app/styles/main.scss */
+/* line 126, ../../app/styles/main.scss */
+.mainContent {
+  border: 1px solid;
+  background-color: rbga(255, 255, 255, 0.5);
+  width: 70%;
+  height: 60%;
+  background-color: white;
+}
+
+/* line 139, ../../app/styles/main.scss */
 .storePage #storeImage {
   float: left;
   border: 1px solid;
@@ -8823,7 +8851,7 @@ body {
   margin: 10px;
   padding: 5px;
 }
-/* line 122, ../../app/styles/main.scss */
+/* line 151, ../../app/styles/main.scss */
 .storePage #storeDetails {
   float: right;
   border: 1px solid;
@@ -8834,7 +8862,7 @@ body {
   margin: 10px;
   height: auto;
 }
-/* line 133, ../../app/styles/main.scss */
+/* line 162, ../../app/styles/main.scss */
 .storePage #storeDetails ul {
   margin: 4px;
   padding: 3px;

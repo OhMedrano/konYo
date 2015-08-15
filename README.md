@@ -118,3 +118,29 @@
 		needs to be styled. 
 
 		Btw, that cat has been giving me the badass look the whole time.
+
+
+8/14 -
+
+		Wow, okay, where to start.
+
+		First, hola. It's been a while. 
+
+		Been busy with work and working on this,
+		and I've put a lot of work on this.
+		Instead of my usual winging it, I've made
+		mockups on GIMP, which is surprisingly 
+		easier to use than photoshop...
+
+		From there, I made mockups of the main
+		html, and the locations.
+
+		The locations menu, I took inspiration
+		from GTA5, on their multiplayer
+		mission vote menu. 
+
+		Most of the desktop version is done,
+		still gotta fix up the location profile
+		page, add images, and work with the
+		instagram API which I've still haven't
+		checked out... 

@@ -2,7 +2,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
-
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px|Montserrat|Lato|Noto+Serif);
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -10,18 +10,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
+html body { 
+  background: url(/images/backgroundV2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
   padding: 0;
-  
-  
-    background:url(/images/backgroundV2.jpg);
-    background-size:100%;
-    background-repeat:no-repeat;
-    height:100%;
-    width:auto;
-    
-
-
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -34,8 +32,9 @@ body{
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+
   margin-bottom: 10px;
+
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -44,13 +43,16 @@ body{
     line-height: 40px;
     padding-bottom: 19px;
   }
+  .navbar-default {
+    border:1px none;
+  }
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+ 
   position:absolute;
   bottom:0px;
 }
@@ -103,13 +105,27 @@ body{
   }
 }
 /* All original scss*/
+.header {
+  width:100%;
+}
+
 .mainNav {
-  background-color:rgba(0,0,0,.3);
+  background-color:rgba(0,0,0,.8);
+  
+   ul li:hover{
+    background-color:rgba(255,255,255,.5);
+  }
 
 }
+
+
+.mainNav navbar-header::before {
+  position:fixed;
+}
 .footStyle {
-  background-color:rgba(0,0,0,.3);
+  background-color:rgba(0,0,0,.8);
   width:100%;
+  position:fixed;
 }
 .locNav {
   ul {
@@ -123,53 +139,205 @@ body{
     }
   }
 }
-.mainContent {
-  border:1px solid;
-  background-color:rbga(255,255,255,0.5);
-  
-  
-    width:70%;
-    height:60%;
-    background-color:white;
-    
 
-}
-.storePage {
-  
-  #storeImage {
-    float:left;
-    border:1px solid;
-    border-radius:5px;
-    background-image: url(http://placekitten.com/g/400/500);
-    height:350px;
-    width:50%;
-    margin:10px;
-    padding:5px;
-  
-  }
-  
-  #storeDetails {
-    float:right;
-    border:1px solid;
-    
-    position:relative;
-    top:45%;
-    padding:5px;
-    font-weight:bold;
-    margin:10px;
-    height:auto;
 
-    ul {
+.mainTitle {
+  color:white;
+  border:1px none;
+  border-radius:20px;
+  display:inline-block;
+  
+  padding:10px;
+  margin:10px;
+  font-family:'Slabo 27px',serif;
+/*
+  background-color:rgba(0,0,0,.75);*/
+  box-shadow: 0 0 100px rgba(0,0,0,.71);
+  display:transparent;
+  position:relative;
+  left:30%;
+  top:40%;
 
-      margin:4px;
-      padding:3px;
-      display:block;
-      list-style-type:none;
+    h1 {
+      font-size:60px;
+      margin-bottom:0px;
 
     }
-    
-  }
+}
+.mainTitle::before {
+  content: "";
+  
+  background-color:rgba(0,0,0,.75);
+  box-shadow: 0 0 100px rgba(0,0,0,1);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+  border-radius:20px;
+
+
 
 }
-  
+.mainContent {
+  color:white;
+  float:left;
+  border:1px none;
+  background-color:rgba(0,0,0,0.8);
+  box-shadow:0 0 200px rgba(0,0,0,100);
+  padding:5px;
+  margin:5px;
+  border-radius:20px;
+  position:fixed;
+  left:15%;
+  top:40%;
+  width:70%;
+  font-size:14px;
+  font-family:'Noto Serif',serif;
+    /*.container {
+      width:auto;
+    }*/
 
+   .clearfix {
+    overflow:auto;
+   }
+
+   #content1 {
+      color:white;
+      float:left;
+      padding:3px;
+      
+
+   }
+   #content2 {
+    color:white;
+    float:left;
+    padding:3px;
+    
+   }
+}
+
+/*#mainHTML {
+   display:flex;
+   border:1px none;
+   background-color:rgba(255,255,255,0.5);
+   margin:0 ;
+   padding:30px;
+   border-radius:10px;
+   height:auto;
+   width:600px;
+   float:right;
+
+
+    .clearfix {
+      overflow:auto;
+    }
+
+    .mainContent {
+     float:left;
+        
+*/
+
+      .storePage {
+          float:right;
+          #storeImage {
+            float:left;
+            border:1px solid;
+            border-radius:5px;
+            background-image: url(http://placekitten.com/g/400/500);
+            height:350px;
+            width:50%;
+            margin:10px;
+            padding:5px;
+          
+          }
+          
+          #storeDetails {
+            float:right;
+            border:1px solid;
+            
+            position:relative;
+            top:45%;
+            padding:5px;
+            font-weight:bold;
+            margin:10px;
+            height:auto;
+
+            ul {
+
+              margin:4px;
+              padding:3px;
+              display:block;
+              list-style-type:none;
+
+            }
+            
+          }
+
+        }
+/*
+    }
+  
+}
+*/
+
+#locMenu {
+  display:inline-block;
+  border:1px none;
+  position:fixed;
+  top:10%;
+  margin:20px;
+  padding:10px;
+  background-color:rgba(0,0,0,0.5);
+  width:100%;
+  border-radius:20px;
+  box-shadow: 0 0 200px rgb(0,0,0);
+ 
+  ul {
+        list-style-type: none;
+   li {
+    
+    background: #000 none repeat scroll 0% 0%;
+    border: 1px none;
+    color: #FFF;
+    margin: 12px 42px 7px 11px;
+    height: 220px;
+    width: 166px;
+    display: inline-table;
+    padding: 7px;
+    border-radius:5px;
+
+      a {
+      margin-top:7px;
+      text-decoration: none;
+      color:white;
+      position:relative;
+      top:12px;
+      font-family:'Noto serif', serif;
+      text-align:center;
+
+      }
+     
+     }
+   }
+    li:hover {
+      
+      
+        img{
+          width:151px;
+      
+          -webkit-transform: scale(1.1);
+          -moz-transform:    scale(1.1);
+          -o-transform:      scale(1.1);
+          -ms-transform:     scale(1.1);
+           }
+           background:white;
+        
+          a {
+            color:black;
+          }
+      }
+
+    
+}

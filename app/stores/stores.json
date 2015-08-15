@@ -8,7 +8,7 @@
 			"address":"'186 5th Avenue, Brooklyn'",
 			"phone": "'347-384-2028'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'"
 			
 		}
@@ -18,7 +18,7 @@
 			"address":"'240 7th Avenue, Brooklyn'",
 			"phone": "'347-335-0767'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'",
 			"id":"ps240"
 		},
@@ -27,7 +27,7 @@
 			"address":"'696 Washington Avenue, Brooklyn'",
 			"phone": "'347-689-8471'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'",
 			"id":"ph696"
 		},
@@ -36,7 +36,7 @@
 			"address":"'114 Smith Street, Brooklyn'",
 			"phone":" '347-721-3728'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'",
 			"id":"bh114"
 		},
@@ -45,7 +45,7 @@
 			"address":"'167 N.7th Avenue, Brooklyn'",
 			"phone":"'347-529-4803'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'",
 			"id":"wil167"
 
@@ -55,7 +55,7 @@
 			"address":"'182 Allen Street, Manhattan'",
 			"phone":"'646-350-3973'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'",
 			"id":"les182"
 		},
@@ -64,7 +64,7 @@
 			"address":"'687 Manhattan Avenue, Brooklyn'",
 			"phone":"'347-223-4837'",
 			"gMaps":"'To be declared'",
-			"image":"'To be declared'",
+			"image":"https://placehold.it/150x150",
 			"instaGram":"'To be declared'",
 			"id":"gp687"
 		}

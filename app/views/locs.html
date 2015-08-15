@@ -1,6 +1,6 @@
-<div class='container'>
+<div class='container' id='locMenu'>
 	<ul>
-		<li class='col-md-12 active' ng-repeat='store in storeVar'><a href='#/locs/{{store.id}}'>{{store.name}}</a></li>
+		<li class='col-md-3 col-xs-3' ng-repeat='store in stores'><span><img src='{{store.image}}'/></span><a href='#/locs/{{store.id}}'><p>{{store.name}}<p></a></li>
 		
 	</ul>
 </div>

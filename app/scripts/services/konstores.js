@@ -10,7 +10,7 @@
 angular.module('tempGitApp')
   .service('konStores', function($resource) {
     // AngularJS will instantiate a singleton by calling "new" on this function
-  	return $resource('stores/stores.json',{},{
+  	return $resource('infos/stores.json',{},{
   		query:{method:'GET',params:{storeId:'stores'}, isArray:true}
   	});
   });

@@ -1,0 +1,297 @@
+[
+	{
+
+		"type":"Coffee",
+		"objects": [
+			{
+				"item":"Swedish Roast",
+				"price":[2,2.5]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			}
+
+			
+		]
+	},
+	{
+		"type":"Espresso",
+		"objects": [
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+		]
+	},
+	{
+		"type":"Baked Goods \/ Bagels",
+		"objects": [
+			{
+				"item":"Bagel",
+				"price":0,
+				"options":[
+						{	
+						 	"cream":"",
+						 	"cost":0
+						},
+						{	
+						 	"cream":"",
+						 	"cost":0
+						},
+						{	
+						 	"cream":"",
+						 	"cost":0
+						},
+						{	
+						 	"cream":"",
+						 	"cost":0
+						},
+						{	
+						 	"cream":"",
+						 	"cost":0
+						}
+						{	
+						 	"cream":"",
+						 	"cost":0
+						}
+				]
+
+
+			},
+			{
+				"item":"Crossant",
+				"option":[
+					{
+						"name":"",
+						"cost":
+					},
+					{
+						"name":"",
+						"cost":
+					},
+					{
+						"name":"",
+						"cost":
+					},
+					{
+						"name":"",
+						"cost":
+					}
+				]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"Swedish",
+				"options":[
+					{
+						"name":"",
+						"cost":
+					},
+					{
+						"name":"",
+						"cost":
+					},
+					{
+						"name":"",
+						"cost":
+					}
+				
+				]
+
+			}
+
+		]
+	},
+	{
+		"type":"Drinks",
+		"objects": [
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			}
+		]
+	},
+	{
+		"type":"Teas",
+		"objects": [
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			},
+			{
+				"item":"",
+				"price":[0,0]
+
+			}
+		]	
+	},
+	{
+		"type":"Iced Drinks",
+		"objects": [
+			{
+				"item":"",
+				"price":[0,0]
+			}
+		]
+	}
+
+	
+
+
+
+
+
+
+	
+]

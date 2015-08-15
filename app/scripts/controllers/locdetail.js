@@ -22,7 +22,7 @@ angular.module('tempGitApp') // ...Change this soon.
 
     $scope.storeId = $routeParams.storeId;
 
-    $http.get('stores/stores.json').success(function(data){
+    $http.get('infos/stores.json').success(function(data){
     	$scope.store = data.filter(function(entry){ 
 
     		return entry.id === $scope.storeId;

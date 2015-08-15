@@ -241,14 +241,21 @@ body{
 
       .storePage {
           float:right;
+          background:rgba(0,0,0,.8);
+          position:fixed;
+          top:20%;
+          height:57%;
+          width:85%;
+          border-radius:20px;
+          
           #storeImage {
             float:left;
             border:1px solid;
-            border-radius:5px;
+            border-radius:20px;
             background-image: url(http://placekitten.com/g/400/500);
             height:350px;
-            width:50%;
-            margin:10px;
+            width:40%;
+            margin:5% 2% 2% 2%;
             padding:5px;
           
           }
@@ -257,20 +264,37 @@ body{
             float:right;
             border:1px solid;
             
-            position:relative;
-            top:45%;
+
+            height:200px;
             padding:5px;
             font-weight:bold;
-            margin:10px;
+            margin:5px;
             height:auto;
+            font-family:'Noto serif', serif;
+            position:relative;
+            top:11%;
 
             ul {
 
-              margin:4px;
+              margin:2px;
               padding:3px;
               display:block;
               list-style-type:none;
+              color: white; 
+              #storeName {
+                font-size:28px;
+              }
 
+              #storeDetail {
+                font-size:21px;
+                text-align: center;
+              }
+
+              li {
+                position:relative;
+                top:45px;
+                padding:10px;
+              }
             }
             
           }

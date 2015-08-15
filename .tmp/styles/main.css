@@ -8947,35 +8947,59 @@ body {
 /* line 242, ../../app/styles/main.scss */
 .storePage {
   float: right;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 20%;
+  height: 57%;
+  width: 85%;
+  border-radius: 20px;
 }
-/* line 244, ../../app/styles/main.scss */
+/* line 251, ../../app/styles/main.scss */
 .storePage #storeImage {
   float: left;
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 20px;
   background-image: url(http://placekitten.com/g/400/500);
   height: 350px;
-  width: 50%;
-  margin: 10px;
+  width: 40%;
+  margin: 5% 2% 2% 2%;
   padding: 5px;
 }
-/* line 256, ../../app/styles/main.scss */
+/* line 263, ../../app/styles/main.scss */
 .storePage #storeDetails {
   float: right;
   border: 1px solid;
-  position: relative;
-  top: 45%;
+  height: 200px;
   padding: 5px;
   font-weight: bold;
-  margin: 10px;
+  margin: 5px;
   height: auto;
+  font-family: 'Noto serif', serif;
+  position: relative;
+  top: 11%;
 }
-/* line 267, ../../app/styles/main.scss */
+/* line 277, ../../app/styles/main.scss */
 .storePage #storeDetails ul {
-  margin: 4px;
+  margin: 2px;
   padding: 3px;
   display: block;
   list-style-type: none;
+  color: white;
+}
+/* line 284, ../../app/styles/main.scss */
+.storePage #storeDetails ul #storeName {
+  font-size: 28px;
+}
+/* line 288, ../../app/styles/main.scss */
+.storePage #storeDetails ul #storeDetail {
+  font-size: 21px;
+  text-align: center;
+}
+/* line 293, ../../app/styles/main.scss */
+.storePage #storeDetails ul li {
+  position: relative;
+  top: 45px;
+  padding: 10px;
 }
 
 /*
@@ -8983,7 +9007,7 @@ body {
   
 }
 */
-/* line 285, ../../app/styles/main.scss */
+/* line 309, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -8996,11 +9020,11 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 200px black;
 }
-/* line 297, ../../app/styles/main.scss */
+/* line 321, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 299, ../../app/styles/main.scss */
+/* line 323, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -9012,7 +9036,7 @@ body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 311, ../../app/styles/main.scss */
+/* line 335, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9022,11 +9046,11 @@ body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 324, ../../app/styles/main.scss */
+/* line 348, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 327, ../../app/styles/main.scss */
+/* line 351, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -9034,7 +9058,7 @@ body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 337, ../../app/styles/main.scss */
+/* line 361, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }

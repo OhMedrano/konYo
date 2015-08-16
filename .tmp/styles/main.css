@@ -9062,3 +9062,15 @@ body {
 #locMenu li:hover a {
   color: black;
 }
+
+/* line 369, ../../app/styles/main.scss */
+#menuContainer {
+  color: white;
+}
+/* line 371, ../../app/styles/main.scss */
+#menuContainer .boxed {
+  background: black;
+  display: inline;
+  margin: 20px;
+  padding: 20px;
+}

@@ -18,15 +18,15 @@ angular
     'ngTouch'
   ])
   .config(function ($routeProvider, $locationProvider) {
-    $locationProvider.html5Mode(false)
+    $locationProvider.html5Mode(false);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/menu', {
+        templateUrl: 'views/menu.html',
+        controller: 'konmenuCtrl'
       })
       .when('/locs',{
         templateUrl:'views/locs.html',

@@ -9,13 +9,13 @@
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Decaf",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Cafe Au Lait",
+				"price":[2.5,3]
 
 			}
 
@@ -26,82 +26,82 @@
 		"type":"Espresso",
 		"objects": [
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Espresso",
+				"price":[2.50,3]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Americano",
+				"price":[3,4]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Latte",
+				"price":[3.5,4]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Mocha Latte",
+				"price":[4.5,5]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Chai Tea Latte",
+				"price":[3.5,4.5]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Cappuccino",
+				"price":[3.5,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Macchiato",
+				"price":[3.25,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Cortado",
+				"price":[3.25,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Red Eye",
+				"price":[4.25,4.75]
 
-			},
+			}
 		]
 	},
 	{
-		"type":"Baked Goods \/ Bagels",
+		"type":"Baked Goods/Bagels",
 		"objects": [
 			{
 				"item":"Bagel",
-				"price":0,
+				"price":1.1,
 				"options":[
 						{	
-						 	"cream":"",
-						 	"cost":0
+						 	"cream":"Butter",
+						 	"cost":2
 						},
 						{	
-						 	"cream":"",
-						 	"cost":0
+						 	"cream":"Cream cheese",
+						 	"cost":2.5
 						},
 						{	
-						 	"cream":"",
-						 	"cost":0
+						 	"cream":"Scallion Cream cheese",
+						 	"cost":3
 						},
 						{	
-						 	"cream":"",
-						 	"cost":0
+						 	"cream":"Veggie Cream cheese",
+						 	"cost":3
 						},
 						{	
-						 	"cream":"",
-						 	"cost":0
-						}
+						 	"cream":"Lox Cream cheese",
+						 	"cost":3.95	
+						},
 						{	
-						 	"cream":"",
-						 	"cost":0
+						 	"cream":"Cream cheese & Tomato",
+						 	"cost":3.95
 						}
 				]
 
@@ -111,63 +111,63 @@
 				"item":"Crossant",
 				"option":[
 					{
-						"name":"",
-						"cost":
+						"name":"Plain",
+						"cost":2.5
 					},
 					{
-						"name":"",
-						"cost":
+						"name":"Almond",
+						"cost":2.75
 					},
 					{
-						"name":"",
-						"cost":
+						"name":"Chocolate",
+						"cost":2.75
 					},
 					{
-						"name":"",
-						"cost":
+						"name":"Ham & Swiss",
+						"cost":4.25
 					}
 				]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Muffins",
+				"price":2.5
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Biscotti",
+				"price":1.75
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Scones",
+				"price":3.5
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Cookies",
+				"price":2.75
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Vegan/Glutten-free",
+				"price":3.25
 
 			},
 			{
 				"item":"Swedish",
 				"options":[
 					{
-						"name":"",
-						"cost":
+						"name":"KanelBulle",
+						"cost":3.25
 					},
 					{
-						"name":"",
-						"cost":
+						"name":"Cardamom Brod",
+						"cost":2.75
 					},
 					{
-						"name":"",
-						"cost":
+						"name":"CocoBall (Kokosbollar)",
+						"cost":2.75
 					}
 				
 				]
@@ -180,48 +180,48 @@
 		"type":"Drinks",
 		"objects": [
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Hot chocolate",
+				"price":[2.5,3]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Steamed Milk",
+				"price":[2,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Cold Milk",
+				"price":[2,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Chocolate Milk",
+				"price":[3.5,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Fresh Orange Juice",
+				"price":[5,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"San Pellegrino",
+				"price":[2.5,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Aranciata",
+				"price":[2,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Limonata",
+				"price":[2,null]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Smart Water",
+				"price":[2.5,null]
 
 			}
 		]
@@ -230,48 +230,43 @@
 		"type":"Teas",
 		"objects": [
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Earl Grey",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Organic English Breakfast",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Organic Assam",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Hot Cinnamon Spice",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Organic Green",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Herbal Chamomile (Decaf)",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
+				"item":"Herbal Mint (Decaf)",
+				"price":[2.25,2.75]
 
 			},
 			{
-				"item":"",
-				"price":[0,0]
-
-			},
-			{
-				"item":"",
-				"price":[0,0]
+				"item":"Herbal Rooibos Chai (Decaf)",
+				"price":[2.25,2.75]
 
 			}
 		]	

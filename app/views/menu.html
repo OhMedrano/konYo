@@ -1,0 +1,21 @@
+<p>1This is the about view.</p>
+
+<div id='menuContainer'>
+	<div class='container'>
+		<div >
+			<ul>{{menuItems[0].type}}
+				<li ng-repeat="items in menuItems[0].objects">
+					<ul>{{items.item}}
+						<li>Small: {{items.price[0] | currency }}	
+						</li>
+						<li>Large: {{items.price[1] | currency}}
+					</ul>	
+				</li>
+			</ul>
+
+
+		</div>
+		<div >Test</div>
+		<div >Test</div>
+	</div>
+</div>

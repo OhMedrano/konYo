@@ -365,3 +365,13 @@ body{
 
     
 }
+
+#menuContainer {
+  color:white;
+  .boxed {
+    background:black;
+    display:inline;
+    margin:20px;
+    padding:20px;
+  }
+}

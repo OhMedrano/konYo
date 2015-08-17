@@ -1,21 +1,168 @@
 <p>1This is the about view.</p>
 
-<div id='menuContainer'>
+<div id='menuContainer' class='col-md-12'>
 	<div class='container'>
-		<div >
-			<ul>{{menuItems[0].type}}
-				<li ng-repeat="items in menuItems[0].objects">
-					<ul>{{items.item}}
-						<li>Small: {{items.price[0] | currency }}	
+		<div id='boxxed'class='col-md-4 col-xs-4' >
+			<div class='boxxedContent'>
+			
+				<ul><h2>{{menuItems[0].type}}</h2>
+					<div class='itemsNames'><br>
+						<span class='priceLists'> Litten  ~  Stor</span>
+						<li ng-repeat="items in menuItems[0].objects">
+							<strong>{{items.item}}</strong>
+								<div class='priceLists priceAlign'>
+									<em>{{items.price[0]|currency}}</em>     
+										<span class='largePrice'>
+											<em>{{items.price[1]|currency}}</em>
+										</span>
+								</div>
 						</li>
-						<li>Large: {{items.price[1] | currency}}
-					</ul>	
-				</li>
-			</ul>
+					</div>
+					<!-- <div class='itemPrices'>
+						
+							<div class='itemsPricesSmall'>
+								<li> Small 
+								
+									<li ng-repeat='prices in menuItems[0].objects'>{{prices.price[0] | currency}}</li>
+								
+								</li>
+							</div>
+							<div class='itemsPricesLarge'>
+								<li> Large 
+									<li ng-repeat='prices in menuItems[0].objects'>{{prices.price[1] | currency }}
+									</li>
+								</li>
+							</div>
+
+					</div> -->
+				</ul>
+				
 
 
+				
+			<ul><h2>{{menuItems[1].type}}</h2>
+					<div class='itemsNames'><br>
+						<span class='priceLists'> Litten  ~  Stor</span>
+						<li ng-repeat="items in menuItems[1].objects">
+							<strong>{{items.item}}</strong>
+								<div class='priceLists priceAlign'>
+									<em>{{items.price[0]|currency}}</em>     
+										<span class='largePrice'>
+											<em>{{items.price[1]|currency}}</em>
+										</span>
+								</div>
+						</li>
+					</div>
+	
+			</div>
 		</div>
-		<div >Test</div>
-		<div >Test</div>
-	</div>
+
+		<div id='boxxed2' class='col-md-4 col-xs-4' >
+			<div class='boxxedContent'>
+			
+				<ul><h2>{{menuItems[3].type}}</h2>
+					<div class='itemsNames'><br>
+						<span class='priceLists'> Litten  ~  Stor</span>
+						<li ng-repeat="items in menuItems[3].objects">
+							<strong>{{items.item}}</strong>
+								<div class='priceLists priceAlign'>
+									<em>{{items.price[0]|currency}}</em>     
+										<span class='largePrice'>
+											<em>{{items.price[1]|currency}}</em>
+										</span>
+								</div>
+						</li>
+					</div>
+					<!-- <div class='itemPrices'>
+						
+							<div class='itemsPricesSmall'>
+								<li> Small 
+								
+									<li ng-repeat='prices in menuItems[0].objects'>{{prices.price[0] | currency}}</li>
+								
+								</li>
+							</div>
+							<div class='itemsPricesLarge'>
+								<li> Large 
+									<li ng-repeat='prices in menuItems[0].objects'>{{prices.price[1] | currency }}
+									</li>
+								</li>
+							</div>
+
+					</div> -->
+				</ul>
+				
+
+
+				
+			<ul><h2>{{menuItems[4].type}}</h2>
+					<div class='itemsNames'><br>
+						<span class='priceLists'> Litten  ~  Stor</span>
+						<li ng-repeat="items in menuItems[4].objects">
+							<strong>{{items.item}}</strong>
+								<div class='priceLists priceAlign'>
+									<em>{{items.price[0]|currency}}</em>     
+										<span class='largePrice'>
+											<em>{{items.price[1]|currency}}</em>
+										</span>
+								</div>
+						</li>
+					</div>
+	
+			</div>
+		</div>
+
+		<div id='boxxed3' class='col-md-4 col-xs-4'>
+
+				<ul><h2>{{menuItems[5].type}}</h2>
+					<div class='itemsNames'><br>
+						<span class='priceLists'> Litten  ~  Stor</span>
+						<li ng-repeat="items in menuItems[5].objects">
+							<strong>{{items.item}}</strong>
+								<div class='priceLists priceAlign'>
+									<em>{{items.price[0]|currency}}</em>     
+										<span class='largePrice'>
+											<em>{{items.price[1]|currency}}</em>
+										</span>
+								</div>
+						</li>
+					</div>
+					<!-- <div class='itemPrices'>
+						
+							<div class='itemsPricesSmall'>
+								<li> Small 
+								
+									<li ng-repeat='prices in menuItems[0].objects'>{{prices.price[0] | currency}}</li>
+								
+								</li>
+							</div>
+							<div class='itemsPricesLarge'>
+								<li> Large 
+									<li ng-repeat='prices in menuItems[0].objects'>{{prices.price[1] | currency }}
+									</li>
+								</li>
+							</div>
+
+					</div> -->
+				</ul>
+				
+
+
+				
+			<ul><h2>{{menuItems[6].type}}</h2>
+					<div class='itemsNames'><br>
+						<span class='priceLists'> Litten  ~  Stor</span>
+						<li ng-repeat="items in menuItems[6].objects">
+							<strong>{{items.item}}</strong>
+								<div class='priceLists priceAlign'>
+									<em>{{items.price[0]|currency}}</em>     
+										<span class='largePrice'>
+											<em>{{items.price[1]|currency}}</em>
+										</span>
+								</div>
+						</li>
+					</div>
+	
+			</div>
+		</div>
 </div>

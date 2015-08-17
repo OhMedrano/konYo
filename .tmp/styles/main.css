@@ -9068,9 +9068,110 @@ body {
   color: white;
 }
 /* line 371, ../../app/styles/main.scss */
-#menuContainer .boxed {
+#menuContainer #boxxed {
   background: black;
-  display: inline;
-  margin: 20px;
-  padding: 20px;
+  display: inline-table;
+  margin: 5%;
+  padding: 5%;
+  font-family: 'Noto',serif;
+  position: relative;
+  right: 30%;
+}
+/* line 379, ../../app/styles/main.scss */
+#menuContainer #boxxed ul {
+  list-style: none;
+  position: relative;
+}
+/* line 383, ../../app/styles/main.scss */
+#menuContainer #boxxed .boxxedContent {
+  position: relative;
+  right: 32%;
+  margin: 3px;
+}
+/* line 387, ../../app/styles/main.scss */
+#menuContainer #boxxed .boxxedContent .priceLists {
+  position: relative;
+  left: 94%;
+  top: -12%;
+}
+/* line 393, ../../app/styles/main.scss */
+#menuContainer #boxxed .boxxedContent .priceAlign {
+  position: relative;
+  top: -54%;
+}
+/* line 398, ../../app/styles/main.scss */
+#menuContainer #boxxed .boxxedContent .largePrice {
+  margin-left: 2px;
+}
+/* line 407, ../../app/styles/main.scss */
+#menuContainer #boxxed2 {
+  background: black;
+  display: inline-table;
+  margin: 5%;
+  padding: 5%;
+  font-family: 'Noto',serif;
+  position: relative;
+  right: 30%;
+}
+/* line 415, ../../app/styles/main.scss */
+#menuContainer #boxxed2 ul {
+  list-style: none;
+  position: relative;
+}
+/* line 419, ../../app/styles/main.scss */
+#menuContainer #boxxed2 .boxxedContent {
+  position: relative;
+  right: 32%;
+  margin: 3px;
+}
+/* line 423, ../../app/styles/main.scss */
+#menuContainer #boxxed2 .boxxedContent .priceLists {
+  position: relative;
+  left: 94%;
+  top: -12%;
+}
+/* line 429, ../../app/styles/main.scss */
+#menuContainer #boxxed2 .boxxedContent .priceAlign {
+  position: relative;
+  top: -54%;
+}
+/* line 434, ../../app/styles/main.scss */
+#menuContainer #boxxed2 .boxxedContent .largePrice {
+  margin-left: 2px;
+}
+/* line 443, ../../app/styles/main.scss */
+#menuContainer #boxxed3 {
+  background: black;
+  display: inline-table;
+  margin: 5%;
+  padding: 5%;
+  font-family: 'Noto',serif;
+  position: relative;
+  right: 30%;
+}
+/* line 451, ../../app/styles/main.scss */
+#menuContainer #boxxed3 ul {
+  list-style: none;
+  position: relative;
+}
+/* line 455, ../../app/styles/main.scss */
+#menuContainer #boxxed3 .boxxedContent {
+  position: relative;
+  right: 32%;
+  margin: 3px;
+}
+/* line 459, ../../app/styles/main.scss */
+#menuContainer #boxxed3 .boxxedContent .priceLists {
+  position: relative;
+  left: 94%;
+  top: -12%;
+}
+/* line 465, ../../app/styles/main.scss */
+#menuContainer #boxxed3 .boxxedContent .priceAlign {
+  position: relative;
+  top: -54%;
+}
+/* line 470, ../../app/styles/main.scss */
+#menuContainer #boxxed3 .boxxedContent .largePrice {
+  margin-left: 2px;
 }

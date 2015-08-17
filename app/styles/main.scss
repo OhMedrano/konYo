@@ -368,10 +368,110 @@ body{
 
 #menuContainer {
   color:white;
-  .boxed {
+  #boxxed {
     background:black;
-    display:inline;
-    margin:20px;
-    padding:20px;
+    display:inline-table;
+    margin:5%;
+    padding:5%;
+    font-family:'Noto',serif;
+    position:relative;
+    right:30%;
+      ul {
+    list-style: none;
+    position:relative;
+     }
+     .boxxedContent {
+      position:relative;
+      right:32%;
+      margin:3px;
+          .priceLists {
+            position:relative;
+            left:94%;
+            top:-12%;
+          }
+
+          .priceAlign {
+            position:relative;
+            top:-54%;
+          }
+
+          .largePrice {
+            margin-left:2px;
+          }
+       }
+     
+    
+
+
   }
+  #boxxed2 {
+    background:black;
+    display:inline-table;
+    margin:5%;
+    padding:5%;
+    font-family:'Noto',serif;
+    position:relative;
+    right:30%;
+      ul {
+    list-style: none;
+    position:relative;
+     }
+     .boxxedContent {
+      position:relative;
+      right:32%;
+      margin:3px;
+          .priceLists {
+            position:relative;
+            left:94%;
+            top:-12%;
+          }
+
+          .priceAlign {
+            position:relative;
+            top:-54%;
+          }
+
+          .largePrice {
+            margin-left:2px;
+          }
+       }
+     
+    
+
+
+  }
+  #boxxed3 {
+    background:black;
+    display:inline-table;
+    margin:5%;
+    padding:5%;
+    font-family:'Noto',serif;
+    position:relative;
+    right:30%;
+      ul {
+    list-style: none;
+    position:relative;
+     }
+     .boxxedContent {
+      position:relative;
+      right:32%;
+      margin:3px;
+          .priceLists {
+            position:relative;
+            left:94%;
+            top:-12%;
+          }
+
+          .priceAlign {
+            position:relative;
+            top:-54%;
+          }
+
+          .largePrice {
+            margin-left:2px;
+          }
+       }
+     
+  }
+
 }

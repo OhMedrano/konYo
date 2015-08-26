@@ -8959,13 +8959,20 @@ body {
   float: left;
   border: 1px solid;
   border-radius: 20px;
-  background-image: url(http://placekitten.com/g/400/500);
+  /* background-image: url(http://placekitten.com/g/400/500);*/
   height: 350px;
   width: 40%;
   margin: 5% 2% 2% 2%;
   padding: 5px;
+  z-index: 1;
 }
-/* line 263, ../../app/styles/main.scss */
+/* line 261, ../../app/styles/main.scss */
+.storePage #storeImage img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* line 269, ../../app/styles/main.scss */
 .storePage #storeDetails {
   float: right;
   border: 1px solid;
@@ -8978,7 +8985,7 @@ body {
   position: relative;
   top: 11%;
 }
-/* line 277, ../../app/styles/main.scss */
+/* line 283, ../../app/styles/main.scss */
 .storePage #storeDetails ul {
   margin: 2px;
   padding: 3px;
@@ -8986,16 +8993,16 @@ body {
   list-style-type: none;
   color: white;
 }
-/* line 284, ../../app/styles/main.scss */
+/* line 290, ../../app/styles/main.scss */
 .storePage #storeDetails ul #storeName {
   font-size: 28px;
 }
-/* line 288, ../../app/styles/main.scss */
+/* line 294, ../../app/styles/main.scss */
 .storePage #storeDetails ul #storeDetail {
   font-size: 21px;
   text-align: center;
 }
-/* line 293, ../../app/styles/main.scss */
+/* line 299, ../../app/styles/main.scss */
 .storePage #storeDetails ul li {
   position: relative;
   top: 45px;
@@ -9007,7 +9014,7 @@ body {
   
 }
 */
-/* line 309, ../../app/styles/main.scss */
+/* line 315, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -9020,11 +9027,15 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 200px black;
 }
-/* line 321, ../../app/styles/main.scss */
+/* line 326, ../../app/styles/main.scss */
+#locMenu img {
+  height: 150px;
+}
+/* line 329, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 323, ../../app/styles/main.scss */
+/* line 331, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -9036,7 +9047,7 @@ body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 335, ../../app/styles/main.scss */
+/* line 343, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9046,11 +9057,11 @@ body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 348, ../../app/styles/main.scss */
+/* line 356, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 351, ../../app/styles/main.scss */
+/* line 359, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -9058,120 +9069,71 @@ body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 361, ../../app/styles/main.scss */
+/* line 369, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
 
-/* line 369, ../../app/styles/main.scss */
+/* line 377, ../../app/styles/main.scss */
 #menuContainer {
   color: white;
+  border: 1px solid white;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 2%;
+  bottom: 6%;
+  width: 100%;
 }
-/* line 371, ../../app/styles/main.scss */
+/* line 390, ../../app/styles/main.scss */
 #menuContainer #boxxed {
   background: black;
   display: inline-table;
-  margin: 5%;
-  padding: 5%;
-  font-family: 'Noto',serif;
+  font-family: "Noto",serif;
   position: relative;
-  right: 30%;
+  float: left;
+  padding: 0%;
 }
-/* line 379, ../../app/styles/main.scss */
+/* line 398, ../../app/styles/main.scss */
 #menuContainer #boxxed ul {
   list-style: none;
   position: relative;
 }
-/* line 383, ../../app/styles/main.scss */
+/* line 403, ../../app/styles/main.scss */
 #menuContainer #boxxed .boxxedContent {
   position: relative;
-  right: 32%;
-  margin: 3px;
+  right: 0%;
+  margin: 0px;
+  font-size: 23px;
+  display: inline-block;
+  font-family: "Noto",serif;
 }
-/* line 387, ../../app/styles/main.scss */
+/* line 411, ../../app/styles/main.scss */
+#menuContainer #boxxed .boxxedContent .itemsNames {
+  float: left;
+  position: relative;
+  right: 25px;
+}
+/* line 418, ../../app/styles/main.scss */
 #menuContainer #boxxed .boxxedContent .priceLists {
   position: relative;
   left: 94%;
   top: -12%;
 }
-/* line 393, ../../app/styles/main.scss */
+/* line 424, ../../app/styles/main.scss */
 #menuContainer #boxxed .boxxedContent .priceAlign {
   position: relative;
   top: -54%;
 }
-/* line 398, ../../app/styles/main.scss */
+/* line 429, ../../app/styles/main.scss */
 #menuContainer #boxxed .boxxedContent .largePrice {
   margin-left: 2px;
 }
-/* line 407, ../../app/styles/main.scss */
-#menuContainer #boxxed2 {
-  background: black;
+/* line 439, ../../app/styles/main.scss */
+#menuContainer #newBox {
+  background-color: black;
   display: inline-table;
-  margin: 5%;
-  padding: 5%;
-  font-family: 'Noto',serif;
-  position: relative;
-  right: 30%;
-}
-/* line 415, ../../app/styles/main.scss */
-#menuContainer #boxxed2 ul {
-  list-style: none;
-  position: relative;
-}
-/* line 419, ../../app/styles/main.scss */
-#menuContainer #boxxed2 .boxxedContent {
-  position: relative;
-  right: 32%;
-  margin: 3px;
-}
-/* line 423, ../../app/styles/main.scss */
-#menuContainer #boxxed2 .boxxedContent .priceLists {
-  position: relative;
-  left: 94%;
-  top: -12%;
-}
-/* line 429, ../../app/styles/main.scss */
-#menuContainer #boxxed2 .boxxedContent .priceAlign {
-  position: relative;
-  top: -54%;
-}
-/* line 434, ../../app/styles/main.scss */
-#menuContainer #boxxed2 .boxxedContent .largePrice {
-  margin-left: 2px;
-}
-/* line 443, ../../app/styles/main.scss */
-#menuContainer #boxxed3 {
-  background: black;
-  display: inline-table;
-  margin: 5%;
-  padding: 5%;
-  font-family: 'Noto',serif;
-  position: relative;
-  right: 30%;
-}
-/* line 451, ../../app/styles/main.scss */
-#menuContainer #boxxed3 ul {
-  list-style: none;
-  position: relative;
-}
-/* line 455, ../../app/styles/main.scss */
-#menuContainer #boxxed3 .boxxedContent {
-  position: relative;
-  right: 32%;
-  margin: 3px;
-}
-/* line 459, ../../app/styles/main.scss */
-#menuContainer #boxxed3 .boxxedContent .priceLists {
-  position: relative;
-  left: 94%;
-  top: -12%;
-}
-/* line 465, ../../app/styles/main.scss */
-#menuContainer #boxxed3 .boxxedContent .priceAlign {
-  position: relative;
-  top: -54%;
-}
-/* line 470, ../../app/styles/main.scss */
-#menuContainer #boxxed3 .boxxedContent .largePrice {
-  margin-left: 2px;
+  margin: 2%;
+  float: left;
+  width: 60%;
 }

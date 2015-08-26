@@ -76,7 +76,7 @@
 		"type":"Baked Goods/Bagels",
 		"objects": [
 			{
-				"item":"Bagel",
+				"item":"Bagels",
 				"price":1.1,
 				"options":[
 						{	

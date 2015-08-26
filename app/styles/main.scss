@@ -252,12 +252,18 @@ body{
             float:left;
             border:1px solid;
             border-radius:20px;
-            background-image: url(http://placekitten.com/g/400/500);
+           /* background-image: url(http://placekitten.com/g/400/500);*/
             height:350px;
             width:40%;
             margin:5% 2% 2% 2%;
             padding:5px;
-          
+             z-index:1;
+             img {
+              position: relative;
+              width:100%;
+              height:100%;
+              
+             }
           }
           
           #storeDetails {
@@ -317,7 +323,9 @@ body{
   width:100%;
   border-radius:20px;
   box-shadow: 0 0 200px rgb(0,0,0);
- 
+  img {
+    height:150px;
+  }
   ul {
         list-style-type: none;
    li {
@@ -368,110 +376,72 @@ body{
 
 #menuContainer {
   color:white;
-  #boxxed {
-    background:black;
-    display:inline-table;
-    margin:5%;
-    padding:5%;
-    font-family:'Noto',serif;
-    position:relative;
-    right:30%;
-      ul {
-    list-style: none;
-    position:relative;
-     }
-     .boxxedContent {
-      position:relative;
-      right:32%;
-      margin:3px;
-          .priceLists {
-            position:relative;
-            left:94%;
-            top:-12%;
-          }
-
-          .priceAlign {
-            position:relative;
-            top:-54%;
-          }
-
-          .largePrice {
-            margin-left:2px;
-          }
-       }
-     
+  border:1px solid white;
+  position:absolute;
+  right:0%;
+  left:0%;
+  top:2%;
+  bottom:6%;
+ 
+  width:100%;
+      
     
 
+        #boxxed {
+          background:black;
+          display: inline-table;
+          font-family: "Noto",serif;
+          position: relative;
+          float: left;
+          padding: 0%;
+           
+            ul {
+              list-style: none;
+              position:relative;
+            }
+           
+           .boxxedContent {
+                position: relative;
+                right: 0%;
+                margin: 0px;
+                font-size: 23px;
+                display: inline-block;
+                font-family: "Noto",serif;
+                
+                .itemsNames {
 
-  }
-  #boxxed2 {
-    background:black;
-    display:inline-table;
-    margin:5%;
-    padding:5%;
-    font-family:'Noto',serif;
-    position:relative;
-    right:30%;
-      ul {
-    list-style: none;
-    position:relative;
-     }
-     .boxxedContent {
-      position:relative;
-      right:32%;
-      margin:3px;
-          .priceLists {
-            position:relative;
-            left:94%;
-            top:-12%;
-          }
+                  float: left;
+                  position: relative;
+                  right: 25px;
+                }
 
-          .priceAlign {
-            position:relative;
-            top:-54%;
-          }
+                .priceLists {
+                  position:relative;
+                  left:94%;
+                  top:-12%;
+                }
 
-          .largePrice {
-            margin-left:2px;
-          }
+                .priceAlign {
+                  position:relative;
+                  top:-54%;
+                }
+
+                .largePrice {
+                  margin-left:2px;
+                }
+             }
+           
+          
+
+
+        }
+       
+       #newBox {
+        background-color:black;
+        display:inline-table;
+        margin:2%;
+        float:left;
+        width:60%;
        }
-     
     
-
-
-  }
-  #boxxed3 {
-    background:black;
-    display:inline-table;
-    margin:5%;
-    padding:5%;
-    font-family:'Noto',serif;
-    position:relative;
-    right:30%;
-      ul {
-    list-style: none;
-    position:relative;
-     }
-     .boxxedContent {
-      position:relative;
-      right:32%;
-      margin:3px;
-          .priceLists {
-            position:relative;
-            left:94%;
-            top:-12%;
-          }
-
-          .priceAlign {
-            position:relative;
-            top:-54%;
-          }
-
-          .largePrice {
-            margin-left:2px;
-          }
-       }
-     
-  }
-
 }

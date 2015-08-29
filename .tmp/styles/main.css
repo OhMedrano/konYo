@@ -9074,66 +9074,90 @@ body {
   color: black;
 }
 
-/* line 377, ../../app/styles/main.scss */
+/*
 #menuContainer {
-  color: white;
-  border: 1px solid white;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 2%;
-  bottom: 6%;
-  width: 100%;
+  color:white;
+  border:1px solid white;
+  position:absolute;
+  right:0%;
+  left:0%;
+  top:2%;
+  bottom:6%;
+ height:100px;
+  width:100%;
+      
+    
+
+        #boxxed {
+          background:black;
+          display: inline-table;
+          font-family: "Noto",serif;
+          position: relative;
+          float: left;
+          padding: 0%;
+           
+            ul {
+              list-style: none;
+              position:relative;
+            }
+           
+           .boxxedContent {
+                position: relative;
+                right: 0%;
+                margin: 0px;
+                font-size: 23px;
+                display: inline-block;
+                font-family: "Noto",serif;
+                
+                .itemsNames {
+
+                  float: left;
+                  position: relative;
+                  right: 25px;
+                }
+
+                .priceLists {
+                  position:relative;
+                  left:94%;
+                  top:-12%;
+                }
+
+                .priceAlign {
+                  position:relative;
+                  top:-54%;
+                }
+
+                .largePrice {
+                  margin-left:2px;
+                }
+             }
+           
+          
+
+
+        }
+       
+       #newBox {
+        background-color:black;
+        display:inline-table;
+        margin:2%;
+        float:left;
+        width:60%;
+       }
+
 }
-/* line 390, ../../app/styles/main.scss */
-#menuContainer #boxxed {
-  background: black;
-  display: inline-table;
-  font-family: "Noto",serif;
-  position: relative;
-  float: left;
-  padding: 0%;
-}
-/* line 398, ../../app/styles/main.scss */
-#menuContainer #boxxed ul {
-  list-style: none;
-  position: relative;
-}
-/* line 403, ../../app/styles/main.scss */
-#menuContainer #boxxed .boxxedContent {
-  position: relative;
-  right: 0%;
-  margin: 0px;
-  font-size: 23px;
-  display: inline-block;
-  font-family: "Noto",serif;
-}
-/* line 411, ../../app/styles/main.scss */
-#menuContainer #boxxed .boxxedContent .itemsNames {
-  float: left;
-  position: relative;
-  right: 25px;
-}
-/* line 418, ../../app/styles/main.scss */
-#menuContainer #boxxed .boxxedContent .priceLists {
-  position: relative;
-  left: 94%;
-  top: -12%;
-}
-/* line 424, ../../app/styles/main.scss */
-#menuContainer #boxxed .boxxedContent .priceAlign {
-  position: relative;
-  top: -54%;
-}
-/* line 429, ../../app/styles/main.scss */
-#menuContainer #boxxed .boxxedContent .largePrice {
-  margin-left: 2px;
-}
-/* line 439, ../../app/styles/main.scss */
-#menuContainer #newBox {
+       */
+/* line 450, ../../app/styles/main.scss */
+#menuContainer {
   background-color: black;
-  display: inline-table;
-  margin: 2%;
-  float: left;
-  width: 60%;
+  color: white;
+  list-style-type: none;
+}
+/* line 454, ../../app/styles/main.scss */
+#menuContainer ul {
+  list-style-type: none;
+}
+/* line 457, ../../app/styles/main.scss */
+#menuContainer li {
+  color: white;
 }

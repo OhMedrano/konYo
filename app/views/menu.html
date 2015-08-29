@@ -2,18 +2,29 @@
 
 <div id='menuContainer' class='col-md-12'>
 	
-		<div id='boxxed'class='col-md-3 col-xs-3' >
+		<div id='boxxed'class='col-md-4 col-xs-4' >
 			<div class='boxxedContent'>
 			
 				<ul><h2>{{menuItems[0].type}}</h2>
 					<div class='itemsNames'><br>
-						<span class='priceLists'> Litten  ~  Stor</span>
+						<span style=' 
+							display:block;
+							float:left;
+
+
+						'class='priceLists'> Litten  ~  Stor</span><br>
 						<li ng-repeat="items in menuItems[0].objects">
 							<strong>{{items.item}}</strong>
-								<div class='priceLists priceAlign'>
-									<em>{{items.price[0]|currency}}</em>     
-										<span class='largePrice'>
-											<em>{{items.price[1]|currency}}</em>
+							<div style='
+								display:block;
+								float:right;
+
+
+							'
+
+								class='priceLists priceAlign'>
+									{{items.price[0]|currency}}     
+									<em>{{items.price[1]|currency}}</em>
 										</span>
 								</div>
 						</li>
@@ -37,18 +48,29 @@
 					</div> -->
 				</ul>
 				
-
+				<br>
 
 				
 				<ul><h2>{{menuItems[1].type}}</h2>
 					<div class='itemsNames'><br>
-						<span class='priceLists'> Litten  ~  Stor</span>
+						<span style=' 
+							display:block;
+							float:left;
+
+
+						'class='priceLists'> Litten  ~  Stor</span><br>
 						<li ng-repeat="items in menuItems[1].objects">
 							<strong>{{items.item}}</strong>
-								<div class='priceLists priceAlign'>
-									<em>{{items.price[0]|currency}}</em>     
-										<span class='largePrice'>
-											<em>{{items.price[1]|currency}}</em>
+							<div style='
+								display:block;
+								float:right;
+
+
+							'
+
+								class='priceLists priceAlign'>
+									{{items.price[0]|currency}}     
+									<em>{{items.price[1]|currency}}</em>
 										</span>
 								</div>
 						</li>
@@ -57,17 +79,67 @@
 			</div>
 		</div>
 
-		<div id='newBox' class='col-md-3 col-xs-3'>
-			<ul>{{menuItems[2].objects[0].item}} 
-				<br>
+		<div id='newBox' class='col-md-4 col-xs-4'>
+			<ul><h3>{{menuItems[2].objects[0].item}} 
+				</h3><br>
 					Plain: {{menuItems[2].objects[0].price | currency}}
 				
-						<li ng-repeat='bagels in menuItems[2].objects[0].options '>with 
+						<li ng-repeat='bagels in menuItems[2].objects[0].options ' style='
+							border-bottom:1px dotted white;
+							'>
+						<span style='
+						font-style:italic;
+						margin-right:3px;
+
+
+						'>with</span> 
 							<strong>{{bagels.cream}}</strong> 
-								<span class='priceAlignReg'>{{bagels.cost}}</span>
+								<span style='
+								display:block;
+								float:right;
+								' 
+
+								class='priceAlignReg'>{{bagels.cost|currency}}</span>
+
 						</li> 
 			</ul>
 
 		</div>
-	
+
+		<div id='newBox' class='col-md-4 col-xs-4'> 
+			<ul>{{menuItems[2].objects[1].item}}
+				<br>
+					<li style='
+					border-bottom:1px dotted rgba(255,255,255,0.35);
+
+					'ng-repeat='crossants in menuItems[2].objects[1].option'><strong style='
+						border-bottom:hidden;
+
+					'>{{crossants.name}}</strong>
+						
+						<span style='
+						display:block;
+						float:right;
+						'>{{crossants.cost|currency}}</span>
+						</em>
+						</li>
+			</ul>
+		</div>
+
+		<div id='newBox' class='col-md-5 col-xs-5'>
+			<ul><h3>{{menuItems[2].objects[2].name}}</h3>
+				<li ng-repeat='goods in menuItems[2].objects[2].goods|limitTo:5 '><strong>{{goods.item}}</strong>
+				<span style='
+					display:block;
+					float:right;
+				'>{{goods.price|currency}}
+				</li>
+				<li style='display:block;'><strong>{{menuItems[2].objects[2].goods[5].item}} --</strong> 
+				<li ng-repeat='sweed in menuItems[2].objects[2].goods[5].options' style='list-style-type:initial;margin:6px;display:inline-block;'><h5><strong>{{sweed.name}}</strong></h6> <span>{{sweed.cost|currency}}</span></li>
+				</li>
+			</ul>
+			</div>
+		
+
+		
 </div>

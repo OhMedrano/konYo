@@ -373,7 +373,7 @@ body{
 
     
 }
-
+/*
 #menuContainer {
   color:white;
   border:1px solid white;
@@ -382,7 +382,7 @@ body{
   left:0%;
   top:2%;
   bottom:6%;
- 
+ height:100px;
   width:100%;
       
     
@@ -443,5 +443,20 @@ body{
         float:left;
         width:60%;
        }
-    
+
 }
+       */
+    
+#menuContainer {
+  background-color:black;
+  color:white;
+  list-style-type: none;
+  ul{
+    list-style-type:none;
+  }
+  li {
+    
+      color:white;
+  }
+}
+

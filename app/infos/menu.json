@@ -108,7 +108,7 @@
 
 			},
 			{
-				"item":"Crossant",
+				"item":"Crossants",
 				"option":[
 					{
 						"name":"Plain",
@@ -130,49 +130,56 @@
 
 			},
 			{
-				"item":"Muffins",
-				"price":2.5
 
-			},
-			{
-				"item":"Biscotti",
-				"price":1.75
+				"name":"Baked Goods",
+				"goods":[
 
-			},
-			{
-				"item":"Scones",
-				"price":3.5
+				{
+					"item":"Muffins",
+					"price":2.5
 
-			},
-			{
-				"item":"Cookies",
-				"price":2.75
+				},
+				{
+					"item":"Biscotti",
+					"price":1.75
 
-			},
-			{
-				"item":"Vegan/Glutten-free",
-				"price":3.25
+				},
+				{
+					"item":"Scones",
+					"price":3.5
 
-			},
-			{
-				"item":"Swedish",
-				"options":[
-					{
-						"name":"KanelBulle",
-						"cost":3.25
-					},
-					{
-						"name":"Cardamom Brod",
-						"cost":2.75
-					},
-					{
-						"name":"CocoBall (Kokosbollar)",
-						"cost":2.75
-					}
-				
-				]
+				},
+				{
+					"item":"Cookies",
+					"price":2.75
 
-			}
+				},
+				{
+					"item":"Vegan/Glutten-free",
+					"price":3.25
+
+				},
+				{
+					"item":"Swedish",
+					"options":[
+						{
+							"name":"KanelBulle",
+							"cost":3.25
+						},
+						{
+							"name":"Cardamom Brod",
+							"cost":2.75
+						},
+						{
+							"name":"CocoBall (Kokosbollar)",
+							"cost":2.75
+						}
+					
+					]
+
+				}
+				]}
+
 
 		]
 	},

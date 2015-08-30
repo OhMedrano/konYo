@@ -1,6 +1,6 @@
 
 
-<div id='menuContainer' class='col-md-12'>
+<div id='menuContainer' class='col-md-12 col-xs-12' style='width:200%'>
 	
 		<div id='boxxed'class='col-md-4 col-xs-4' >
 			<div class='boxxedContent'>
@@ -141,5 +141,16 @@
 			</div>
 		
 
-		
+		<div id='newBox' class='col-md-4 col-xs-4' style='
+
+
+		'>
+			<ul style='display:inline;'><h3>{{menuItems[3].type}}</h3>
+			<li ng-repeat='drinks in menuItems[3].objects|limitTo:9|limitTo:-8'>
+				<strong>{{drinks.item}}</strong>
+					<span style='float:right;'>{{drinks.price|currency}}</span>
+				</li>
+
+			</ul>
+			</div>
 </div>

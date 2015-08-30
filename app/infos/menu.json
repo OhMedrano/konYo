@@ -193,42 +193,42 @@
 			},
 			{
 				"item":"Steamed Milk",
-				"price":[2,null]
+				"price":2
 
 			},
 			{
 				"item":"Cold Milk",
-				"price":[2,null]
+				"price":2
 
 			},
 			{
 				"item":"Chocolate Milk",
-				"price":[3.5,null]
+				"price":3.5
 
 			},
 			{
 				"item":"Fresh Orange Juice",
-				"price":[5,null]
+				"price":5
 
 			},
 			{
 				"item":"San Pellegrino",
-				"price":[2.5,null]
+				"price":2.5
 
 			},
 			{
 				"item":"Aranciata",
-				"price":[2,null]
+				"price":2
 
 			},
 			{
 				"item":"Limonata",
-				"price":[2,null]
+				"price":2
 
 			},
 			{
 				"item":"Smart Water",
-				"price":[2.5,null]
+				"price":2.5
 
 			}
 		]

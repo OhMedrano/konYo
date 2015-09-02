@@ -169,3 +169,14 @@
 		page, add images, and work with the
 		instagram API which I've still haven't
 		checked out... 
+
+9/2 - 
+
+		So I put in more work, the menu came out
+		looking good. Still needs some work but
+		all the items that I needed to put in
+		is in there. 
+
+		Now I gotta work on the store page,
+		along with getting new pictures and 
+		using the instagram api. 

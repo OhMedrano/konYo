@@ -1,10 +1,10 @@
 
 
-<div id='menuContainer' class='col-md-12 col-xs-12' style='width:200%'>
+<div id='menuContainer' class='col-md-12 col-xs-12' style='position:absolute;left:0px;right:0px;'>
 	
-		<div id='boxxed'class='col-md-4 col-xs-4' >
+		<div id='boxxed'class='col-md-3 col-xs-3' >
 			<div class='boxxedContent'>
-			
+					<!-- Coffee -->			
 				<ul><h2>{{menuItems[0].type}}</h2>
 					<div class='itemsNames'><br>
 						<span style=' 
@@ -50,7 +50,7 @@
 				
 				<br>
 
-				
+					<!-- Espresso -->
 				<ul><h2>{{menuItems[1].type}}</h2>
 					<div class='itemsNames'><br>
 						<span style=' 
@@ -78,7 +78,7 @@
 	
 			</div>
 		</div>
-
+				<!-- Bagels -->
 		<div id='newBox' class='col-md-4 col-xs-4'>
 			<ul><h3>{{menuItems[2].objects[0].item}} 
 				</h3><br>
@@ -105,7 +105,7 @@
 			</ul>
 
 		</div>
-
+				<!-- Crossants -->
 		<div id='newBox' class='col-md-4 col-xs-4'> 
 			<ul>{{menuItems[2].objects[1].item}}
 				<br>
@@ -125,8 +125,8 @@
 						</li>
 			</ul>
 		</div>
-
-		<div id='newBox' class='col-md-5 col-xs-5'>
+				<!-- Baked Goods -->
+		<div id='newBox' class='col-md-4 col-xs-4'>
 			<ul><h3>{{menuItems[2].objects[2].name}}</h3>
 				<li ng-repeat='goods in menuItems[2].objects[2].goods|limitTo:5 '><strong>{{goods.item}}</strong>
 				<span style='
@@ -140,9 +140,9 @@
 			</ul>
 			</div>
 		
-
-		<div id='newBox' class='col-md-4 col-xs-4' style='
-
+ 			<!-- Drink Menu -->
+		<div id='newBox' class='col-md-4 col-xs-3' style='
+		border:1px white solid;
 
 		'>
 			<ul style='display:inline;'><h3>{{menuItems[3].type}}</h3>
@@ -152,5 +152,28 @@
 				</li>
 
 			</ul>
-			</div>
+		</div>
+
+		<div id='newBox' class='col-md-4 col-xs-3'
+			style='
+				text-align:center;
+			'
+		>
+			<ul><h3>{{menuItems[4].type}}</h3>
+			<h5>Litten: {{menuItems[4].objects[0].price[0]}}</h5>
+			<h5>Stor: {{menuItems[4].objects[0].price[1]}}</h5>
+
+			<li ng-repeat='teas in menuItems[4].objects|limitTo:5' style='
+				display:inline;
+
+			'>
+				<strong style='margin:4px;'> {{teas.item}} </strong>
+				</li>
+			<li ng-repeat='teas in menuItems[4].objects|limitTo:8|limitTo:-3'>
+			<strong>{{teas.item}}</strong>
+			</li>
+				</ul>
+
+		</div>
+
 </div>

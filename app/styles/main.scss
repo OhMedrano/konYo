@@ -448,9 +448,20 @@ body{
        */
     
 #menuContainer {
-  background-color:black;
+  
   color:white;
   list-style-type: none;
+  
+
+    #boxxed{
+      background-color:rgba(0,0,0,0.57);
+      margin:4px;
+    }
+
+    #newBox{
+      background-color:rgba(0,0,0,0.57);
+      margin:4px;
+    }
   ul{
     list-style-type:none;
   }

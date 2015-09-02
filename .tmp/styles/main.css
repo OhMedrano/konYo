@@ -9149,17 +9149,24 @@ body {
        */
 /* line 450, ../../app/styles/main.scss */
 #menuContainer {
-  background-color: black;
   color: white;
   list-style-type: none;
 }
-/* line 454, ../../app/styles/main.scss */
+/* line 456, ../../app/styles/main.scss */
+#menuContainer #boxxed {
+  background-color: rgba(0, 0, 0, 0.57);
+  margin: 4px;
+}
+/* line 461, ../../app/styles/main.scss */
+#menuContainer #newBox {
+  background-color: rgba(0, 0, 0, 0.57);
+  margin: 4px;
+}
+/* line 465, ../../app/styles/main.scss */
 #menuContainer ul {
   list-style-type: none;
 }
-/* line 457, ../../app/styles/main.scss */
+/* line 468, ../../app/styles/main.scss */
 #menuContainer li {
   color: white;
 }
-
-/*# sourceMappingURL=main.css.map */

@@ -1,8 +1,8 @@
 
 
-<div id='menuContainer' class='col-md-12 col-xs-12' style='position:absolute;left:0px;right:0px;'>
+<div id='menuContainer' class='col-lg-12 col-md-12 col-xs-12' style='position:absolute;left:0px;right:0px;margin:2px 10px 2px 10px'>
 	
-		<div id='boxxed'class='col-md-3 col-xs-3' >
+		<div id='boxxed'class='col-lg-2 col-md-3 col-xs-3' style='float:left;'>
 			<div class='boxxedContent'>
 					<!-- Coffee -->			
 				<ul><h2>{{menuItems[0].type}}</h2>
@@ -79,7 +79,7 @@
 			</div>
 		</div>
 				<!-- Bagels -->
-		<div id='newBox' class='col-md-4 col-xs-4'>
+		<div id='newBox' style='float:left;' class='col-lg-2 col-md-4 col-xs-4'>
 			<ul><h3>{{menuItems[2].objects[0].item}} 
 				</h3><br>
 					Plain: {{menuItems[2].objects[0].price | currency}}
@@ -106,7 +106,7 @@
 
 		</div>
 				<!-- Crossants -->
-		<div id='newBox' class='col-md-4 col-xs-4'> 
+		<div id='newBox' class='col-lg-2 col-md-4 col-xs-4'> 
 			<ul>{{menuItems[2].objects[1].item}}
 				<br>
 					<li style='
@@ -126,7 +126,7 @@
 			</ul>
 		</div>
 				<!-- Baked Goods -->
-		<div id='newBox' class='col-md-4 col-xs-4'>
+		<div id='newBox' class='col-lg-2 col-md-4 col-xs-4'>
 			<ul><h3>{{menuItems[2].objects[2].name}}</h3>
 				<li ng-repeat='goods in menuItems[2].objects[2].goods|limitTo:5 '><strong>{{goods.item}}</strong>
 				<span style='
@@ -141,7 +141,7 @@
 			</div>
 		
  			<!-- Drink Menu -->
-		<div id='newBox' class='col-md-4 col-xs-3' style='
+		<div id='newBox' class='col-lg-2 col-md-4 col-xs-3' style='
 		border:1px white solid;
 
 		'>
@@ -154,7 +154,7 @@
 			</ul>
 		</div>
 
-		<div id='newBox' class='col-md-4 col-xs-3'
+		<div id='newBox' class='col-lg-2 col-md-4 col-xs-3'
 			style='
 				text-align:center;
 			'

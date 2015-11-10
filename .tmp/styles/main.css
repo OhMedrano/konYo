@@ -8823,8 +8823,9 @@ body {
   padding: 0px;
 }
 /* line 114, ../../app/styles/main.scss */
-.mainNav li {
-  padding: 2px;
+.mainNav li a {
+  padding: 3px 5px 3px 5px;
+  margin-right: 55px;
 }
 /* line 119, ../../app/styles/main.scss */
 .mainNav ul li a:hover {

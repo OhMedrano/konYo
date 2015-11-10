@@ -11,11 +11,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 html body { 
-  background: url(/images/backgroundV2.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background-color:#f1f1f1;
 }
 
 body{
@@ -110,22 +106,27 @@ body{
 }
 
 .mainNav {
-  background-color:rgba(0,0,0,.8);
+  background-color:#f1f1f1;
+  border:none;
+  padding:0px;
   
-   ul li:hover{
-    background-color:rgba(255,255,255,.5);
+
+    li{
+      padding:2px;
+
+    }
+  
+   ul li a:hover{
+    border:3px solid #add8e6;
   }
 
 }
 
 
-.mainNav navbar-header::before {
-  position:fixed;
-}
 .footStyle {
-  background-color:rgba(0,0,0,.8);
+  background-color:#fff;
   width:100%;
-  position:fixed;
+ 
 }
 .locNav {
   ul {
@@ -152,7 +153,7 @@ body{
   font-family:'Slabo 27px',serif;
 /*
   background-color:rgba(0,0,0,.75);*/
-  box-shadow: 0 0 100px rgba(0,0,0,.71);
+  
   display:transparent;
   position:relative;
   left:30%;
@@ -168,7 +169,7 @@ body{
   content: "";
   
   background-color:rgba(0,0,0,.75);
-  box-shadow: 0 0 100px rgba(0,0,0,1);
+
   top: 0;
   left: 0;
   bottom: 0;
@@ -185,7 +186,7 @@ body{
   float:left;
   border:1px none;
   background-color:rgba(0,0,0,0.8);
-  box-shadow:0 0 200px rgba(0,0,0,100);
+ 
   padding:5px;
   margin:5px;
   border-radius:20px;
@@ -322,7 +323,7 @@ body{
   background-color:rgba(0,0,0,0.5);
   width:100%;
   border-radius:20px;
-  box-shadow: 0 0 200px rgb(0,0,0);
+
   img {
     height:150px;
   }

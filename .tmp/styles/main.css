@@ -5400,7 +5400,6 @@ tbody.collapse.in {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
 }
 /* line 23, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
@@ -8711,17 +8710,16 @@ button.close {
 
 /* line 13, ../../app/styles/main.scss */
 html body {
-  background: url(/images/backgroundV2.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background-color: #f1f1f1;
 }
 
-/* line 21, ../../app/styles/main.scss */
+/* line 17, ../../app/styles/main.scss */
 body {
   padding: 0;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 26, ../../app/styles/main.scss */
+/* line 22, ../../app/styles/main.scss */
 .header,
 .marketing,
 .footer {
@@ -8730,25 +8728,25 @@ body {
 }
 
 /* Custom page header */
-/* line 34, ../../app/styles/main.scss */
+/* line 30, ../../app/styles/main.scss */
 .header {
   margin-bottom: 10px;
   /* Make the masthead heading the same height as the navigation */
 }
-/* line 40, ../../app/styles/main.scss */
+/* line 36, ../../app/styles/main.scss */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
 }
-/* line 46, ../../app/styles/main.scss */
+/* line 42, ../../app/styles/main.scss */
 .header .navbar-default {
   border: 1px none;
 }
 
 /* Custom page footer */
-/* line 52, ../../app/styles/main.scss */
+/* line 48, ../../app/styles/main.scss */
 .footer {
   padding-top: 19px;
   color: #777;
@@ -8756,29 +8754,29 @@ body {
   bottom: 0px;
 }
 
-/* line 60, ../../app/styles/main.scss */
+/* line 56, ../../app/styles/main.scss */
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-/* line 65, ../../app/styles/main.scss */
+/* line 61, ../../app/styles/main.scss */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 69, ../../app/styles/main.scss */
+/* line 65, ../../app/styles/main.scss */
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-/* line 76, ../../app/styles/main.scss */
+/* line 72, ../../app/styles/main.scss */
 .marketing {
   margin: 40px 0;
 }
-/* line 79, ../../app/styles/main.scss */
+/* line 75, ../../app/styles/main.scss */
 .marketing p {
   margin-top: 28px;
   float: right;
@@ -8786,13 +8784,13 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 87, ../../app/styles/main.scss */
+  /* line 83, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 92, ../../app/styles/main.scss */
+  /* line 88, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8801,56 +8799,56 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 99, ../../app/styles/main.scss */
+  /* line 95, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 103, ../../app/styles/main.scss */
+  /* line 99, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
 /* All original scss*/
-/* line 108, ../../app/styles/main.scss */
+/* line 104, ../../app/styles/main.scss */
 .header {
   width: 100%;
 }
 
-/* line 112, ../../app/styles/main.scss */
+/* line 108, ../../app/styles/main.scss */
 .mainNav {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #f1f1f1;
+  border: none;
+  padding: 0px;
 }
-/* line 115, ../../app/styles/main.scss */
-.mainNav ul li:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+/* line 114, ../../app/styles/main.scss */
+.mainNav li {
+  padding: 2px;
+}
+/* line 119, ../../app/styles/main.scss */
+.mainNav ul li a:hover {
+  border: 3px solid #add8e6;
 }
 
-/* line 122, ../../app/styles/main.scss */
-.mainNav navbar-header::before {
-  position: fixed;
-}
-
-/* line 125, ../../app/styles/main.scss */
+/* line 126, ../../app/styles/main.scss */
 .footStyle {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fff;
   width: 100%;
-  position: fixed;
 }
 
-/* line 132, ../../app/styles/main.scss */
+/* line 133, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 136, ../../app/styles/main.scss */
+/* line 137, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 144, ../../app/styles/main.scss */
+/* line 145, ../../app/styles/main.scss */
 .mainTitle {
   color: white;
   border: 1px none;
@@ -8861,23 +8859,21 @@ body {
   font-family: 'Slabo 27px',serif;
   /*
     background-color:rgba(0,0,0,.75);*/
-  box-shadow: 0 0 100px rgba(0, 0, 0, 0.71);
   display: transparent;
   position: relative;
   left: 30%;
   top: 40%;
 }
-/* line 161, ../../app/styles/main.scss */
+/* line 162, ../../app/styles/main.scss */
 .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
 
-/* line 167, ../../app/styles/main.scss */
+/* line 168, ../../app/styles/main.scss */
 .mainTitle::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 100px black;
   top: 0;
   left: 0;
   bottom: 0;
@@ -8887,13 +8883,12 @@ body {
   border-radius: 20px;
 }
 
-/* line 183, ../../app/styles/main.scss */
+/* line 184, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
   border: 1px none;
   background-color: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 200px black;
   padding: 5px;
   margin: 5px;
   border-radius: 20px;
@@ -8907,17 +8902,17 @@ body {
     width:auto;
   }*/
 }
-/* line 202, ../../app/styles/main.scss */
+/* line 203, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 206, ../../app/styles/main.scss */
+/* line 207, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 213, ../../app/styles/main.scss */
+/* line 214, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
@@ -8944,7 +8939,7 @@ body {
      float:left;
         
 */
-/* line 242, ../../app/styles/main.scss */
+/* line 243, ../../app/styles/main.scss */
 .storePage {
   float: right;
   background: rgba(0, 0, 0, 0.8);
@@ -8954,7 +8949,7 @@ body {
   width: 85%;
   border-radius: 20px;
 }
-/* line 251, ../../app/styles/main.scss */
+/* line 252, ../../app/styles/main.scss */
 .storePage #storeImage {
   float: left;
   border: 1px solid;
@@ -8966,13 +8961,13 @@ body {
   padding: 5px;
   z-index: 1;
 }
-/* line 261, ../../app/styles/main.scss */
+/* line 262, ../../app/styles/main.scss */
 .storePage #storeImage img {
   position: relative;
   width: 100%;
   height: 100%;
 }
-/* line 269, ../../app/styles/main.scss */
+/* line 270, ../../app/styles/main.scss */
 .storePage #storeDetails {
   float: right;
   border: 1px solid;
@@ -8985,7 +8980,7 @@ body {
   position: relative;
   top: 11%;
 }
-/* line 283, ../../app/styles/main.scss */
+/* line 284, ../../app/styles/main.scss */
 .storePage #storeDetails ul {
   margin: 2px;
   padding: 3px;
@@ -8993,16 +8988,16 @@ body {
   list-style-type: none;
   color: white;
 }
-/* line 290, ../../app/styles/main.scss */
+/* line 291, ../../app/styles/main.scss */
 .storePage #storeDetails ul #storeName {
   font-size: 28px;
 }
-/* line 294, ../../app/styles/main.scss */
+/* line 295, ../../app/styles/main.scss */
 .storePage #storeDetails ul #storeDetail {
   font-size: 21px;
   text-align: center;
 }
-/* line 299, ../../app/styles/main.scss */
+/* line 300, ../../app/styles/main.scss */
 .storePage #storeDetails ul li {
   position: relative;
   top: 45px;
@@ -9014,7 +9009,7 @@ body {
   
 }
 */
-/* line 315, ../../app/styles/main.scss */
+/* line 316, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -9025,17 +9020,16 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   border-radius: 20px;
-  box-shadow: 0 0 200px black;
 }
-/* line 326, ../../app/styles/main.scss */
+/* line 327, ../../app/styles/main.scss */
 #locMenu img {
   height: 150px;
 }
-/* line 329, ../../app/styles/main.scss */
+/* line 330, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 331, ../../app/styles/main.scss */
+/* line 332, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -9047,7 +9041,7 @@ body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 343, ../../app/styles/main.scss */
+/* line 344, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9057,11 +9051,11 @@ body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 356, ../../app/styles/main.scss */
+/* line 357, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 359, ../../app/styles/main.scss */
+/* line 360, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -9069,7 +9063,7 @@ body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 369, ../../app/styles/main.scss */
+/* line 370, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
@@ -9147,28 +9141,26 @@ body {
 
 }
        */
-/* line 450, ../../app/styles/main.scss */
+/* line 451, ../../app/styles/main.scss */
 #menuContainer {
   color: white;
   list-style-type: none;
 }
-/* line 456, ../../app/styles/main.scss */
+/* line 457, ../../app/styles/main.scss */
 #menuContainer #boxxed {
   background-color: rgba(0, 0, 0, 0.57);
   margin: 4px;
 }
-/* line 461, ../../app/styles/main.scss */
+/* line 462, ../../app/styles/main.scss */
 #menuContainer #newBox {
   background-color: rgba(0, 0, 0, 0.57);
   margin: 4px;
 }
-/* line 465, ../../app/styles/main.scss */
+/* line 466, ../../app/styles/main.scss */
 #menuContainer ul {
   list-style-type: none;
 }
-/* line 468, ../../app/styles/main.scss */
+/* line 469, ../../app/styles/main.scss */
 #menuContainer li {
   color: white;
 }
-
-/*# sourceMappingURL=main.css.map */

@@ -8711,11 +8711,8 @@ button.close {
 /* line 13, ../../app/styles/main.scss */
 html body {
   background-color: #f1f1f1;
-}
-
-/* line 17, ../../app/styles/main.scss */
-body {
-  padding: 0;
+  height: 100%;
+  padding: 0%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -8821,35 +8818,39 @@ body {
   background-color: #f1f1f1;
   border: none;
   padding: 0px;
+  width: 100%;
 }
-/* line 114, ../../app/styles/main.scss */
+/* line 116, ../../app/styles/main.scss */
 .mainNav li a {
-  padding: 3px 5px 3px 5px;
+  padding: 25px;
   margin-right: 55px;
+  font-size: 35px;
+  border: 2px solid #f1f1f1;
 }
-/* line 119, ../../app/styles/main.scss */
+/* line 123, ../../app/styles/main.scss */
 .mainNav ul li a:hover {
-  border: 3px solid #add8e6;
+  display: block;
+  border-color: #add8e6;
 }
 
-/* line 126, ../../app/styles/main.scss */
+/* line 131, ../../app/styles/main.scss */
 .footStyle {
   background-color: #fff;
   width: 100%;
 }
 
-/* line 133, ../../app/styles/main.scss */
+/* line 138, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 137, ../../app/styles/main.scss */
+/* line 142, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 145, ../../app/styles/main.scss */
+/* line 150, ../../app/styles/main.scss */
 .mainTitle {
   color: white;
   border: 1px none;
@@ -8865,13 +8866,13 @@ body {
   left: 30%;
   top: 40%;
 }
-/* line 162, ../../app/styles/main.scss */
+/* line 167, ../../app/styles/main.scss */
 .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
 
-/* line 168, ../../app/styles/main.scss */
+/* line 173, ../../app/styles/main.scss */
 .mainTitle::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.75);
@@ -8884,7 +8885,7 @@ body {
   border-radius: 20px;
 }
 
-/* line 184, ../../app/styles/main.scss */
+/* line 189, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8903,17 +8904,17 @@ body {
     width:auto;
   }*/
 }
-/* line 203, ../../app/styles/main.scss */
+/* line 208, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 207, ../../app/styles/main.scss */
+/* line 212, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 214, ../../app/styles/main.scss */
+/* line 219, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
@@ -8940,7 +8941,7 @@ body {
      float:left;
         
 */
-/* line 243, ../../app/styles/main.scss */
+/* line 248, ../../app/styles/main.scss */
 .storePage {
   float: right;
   background: rgba(0, 0, 0, 0.8);
@@ -8950,7 +8951,7 @@ body {
   width: 85%;
   border-radius: 20px;
 }
-/* line 252, ../../app/styles/main.scss */
+/* line 257, ../../app/styles/main.scss */
 .storePage #storeImage {
   float: left;
   border: 1px solid;
@@ -8962,13 +8963,13 @@ body {
   padding: 5px;
   z-index: 1;
 }
-/* line 262, ../../app/styles/main.scss */
+/* line 267, ../../app/styles/main.scss */
 .storePage #storeImage img {
   position: relative;
   width: 100%;
   height: 100%;
 }
-/* line 270, ../../app/styles/main.scss */
+/* line 275, ../../app/styles/main.scss */
 .storePage #storeDetails {
   float: right;
   border: 1px solid;
@@ -8981,7 +8982,7 @@ body {
   position: relative;
   top: 11%;
 }
-/* line 284, ../../app/styles/main.scss */
+/* line 289, ../../app/styles/main.scss */
 .storePage #storeDetails ul {
   margin: 2px;
   padding: 3px;
@@ -8989,16 +8990,16 @@ body {
   list-style-type: none;
   color: white;
 }
-/* line 291, ../../app/styles/main.scss */
+/* line 296, ../../app/styles/main.scss */
 .storePage #storeDetails ul #storeName {
   font-size: 28px;
 }
-/* line 295, ../../app/styles/main.scss */
+/* line 300, ../../app/styles/main.scss */
 .storePage #storeDetails ul #storeDetail {
   font-size: 21px;
   text-align: center;
 }
-/* line 300, ../../app/styles/main.scss */
+/* line 305, ../../app/styles/main.scss */
 .storePage #storeDetails ul li {
   position: relative;
   top: 45px;
@@ -9010,7 +9011,7 @@ body {
   
 }
 */
-/* line 316, ../../app/styles/main.scss */
+/* line 321, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -9022,15 +9023,15 @@ body {
   width: 100%;
   border-radius: 20px;
 }
-/* line 327, ../../app/styles/main.scss */
+/* line 332, ../../app/styles/main.scss */
 #locMenu img {
   height: 150px;
 }
-/* line 330, ../../app/styles/main.scss */
+/* line 335, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 332, ../../app/styles/main.scss */
+/* line 337, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -9042,7 +9043,7 @@ body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 344, ../../app/styles/main.scss */
+/* line 349, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9052,11 +9053,11 @@ body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 357, ../../app/styles/main.scss */
+/* line 362, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 360, ../../app/styles/main.scss */
+/* line 365, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -9064,7 +9065,7 @@ body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 370, ../../app/styles/main.scss */
+/* line 375, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
@@ -9142,26 +9143,28 @@ body {
 
 }
        */
-/* line 451, ../../app/styles/main.scss */
+/*    
 #menuContainer {
-  color: white;
+  
+  color:white;
   list-style-type: none;
+  
+
+    #boxxed{
+      background-color:rgba(0,0,0,0.57);
+      margin:4px;
+    }
+
+    #newBox{
+      background-color:rgba(0,0,0,0.57);
+      margin:4px;
+    }
+  ul{
+    list-style-type:none;
+  }
+  li {
+    
+      color:white;
+  }
 }
-/* line 457, ../../app/styles/main.scss */
-#menuContainer #boxxed {
-  background-color: rgba(0, 0, 0, 0.57);
-  margin: 4px;
-}
-/* line 462, ../../app/styles/main.scss */
-#menuContainer #newBox {
-  background-color: rgba(0, 0, 0, 0.57);
-  margin: 4px;
-}
-/* line 466, ../../app/styles/main.scss */
-#menuContainer ul {
-  list-style-type: none;
-}
-/* line 469, ../../app/styles/main.scss */
-#menuContainer li {
-  color: white;
-}
+*/

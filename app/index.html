@@ -16,23 +16,22 @@
     <!-- endbuild -->
   </head>
   <body ng-app="tempGitApp">
+  
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
     <div id='bodyImage'>
-      <div class="header" style='background-color:#fff;'>
+      <div class="header" style='background-color:#fff;height:190px;margin:2px 0px 2px 0px;'>
         <div class='headerTitle'>
-          <div class='container' style='text-align:center;'>
-            <a href='#/'><h2>Konditori</h2></a>
+          <div class='container' style='text-align:center;position:relative;top:60px;'>
+            <a href='#/'><h1>Konditori</h1></a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="container">
-      <div class="navbar navbar-default mainNav" role="navigation">
+      <div class="navbar navbar-default mainNav" role="navigation" style='width:100%;border:1px solid black;margin:0;height:300px;'>
           <div class="container">
             <div class="navbar-header mainNav" style=''>
 
@@ -44,17 +43,19 @@
               </button>
             </div>
 
-            <div class="collapse navbar-collapse" id="js-navbar-collapse" style='border:1px solid black;padding:0%;position:relative;bottom:20px;word-break:break-all;height:50px;width:100%;'>
+            <div class="collapse navbar-collapse" id="js-navbar-collapse" style=''>
 
-              <ul class="nav navbar-nav" style='position:relative;left:30%;font-size:15px;'>
-                <li><a href="#/">Home</a></li>
-                <li><a ng-href="#/menu">Menu</a></li>
-                <li><a ng-href="#/locs">Locations</a></li>
+              <ul class="nav navbar-nav" style='position:relative;left:10%;top:80px;font-size:15px;width:100%;'>
+                <li style=''><a style=' 'href="#/">Home</a></li>
+                <li style=''><a style=' 'ng-href="#/menu">Menu</a></li>
+                <li style=''><a style=' 'ng-href="#/locs">Locations</a></li>
               </ul>
             </div>
           </div>
         </div>
-      <div ng-view=""></div>
+
+      <div class="container">
+            <div ng-view=""></div>
       </div>
 
       <div class="footer footStyle">

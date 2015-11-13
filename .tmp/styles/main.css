@@ -8856,21 +8856,25 @@ html body {
   border: 1px none;
   border-radius: 20px;
   display: inline-block;
+  position: relative;
+  left: 34%;
   padding: 10px;
   margin: 10px;
   font-family: 'Slabo 27px',serif;
+  letter-spacing: 22px;
+  font-size: 72px;
   display: transparent;
   position: relative;
   left: 30%;
   top: 40%;
 }
-/* line 166, ../../app/styles/main.scss */
+/* line 169, ../../app/styles/main.scss */
 .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
 
-/* line 172, ../../app/styles/main.scss */
+/* line 175, ../../app/styles/main.scss */
 .mainTitle::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.75);
@@ -8883,7 +8887,7 @@ html body {
   border-radius: 20px;
 }
 
-/* line 188, ../../app/styles/main.scss */
+/* line 191, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8898,32 +8902,32 @@ html body {
     width:auto;
   }*/
 }
-/* line 205, ../../app/styles/main.scss */
+/* line 208, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 209, ../../app/styles/main.scss */
+/* line 212, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 216, ../../app/styles/main.scss */
+/* line 219, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/* line 224, ../../app/styles/main.scss */
+/* line 227, ../../app/styles/main.scss */
 #mainHTML {
   border: 1px solid black;
-  padding: 20px;
-  height: 600px;
+  padding-left: 4%;
+  height: 800px;
   background-color: white;
 }
 
-/* line 232, ../../app/styles/main.scss */
+/* line 235, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -8935,15 +8939,15 @@ html body {
   width: 100%;
   border-radius: 20px;
 }
-/* line 243, ../../app/styles/main.scss */
+/* line 246, ../../app/styles/main.scss */
 #locMenu img {
   height: 150px;
 }
-/* line 246, ../../app/styles/main.scss */
+/* line 249, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 248, ../../app/styles/main.scss */
+/* line 251, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -8955,7 +8959,7 @@ html body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 260, ../../app/styles/main.scss */
+/* line 263, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -8965,11 +8969,11 @@ html body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 273, ../../app/styles/main.scss */
+/* line 276, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 276, ../../app/styles/main.scss */
+/* line 279, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -8977,7 +8981,7 @@ html body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 286, ../../app/styles/main.scss */
+/* line 289, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }

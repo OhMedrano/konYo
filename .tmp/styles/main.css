@@ -8747,8 +8747,8 @@ html body {
 .footer {
   padding-top: 19px;
   color: #777;
-  position: absolute;
-  bottom: 0px;
+  position: fixed;
+  bottom: -3px;
 }
 
 /* line 56, ../../app/styles/main.scss */
@@ -8852,27 +8852,25 @@ html body {
 
 /* line 150, ../../app/styles/main.scss */
 .mainTitle {
-  color: white;
+  color: black;
   border: 1px none;
   border-radius: 20px;
   display: inline-block;
   padding: 10px;
   margin: 10px;
   font-family: 'Slabo 27px',serif;
-  /*
-    background-color:rgba(0,0,0,.75);*/
   display: transparent;
   position: relative;
   left: 30%;
   top: 40%;
 }
-/* line 167, ../../app/styles/main.scss */
+/* line 166, ../../app/styles/main.scss */
 .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
 
-/* line 173, ../../app/styles/main.scss */
+/* line 172, ../../app/styles/main.scss */
 .mainTitle::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.75);
@@ -8885,7 +8883,7 @@ html body {
   border-radius: 20px;
 }
 
-/* line 189, ../../app/styles/main.scss */
+/* line 188, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8894,128 +8892,42 @@ html body {
   padding: 5px;
   margin: 5px;
   border-radius: 20px;
-  position: fixed;
-  left: 15%;
-  top: 40%;
-  width: 70%;
   font-size: 14px;
   font-family: 'Noto Serif',serif;
   /*.container {
     width:auto;
   }*/
 }
-/* line 208, ../../app/styles/main.scss */
+/* line 205, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 212, ../../app/styles/main.scss */
+/* line 209, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 219, ../../app/styles/main.scss */
+/* line 216, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/*#mainHTML {
-   display:flex;
-   border:1px none;
-   background-color:rgba(255,255,255,0.5);
-   margin:0 ;
-   padding:30px;
-   border-radius:10px;
-   height:auto;
-   width:600px;
-   float:right;
-
-
-    .clearfix {
-      overflow:auto;
-    }
-
-    .mainContent {
-     float:left;
-        
-*/
-/* line 248, ../../app/styles/main.scss */
-.storePage {
-  float: right;
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 20%;
-  height: 57%;
-  width: 85%;
-  border-radius: 20px;
-}
-/* line 257, ../../app/styles/main.scss */
-.storePage #storeImage {
-  float: left;
-  border: 1px solid;
-  border-radius: 20px;
-  /* background-image: url(http://placekitten.com/g/400/500);*/
-  height: 350px;
-  width: 40%;
-  margin: 5% 2% 2% 2%;
-  padding: 5px;
-  z-index: 1;
-}
-/* line 267, ../../app/styles/main.scss */
-.storePage #storeImage img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-/* line 275, ../../app/styles/main.scss */
-.storePage #storeDetails {
-  float: right;
-  border: 1px solid;
-  height: 200px;
-  padding: 5px;
-  font-weight: bold;
-  margin: 5px;
-  height: auto;
-  font-family: 'Noto serif', serif;
-  position: relative;
-  top: 11%;
-}
-/* line 289, ../../app/styles/main.scss */
-.storePage #storeDetails ul {
-  margin: 2px;
-  padding: 3px;
-  display: block;
-  list-style-type: none;
-  color: white;
-}
-/* line 296, ../../app/styles/main.scss */
-.storePage #storeDetails ul #storeName {
-  font-size: 28px;
-}
-/* line 300, ../../app/styles/main.scss */
-.storePage #storeDetails ul #storeDetail {
-  font-size: 21px;
-  text-align: center;
-}
-/* line 305, ../../app/styles/main.scss */
-.storePage #storeDetails ul li {
-  position: relative;
-  top: 45px;
-  padding: 10px;
+/* line 224, ../../app/styles/main.scss */
+#mainHTML {
+  border: 1px solid black;
+  padding: 20px;
+  height: 600px;
+  background-color: white;
 }
 
-/*
-    }
-  
-}
-*/
-/* line 321, ../../app/styles/main.scss */
+/* line 232, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
-  position: fixed;
+  position: relative;
   top: 10%;
   margin: 20px;
   padding: 10px;
@@ -9023,15 +8935,15 @@ html body {
   width: 100%;
   border-radius: 20px;
 }
-/* line 332, ../../app/styles/main.scss */
+/* line 243, ../../app/styles/main.scss */
 #locMenu img {
   height: 150px;
 }
-/* line 335, ../../app/styles/main.scss */
+/* line 246, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 337, ../../app/styles/main.scss */
+/* line 248, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -9043,7 +8955,7 @@ html body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 349, ../../app/styles/main.scss */
+/* line 260, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9053,11 +8965,11 @@ html body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 362, ../../app/styles/main.scss */
+/* line 273, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 365, ../../app/styles/main.scss */
+/* line 276, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -9065,7 +8977,7 @@ html body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 375, ../../app/styles/main.scss */
+/* line 286, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }

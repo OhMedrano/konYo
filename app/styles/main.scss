@@ -11,9 +11,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 html body { 
-background-color:#f1f1f1;
+background-color:white;
 height:100%;
 padding:0%;
+max-width:100%;
+overflow-x:hidden;
 }
 
 
@@ -103,21 +105,28 @@ padding:0%;
 /* All original scss*/
 .header {
   width:100%;
+  background-color:#fff;height:190px;margin:2px 0px 2px 0px;
 }
 
 .mainNav {
   background-color:#f1f1f1;
   border:none;
   padding:0px;
-  width:100%;
-
   
+  border-radius:0px;
+  border:1px none;
+  margin:0;
+  height:108px;
+  ul{
+    position:relative;left:10%;top:20px;font-size:15px;
 
+  }
     li a{
       padding:25px;
       margin-right:55px;
       font-size:35px;
       border:2px solid #f1f1f1;
+
     }
   
    ul li a:hover{
@@ -147,31 +156,7 @@ padding:0%;
 }
 
 
-.mainTitle {
-  color:black;
-  border:1px none;
-  border-radius:20px;
-  display:inline-block;
-  position: relative;
-  left:34%;
-  padding:10px;
-  margin:10px;
-  font-family:'Slabo 27px',serif;
-  letter-spacing:22px;
-  font-size:72px;
 
-  
-  display:transparent;
-  position:relative;
-  left:30%;
-  top:40%;
-
-    h1 {
-      font-size:60px;
-      margin-bottom:0px;
-
-    }
-}
 .mainTitle::before {
   content: "";
   
@@ -225,11 +210,53 @@ padding:0%;
 }
 
 #mainHTML {
-  border:1px solid black;
-  padding-left:4%;
-  height:800px;
+  border:1px none;
+  padding:20px;
+  margin:3px 20px 3px 20px;
   background-color:white;
+  max-width:100%;
+    .mainTitle {
+  color:black;
+  border:1px none;
+  border-radius:20px;
+  display:inline-block;
+  
+  padding:10px;
+  /*margin:10px;*/
+  font-family:'Slabo 27px',serif;
 
+   letter-spacing: 20px;
+  display:transparent;
+  position:relative;
+  
+  top:40%;
+
+    h1 {
+      font-size:60px;
+      margin-bottom:0px;
+
+    }
+  } 
+
+  #mainUpdateBox {
+    border-top:1px solid black;
+    width:100%;
+    /*padding-left:140px;*/
+    height:250px;
+
+    .updateBox {
+      width:30%;
+      float:left;
+      height:100%;
+      padding:5px;
+      text-align:center;
+
+    }
+    .updateBoxBorder {
+      border-right:1px solid black;
+    }
+  }
+  
  }
 
 #locMenu {

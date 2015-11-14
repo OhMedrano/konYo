@@ -8710,13 +8710,15 @@ button.close {
 
 /* line 13, ../../app/styles/main.scss */
 html body {
-  background-color: #f1f1f1;
+  background-color: white;
   height: 100%;
   padding: 0%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 22, ../../app/styles/main.scss */
+/* line 24, ../../app/styles/main.scss */
 .header,
 .marketing,
 .footer {
@@ -8725,25 +8727,25 @@ html body {
 }
 
 /* Custom page header */
-/* line 30, ../../app/styles/main.scss */
+/* line 32, ../../app/styles/main.scss */
 .header {
   margin-bottom: 10px;
   /* Make the masthead heading the same height as the navigation */
 }
-/* line 36, ../../app/styles/main.scss */
+/* line 38, ../../app/styles/main.scss */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
 }
-/* line 42, ../../app/styles/main.scss */
+/* line 44, ../../app/styles/main.scss */
 .header .navbar-default {
   border: 1px none;
 }
 
 /* Custom page footer */
-/* line 48, ../../app/styles/main.scss */
+/* line 50, ../../app/styles/main.scss */
 .footer {
   padding-top: 19px;
   color: #777;
@@ -8751,29 +8753,29 @@ html body {
   bottom: -3px;
 }
 
-/* line 56, ../../app/styles/main.scss */
+/* line 58, ../../app/styles/main.scss */
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-/* line 61, ../../app/styles/main.scss */
+/* line 63, ../../app/styles/main.scss */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 65, ../../app/styles/main.scss */
+/* line 67, ../../app/styles/main.scss */
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-/* line 72, ../../app/styles/main.scss */
+/* line 74, ../../app/styles/main.scss */
 .marketing {
   margin: 40px 0;
 }
-/* line 75, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/main.scss */
 .marketing p {
   margin-top: 28px;
   float: right;
@@ -8781,13 +8783,13 @@ html body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 83, ../../app/styles/main.scss */
+  /* line 85, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 88, ../../app/styles/main.scss */
+  /* line 90, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8796,85 +8798,74 @@ html body {
   }
 
   /* Space out the masthead */
-  /* line 95, ../../app/styles/main.scss */
+  /* line 97, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 99, ../../app/styles/main.scss */
+  /* line 101, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
 /* All original scss*/
-/* line 104, ../../app/styles/main.scss */
+/* line 106, ../../app/styles/main.scss */
 .header {
   width: 100%;
+  background-color: #fff;
+  height: 190px;
+  margin: 2px 0px 2px 0px;
 }
 
-/* line 108, ../../app/styles/main.scss */
+/* line 111, ../../app/styles/main.scss */
 .mainNav {
   background-color: #f1f1f1;
   border: none;
   padding: 0px;
-  width: 100%;
+  border-radius: 0px;
+  border: 1px none;
+  margin: 0;
+  height: 108px;
 }
-/* line 116, ../../app/styles/main.scss */
+/* line 120, ../../app/styles/main.scss */
+.mainNav ul {
+  position: relative;
+  left: 10%;
+  top: 20px;
+  font-size: 15px;
+}
+/* line 124, ../../app/styles/main.scss */
 .mainNav li a {
   padding: 25px;
   margin-right: 55px;
   font-size: 35px;
   border: 2px solid #f1f1f1;
 }
-/* line 123, ../../app/styles/main.scss */
+/* line 132, ../../app/styles/main.scss */
 .mainNav ul li a:hover {
   display: block;
   border-color: #add8e6;
 }
 
-/* line 131, ../../app/styles/main.scss */
+/* line 140, ../../app/styles/main.scss */
 .footStyle {
   background-color: #fff;
   width: 100%;
 }
 
-/* line 138, ../../app/styles/main.scss */
+/* line 147, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 142, ../../app/styles/main.scss */
+/* line 151, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 150, ../../app/styles/main.scss */
-.mainTitle {
-  color: black;
-  border: 1px none;
-  border-radius: 20px;
-  display: inline-block;
-  position: relative;
-  left: 34%;
-  padding: 10px;
-  margin: 10px;
-  font-family: 'Slabo 27px',serif;
-  letter-spacing: 22px;
-  font-size: 72px;
-  display: transparent;
-  position: relative;
-  left: 30%;
-  top: 40%;
-}
-/* line 169, ../../app/styles/main.scss */
-.mainTitle h1 {
-  font-size: 60px;
-  margin-bottom: 0px;
-}
-
-/* line 175, ../../app/styles/main.scss */
+/* line 160, ../../app/styles/main.scss */
 .mainTitle::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.75);
@@ -8887,7 +8878,7 @@ html body {
   border-radius: 20px;
 }
 
-/* line 191, ../../app/styles/main.scss */
+/* line 176, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8902,32 +8893,71 @@ html body {
     width:auto;
   }*/
 }
-/* line 208, ../../app/styles/main.scss */
+/* line 193, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 212, ../../app/styles/main.scss */
+/* line 197, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 219, ../../app/styles/main.scss */
+/* line 204, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/* line 227, ../../app/styles/main.scss */
+/* line 212, ../../app/styles/main.scss */
 #mainHTML {
-  border: 1px solid black;
-  padding-left: 4%;
-  height: 800px;
+  border: 1px none;
+  padding: 20px;
+  margin: 3px 20px 3px 20px;
   background-color: white;
+  max-width: 100%;
+}
+/* line 218, ../../app/styles/main.scss */
+#mainHTML .mainTitle {
+  color: black;
+  border: 1px none;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  /*margin:10px;*/
+  font-family: 'Slabo 27px',serif;
+  letter-spacing: 20px;
+  display: transparent;
+  position: relative;
+  top: 40%;
+}
+/* line 234, ../../app/styles/main.scss */
+#mainHTML .mainTitle h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+/* line 241, ../../app/styles/main.scss */
+#mainHTML #mainUpdateBox {
+  border-top: 1px solid black;
+  width: 100%;
+  /*padding-left:140px;*/
+  height: 250px;
+}
+/* line 247, ../../app/styles/main.scss */
+#mainHTML #mainUpdateBox .updateBox {
+  width: 30%;
+  float: left;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+}
+/* line 255, ../../app/styles/main.scss */
+#mainHTML #mainUpdateBox .updateBoxBorder {
+  border-right: 1px solid black;
 }
 
-/* line 235, ../../app/styles/main.scss */
+/* line 262, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -8939,15 +8969,15 @@ html body {
   width: 100%;
   border-radius: 20px;
 }
-/* line 246, ../../app/styles/main.scss */
+/* line 273, ../../app/styles/main.scss */
 #locMenu img {
   height: 150px;
 }
-/* line 249, ../../app/styles/main.scss */
+/* line 276, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 251, ../../app/styles/main.scss */
+/* line 278, ../../app/styles/main.scss */
 #locMenu ul li {
   background: #000 none repeat scroll 0% 0%;
   border: 1px none;
@@ -8959,7 +8989,7 @@ html body {
   padding: 7px;
   border-radius: 5px;
 }
-/* line 263, ../../app/styles/main.scss */
+/* line 290, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -8969,11 +8999,11 @@ html body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 276, ../../app/styles/main.scss */
+/* line 303, ../../app/styles/main.scss */
 #locMenu li:hover {
   background: white;
 }
-/* line 279, ../../app/styles/main.scss */
+/* line 306, ../../app/styles/main.scss */
 #locMenu li:hover img {
   width: 151px;
   -webkit-transform: scale(1.1);
@@ -8981,7 +9011,7 @@ html body {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
 }
-/* line 289, ../../app/styles/main.scss */
+/* line 316, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }

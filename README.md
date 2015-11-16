@@ -180,3 +180,25 @@
 		Now I gotta work on the store page,
 		along with getting new pictures and 
 		using the instagram api. 
+
+
+
+11/16 - 
+
+		Annnd now this gets restarted. 
+
+		Got hired as their web dev, going to develop this
+		the best I can. 
+
+		Luckily all it needs a basic style change, and make it mobile.
+
+		I was able to salvage a lot of stuff so it didn't hinder my timeline for this. 
+
+		Changed the whole layout
+		Added more responsive classes (Must keep watch on bootstrap updates.)
+		Added mobile version of VIEWS/MAIN.HTML (With responsive classes)
+
+		Have to do:
+		Must fix navbar. (It's not being responsive.)
+		Do menu. (Up to debate with siteowners.)
+		Redo the whole store locations and details menu. (With responsive.)

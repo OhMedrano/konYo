@@ -15,14 +15,15 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'firebase'
   ])
   .config(function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(false);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'UpdateCtrl'
       })
       .when('/menu', {
         templateUrl: 'views/menu.html',
@@ -35,6 +36,14 @@ angular
       when('/locs/:storeId', {
         templateUrl:'views/store-detail.html',
         controller: 'LocdetailCtrl'
+      })
+      .when('/admin',{
+        templateUrl: 'views/admin.html',
+        controller: 'UpdateCtrl'
+      })
+      .when('/media', {
+        templateUrl: 'views/media.html',
+        controller: 'MediaCtrl'
       })
       .otherwise({
         redirectTo: '/'

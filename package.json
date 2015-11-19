@@ -1,7 +1,9 @@
 {
   "name": "tempgit",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "jsonfile": "^2.2.3"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",

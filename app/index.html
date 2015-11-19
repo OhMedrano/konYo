@@ -25,15 +25,15 @@
     <div id='bodyImage'>
       <div class="header" style=''>
         <div class='headerTitle'>
-          <div class='container col-md-12 col-md-offset-5 ' style=''>
+          <div class='container col-md-3 col-md-offset-5 col-xs-3 col-xs-offset-5' style=''>
             <a href='#/'><h1>Konditori</h1></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-default col-md-12" role="navigation" style=''>
-          <div class="container">
-            <div class="navbar-header mainNav" style=''>
+      <div class="navbar navbar-default col-md-12" role="navigation" style='background-color:#f1f1f1;box-shadow:inset 0px 0px 30px 0px rgba(0,0,0,0.6);border:1px none'>
+          <div class=" col-md-7 col-md-offset-3">
+            <div class="navbar-header" style=''>
 
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -45,20 +45,23 @@
 
             <div class="collapse navbar-collapse col-md-1" id="js-navbar-collapse" style=''>
 
-              <ul class="nav navbar-nav mainNav" style=''>
-                <li style=''><a style=' 'href="#/">Home</a></li>
-                <li style=''><a style=' 'ng-href="#/menu">Menu</a></li>
-                <li style=''><a style=' 'ng-href="#/locs">Locations</a></li>
+              <ul class="nav navbar-nav mainNav hidden-xs " style=''>
+                <li style=''><a style='font-size:24px; 'href="#/">What's <br>Brewin'</a></li>
+                <li style=''><a style='font-size:24px;padding:53px 34px; 'ng-href="#/menu">Menu</a></li>
+                <li style=''><a style='font-size:24px;padding:53px 15px; 'ng-href="#/locs">Locations</a></li>
+                <li style=''><a style='font-size:24px;padding:53px 31px;'ng-href='#/media'>Press</a></li>
+                <li style=''><a style='font-size:24px;padding:53px 20px;'ng-href=''>JUICED</a></li>
+                
               </ul>
             </div>
           </div>
         </div>
 
       <div class='col-md-12'>
-            <div ng-view=""></div>
+            <div ng-view="" style='background-color:white;'></div>
       </div>
 
-      <div class="footer footStyle" style='border-top:2px solid black;'>
+      <div class="footer col-md-12 hidden-xs" style='border-top:2px none;background-color:white;'>
         <div class="container" style=''>
           <p><span class="glyphicon glyphicon-heart"></span> Konditori InstaGram Twitter Facebook</p>
         </div>
@@ -88,6 +91,8 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -100,6 +105,8 @@
         <script src="scripts/directives/lights.js"></script>
         <script src="scripts/controllers/locdetail.js"></script>
         <script src="scripts/controllers/konmenu.js"></script>
+        <script src="scripts/controllers/update.js"></script>
+        <script src="scripts/controllers/media.js"></script>
         <!-- endbuild -->
 </body>
 </html>

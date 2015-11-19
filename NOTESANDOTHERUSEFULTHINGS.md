@@ -1,4 +1,8 @@
 
+Back up of the old main view html. ---v
+
+
+<!-- 
 <div id='mainHTML' class='col-md-12 col-xs-12 clearfix'>
 
     <div class="mainTitle">
@@ -42,4 +46,13 @@
         </div>
       </div>
     </div>
-</div>
+</div> -->
+
+
+
+Custom DIV tag with style and id's 
+
+<div id='' class='' style=''>
+
+
+  </div>

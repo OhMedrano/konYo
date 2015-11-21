@@ -1,0 +1,429 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px|Montserrat|Lato|Noto+Serif);
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+::-webkit-input-placeholder {
+ font-size: 10px;
+ color: rgba(0,0,0,0.45%);
+ 
+ text-align: center;
+ font-weight: bold;
+}
+:-moz-placeholder { /* older Firefox*/
+ font-size:10px;
+ color:rgba(0,0,0,0.45%)k;
+ 
+ text-align: center;
+ font-weight: bold;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 10px;
+ color: rgba(0,0,0,0.45%); 
+ 
+ text-align: center;
+ font-weight: bold;
+} 
+:-ms-input-placeholder { 
+ font-size: 10px; 
+ color: rgba(0,0,0,0.45%);
+ 
+ text-align: center;
+ font-weight: bold;
+}
+html body{ 
+
+}
+
+#bodyImage {
+
+/*background-image: url(/images/background.png);*/
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:fixed;
+background-position:center;
+width:100%;
+height:100%;
+padding:0%;
+max-width:100%;
+
+
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+
+  margin-bottom: 10px;
+ /* background-color:#6c7767;*/
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+  .navbar-default {
+    border:1px none;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+ 
+ 
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p {
+    margin-top: 28px;
+    float:right;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+/* All original scss*/
+.header {
+  width:100%;
+  /*background-color:#6c7767;*/
+  height:190px;
+  margin:2px 0px 2px 0px;
+  padding:3%;
+
+
+}
+
+.mainNav {
+  
+  
+  padding:49px 0px 36px;
+  
+  
+  
+  margin:0;
+  height:auto;
+
+  ul{
+    /*position:relative;left:10%;top:20px;*/
+    font-size:15px;
+    padding:2%;
+    display:inline;
+    margin:3%;
+
+    li {
+      
+    }
+  }
+
+
+    li a{
+      background-color:rgba(199, 194, 193, 0.8);
+      border: 1px solid black;
+      padding: 43px 24px;
+      border-radius: 100%;
+      margin:3%;
+      font-size:35px;
+      box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
+      border: 1px none;
+      border-radius: 100%;
+      margin-right: 10px;
+     
+
+    }
+  
+   li:hover{
+     a{
+    font-color: #add8e6;
+      }
+  }
+
+}
+
+
+.footStyle {
+  background-color:rgba(152, 129, 123, 0.50);
+  width:100%;
+ 
+}
+.locNav {
+  ul {
+    li {
+        border:1px black solid;
+        display:inline;
+    }
+    li:hover {
+        background-color:black;
+        color:white;
+    }
+  }
+}
+
+
+
+
+
+
+
+.mainContent {
+  color:white;
+  float:left;
+  border:1px none;
+  background-color:rgba(0,0,0,0.8);
+ 
+  padding:5px;
+  margin:5px;
+  border-radius:20px;
+ 
+  
+  font-size:14px;
+  font-family:'Noto Serif',serif;
+    /*.container {
+      width:auto;
+    }*/
+
+   .clearfix {
+    overflow:auto;
+   }
+
+   #content1 {
+      color:white;
+      float:left;
+      padding:3px;
+      
+
+   }
+   #content2 {
+    color:white;
+    float:left;
+    padding:3px;
+    
+   }
+}
+
+#mainHTML {
+  border:1px none;
+  padding:20px;
+  margin:3px 20px 3px 20px;
+  
+  max-width:100%;
+   
+    .mainTitle {
+     color:black;
+     border:1px none;
+    
+     display:inline-block;
+  
+     padding:10px;
+     
+     font-family:'Slabo 27px',serif;
+
+     border-bottom:1px solid black;
+     display:transparent;
+      position:relative;
+  
+     top:40%;
+
+    h1 {
+      font-size:60px;
+      margin-bottom:0px;
+
+    }
+  } 
+
+  #mainUpdateBox {
+    
+   
+    /*padding-left:140px;*/
+    height:auto;
+
+    .updateBox {
+         
+    float: left;
+    height: 100%;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 4px solid rgba(33, 32, 31, 0.34);
+    border-right: 6px solid rgba(35, 35, 35, 0.3);
+   /* background-color: rgba(162, 154, 152, 0.86);*/
+    padding: 10%;
+    margin: 0.3%;
+    height: auto;
+    margin-bottom:30px;
+    /*border-radius: 18px;*/
+    float: right;
+    box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
+
+    }
+    .updateBoxBorder {
+      
+    }
+  }
+  
+ }
+
+#locMenu {
+  display:inline-block;
+  border:1px none;
+  position:relative;
+  top:10%;
+  margin:10px;
+  padding:0;
+  background-color:rgba(0,0,0,0.5);
+  width:100%;
+  border-radius:20px;
+
+  img {
+    height:300px;
+    width:500px;
+  }
+  ul {
+        list-style-type: none;
+   li {
+    
+    background-color: #f1f1f1;
+    border-right: 4px solid rgba(173,216,230,0.8);
+    border-bottom:4px solid rgba(173,216,230,0.8);
+    border-left:2px solid rgba(173,216,230,0.8);
+    color: #FFF;
+    margin: 7px 12px 7px 12px;
+    height: 400px;
+    width: 500px;
+    display: inline-table;
+    padding: 7px;
+    
+
+      a {
+      margin-top:7px;
+      text-decoration: none;
+      color:white;
+      position:relative;
+      top:12px;
+      font-family:'Noto serif', serif;
+      text-align:center;
+
+      }
+     
+     }
+   }
+    li:hover {
+      
+      
+       
+        
+          a {
+            color:black;
+          }
+      }
+
+    
+}
+.navBigStyle {
+
+}
+.navMenuActive{
+  background-image:url(/images/vinSwedFlag.jpg);
+  background-size:cover;
+    opacity: 0.8;
+  border:1px none;
+  border-radius:100%;
+  background-position:60%;
+
+  a {
+
+    font-color:white;
+  }
+
+}
+
+#menuContainer {
+  
+  
+  font-size:20px;
+      .boxStyleBorder {
+       /*background-color:rgba(0,0,0,0.2);*/
+
+      }
+
+      #outerBox{
+
+
+            float: left;
+          height: 100%;
+          color:black;  
+          margin-right: 10px;
+          margin-left: 10px;
+          border-bottom: 4px solid rgba(51, 26, 0,0.4);
+          border-right: 6px solid rgba(51, 26, 0,0.4);
+        /* background-color: rgba(162, 154, 152, 0.86);*/
+          padding: 0;
+          margin: 0.3%;
+          height: auto;
+          margin-bottom:30px;
+          /*border-radius: 18px;*/
+          float: right;
+          box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
+
+            #boxxed {
+                border-right:6px solid rgba(102, 51, 0,0.5) ;
+                border-bottom:4px solid rgba(102, 51, 0,0.5) ;
+                border-top:2px solid rgba(102, 51, 0,0.5) ;
+                border-left:1px solid rgba(102, 51, 0,0.5) ;
+            }
+        }
+}

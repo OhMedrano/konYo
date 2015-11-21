@@ -5404,22 +5404,14 @@ tbody.collapse.in {
 /* line 23, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
-}
-/* line 31, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a {
-  color: #777777;
 }
 /* line 34, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
 .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-  color: #777777;
   text-decoration: none;
-  background-color: transparent;
   cursor: not-allowed;
 }
 /* line 46, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
   border-color: #337ab7;
 }
 /* line 59, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
@@ -5474,11 +5466,6 @@ tbody.collapse.in {
 /* line 125, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li + li {
   margin-left: 2px;
-}
-/* line 131, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
 }
 
 /* line 144, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
@@ -8708,19 +8695,55 @@ button.close {
   padding: 0.2em 0;
 }
 
-/* line 13, ../../app/styles/main.scss */
-html body {
-  background-image: url(/images/background.jpg);
+/* line 12, ../../app/styles/main.scss */
+::-webkit-input-placeholder {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 19, ../../app/styles/main.scss */
+:-moz-placeholder {
+  /* older Firefox*/
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45) k;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 26, ../../app/styles/main.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 33, ../../app/styles/main.scss */
+:-ms-input-placeholder {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 44, ../../app/styles/main.scss */
+#bodyImage {
+  /*background-image: url(/images/background.png);*/
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
   height: 100%;
   padding: 0%;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 26, ../../app/styles/main.scss */
+/* line 60, ../../app/styles/main.scss */
 .header,
 .marketing,
 .footer {
@@ -8729,54 +8752,54 @@ html body {
 }
 
 /* Custom page header */
-/* line 34, ../../app/styles/main.scss */
+/* line 68, ../../app/styles/main.scss */
 .header {
   margin-bottom: 10px;
   /* background-color:#6c7767;*/
   /* Make the masthead heading the same height as the navigation */
 }
-/* line 40, ../../app/styles/main.scss */
+/* line 74, ../../app/styles/main.scss */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
 }
-/* line 46, ../../app/styles/main.scss */
+/* line 80, ../../app/styles/main.scss */
 .header .navbar-default {
   border: 1px none;
 }
 
 /* Custom page footer */
-/* line 52, ../../app/styles/main.scss */
+/* line 86, ../../app/styles/main.scss */
 .footer {
   padding-top: 19px;
   color: #777;
 }
 
-/* line 59, ../../app/styles/main.scss */
+/* line 93, ../../app/styles/main.scss */
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-/* line 64, ../../app/styles/main.scss */
+/* line 98, ../../app/styles/main.scss */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 68, ../../app/styles/main.scss */
+/* line 102, ../../app/styles/main.scss */
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
 /* Supporting marketing content */
-/* line 75, ../../app/styles/main.scss */
+/* line 109, ../../app/styles/main.scss */
 .marketing {
   margin: 40px 0;
 }
-/* line 78, ../../app/styles/main.scss */
+/* line 112, ../../app/styles/main.scss */
 .marketing p {
   margin-top: 28px;
   float: right;
@@ -8784,13 +8807,13 @@ html body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 86, ../../app/styles/main.scss */
+  /* line 120, ../../app/styles/main.scss */
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-  /* line 91, ../../app/styles/main.scss */
+  /* line 125, ../../app/styles/main.scss */
   .header,
   .marketing,
   .footer {
@@ -8799,19 +8822,19 @@ html body {
   }
 
   /* Space out the masthead */
-  /* line 98, ../../app/styles/main.scss */
+  /* line 132, ../../app/styles/main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 102, ../../app/styles/main.scss */
+  /* line 136, ../../app/styles/main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
 /* All original scss*/
-/* line 107, ../../app/styles/main.scss */
+/* line 141, ../../app/styles/main.scss */
 .header {
   width: 100%;
   /*background-color:#6c7767;*/
@@ -8820,13 +8843,13 @@ html body {
   padding: 3%;
 }
 
-/* line 117, ../../app/styles/main.scss */
+/* line 151, ../../app/styles/main.scss */
 .mainNav {
   padding: 49px 0px 36px;
   margin: 0;
   height: auto;
 }
-/* line 127, ../../app/styles/main.scss */
+/* line 161, ../../app/styles/main.scss */
 .mainNav ul {
   /*position:relative;left:10%;top:20px;*/
   font-size: 15px;
@@ -8834,8 +8857,9 @@ html body {
   display: inline;
   margin: 3%;
 }
-/* line 140, ../../app/styles/main.scss */
+/* line 174, ../../app/styles/main.scss */
 .mainNav li a {
+  background-color: rgba(199, 194, 193, 0.8);
   border: 1px solid black;
   padding: 43px 24px;
   border-radius: 100%;
@@ -8846,29 +8870,29 @@ html body {
   border-radius: 100%;
   margin-right: 10px;
 }
-/* line 155, ../../app/styles/main.scss */
+/* line 190, ../../app/styles/main.scss */
 .mainNav li:hover a {
   font-color: #add8e6;
 }
 
-/* line 163, ../../app/styles/main.scss */
+/* line 198, ../../app/styles/main.scss */
 .footStyle {
-  background-color: #fff;
+  background-color: rgba(152, 129, 123, 0.5);
   width: 100%;
 }
 
-/* line 170, ../../app/styles/main.scss */
+/* line 205, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 174, ../../app/styles/main.scss */
+/* line 209, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 187, ../../app/styles/main.scss */
+/* line 222, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8883,69 +8907,72 @@ html body {
     width:auto;
   }*/
 }
-/* line 204, ../../app/styles/main.scss */
+/* line 239, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 208, ../../app/styles/main.scss */
+/* line 243, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 215, ../../app/styles/main.scss */
+/* line 250, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/* line 223, ../../app/styles/main.scss */
+/* line 258, ../../app/styles/main.scss */
 #mainHTML {
   border: 1px none;
   padding: 20px;
   margin: 3px 20px 3px 20px;
   max-width: 100%;
 }
-/* line 230, ../../app/styles/main.scss */
+/* line 265, ../../app/styles/main.scss */
 #mainHTML .mainTitle {
   color: black;
   border: 1px none;
   display: inline-block;
   padding: 10px;
   font-family: 'Slabo 27px',serif;
-  letter-spacing: 20px;
+  border-bottom: 1px solid black;
   display: transparent;
   position: relative;
   top: 40%;
 }
-/* line 246, ../../app/styles/main.scss */
+/* line 281, ../../app/styles/main.scss */
 #mainHTML .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
-/* line 253, ../../app/styles/main.scss */
+/* line 288, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox {
   /*padding-left:140px;*/
   height: auto;
 }
-/* line 259, ../../app/styles/main.scss */
+/* line 294, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox .updateBox {
-  width: 30%;
   float: left;
   height: 100%;
-  padding: 5px;
-  text-align: center;
+  text-align: left;
   margin-right: 10px;
   margin-left: 10px;
-  border-right: 4px solid rgba(0, 0, 0, 0.4);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  height: 400px;
-  border-radius: 4px;
-  float: left;
+  border-bottom: 4px solid rgba(33, 32, 31, 0.34);
+  border-right: 6px solid rgba(35, 35, 35, 0.3);
+  /* background-color: rgba(162, 154, 152, 0.86);*/
+  padding: 10%;
+  margin: 0.3%;
+  height: auto;
+  margin-bottom: 30px;
+  /*border-radius: 18px;*/
+  float: right;
+  box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
 
-/* line 282, ../../app/styles/main.scss */
+/* line 320, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -8957,16 +8984,16 @@ html body {
   width: 100%;
   border-radius: 20px;
 }
-/* line 293, ../../app/styles/main.scss */
+/* line 331, ../../app/styles/main.scss */
 #locMenu img {
   height: 300px;
   width: 500px;
 }
-/* line 297, ../../app/styles/main.scss */
+/* line 335, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 299, ../../app/styles/main.scss */
+/* line 337, ../../app/styles/main.scss */
 #locMenu ul li {
   background-color: #f1f1f1;
   border-right: 4px solid rgba(173, 216, 230, 0.8);
@@ -8979,7 +9006,7 @@ html body {
   display: inline-table;
   padding: 7px;
 }
-/* line 313, ../../app/styles/main.scss */
+/* line 351, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -8989,106 +9016,55 @@ html body {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 331, ../../app/styles/main.scss */
+/* line 369, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
 
-/*
-#menuContainer {
-  color:white;
-  border:1px solid white;
-  position:absolute;
-  right:0%;
-  left:0%;
-  top:2%;
-  bottom:6%;
- height:100px;
-  width:100%;
-      
-    
-
-        #boxxed {
-          background:black;
-          display: inline-table;
-          font-family: "Noto",serif;
-          position: relative;
-          float: left;
-          padding: 0%;
-           
-            ul {
-              list-style: none;
-              position:relative;
-            }
-           
-           .boxxedContent {
-                position: relative;
-                right: 0%;
-                margin: 0px;
-                font-size: 23px;
-                display: inline-block;
-                font-family: "Noto",serif;
-                
-                .itemsNames {
-
-                  float: left;
-                  position: relative;
-                  right: 25px;
-                }
-
-                .priceLists {
-                  position:relative;
-                  left:94%;
-                  top:-12%;
-                }
-
-                .priceAlign {
-                  position:relative;
-                  top:-54%;
-                }
-
-                .largePrice {
-                  margin-left:2px;
-                }
-             }
-           
-          
-
-
-        }
-       
-       #newBox {
-        background-color:black;
-        display:inline-table;
-        margin:2%;
-        float:left;
-        width:60%;
-       }
-
+/* line 379, ../../app/styles/main.scss */
+.navMenuActive {
+  background-image: url(/images/vinSwedFlag.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  border: 1px none;
+  border-radius: 100%;
+  background-position: 60%;
 }
-       */
-/*    
-#menuContainer {
-  
-  color:white;
-  list-style-type: none;
-  
-
-    #boxxed{
-      background-color:rgba(0,0,0,0.57);
-      margin:4px;
-    }
-
-    #newBox{
-      background-color:rgba(0,0,0,0.57);
-      margin:4px;
-    }
-  ul{
-    list-style-type:none;
-  }
-  li {
-    
-      color:white;
-  }
+/* line 387, ../../app/styles/main.scss */
+.navMenuActive a {
+  font-color: white;
 }
-*/
+
+/* line 394, ../../app/styles/main.scss */
+#menuContainer {
+  font-size: 20px;
+}
+/* line 398, ../../app/styles/main.scss */
+#menuContainer .boxStyleBorder {
+  /*background-color:rgba(0,0,0,0.2);*/
+}
+/* line 403, ../../app/styles/main.scss */
+#menuContainer #outerBox {
+  float: left;
+  height: 100%;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-bottom: 4px solid rgba(51, 26, 0, 0.4);
+  border-right: 6px solid rgba(51, 26, 0, 0.4);
+  /* background-color: rgba(162, 154, 152, 0.86);*/
+  padding: 0;
+  margin: 0.3%;
+  height: auto;
+  margin-bottom: 30px;
+  /*border-radius: 18px;*/
+  float: right;
+  box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
+}
+/* line 422, ../../app/styles/main.scss */
+#menuContainer #outerBox #boxxed {
+  border-right: 6px solid rgba(102, 51, 0, 0.5);
+  border-bottom: 4px solid rgba(102, 51, 0, 0.5);
+  border-top: 2px solid rgba(102, 51, 0, 0.5);
+  border-left: 1px solid rgba(102, 51, 0, 0.5);
+}

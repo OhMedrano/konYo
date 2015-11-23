@@ -7,12 +7,15 @@
  * # lights
  */
 angular.module('tempGitApp')
-  .directive('lights', function () {
+  .directive('faderImage', function () {
     return {
       template: '<div></div>',
-      restrict: 'E',
+      restrict: 'EAC',
       link: function postLink(scope, element, attrs) {
-        element.text('this is the lights directive');
+      	element.hide()
+        element.mouseenter(function(){
+        	this.show('fast');
+        });
       }
     };
   });

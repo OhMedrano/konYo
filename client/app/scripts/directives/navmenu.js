@@ -1,6 +1,6 @@
 'use strict';
 
-/**
+/** 
  * @ngdoc directive
  * @name tempGitApp.directive:navMenu
  * @description
@@ -13,23 +13,35 @@ angular.module('tempGitApp')
       templateUrl: 'templates/navMenu.html',
       restrict: 'EA',
       link: function postLink(scope, element, attrs) {
-        var navBarz = $('.navBigStyle a');
+        var navBarz = $('#navBarz a');
         
-        var backImage = $(this).css('background-image','url("/images/vinSwedFlag.jpg');
+        var backImage = $(this).css('background-image','url("/images/vinSwedFlag.jpg').fadeIn(200);
+        
 
+/*        
         navBarz.mouseenter(function(){
-
-        	
-        	$(this).fadeIn(1500).addClass('navMenuActive').css('color','white');
-
+          $(this).addClass('navMenuActive');*/
+        	/*this.removeClass('navMenuActive').css('color','#777');*/
+        /* });*/
+        /*navBarz.mouseleave(function() {
+        	$(this).removeClass('navMenuActive');
+        });*/
+       /* 
+        navBarz.hover(function(){
+          $(this).toggleClass('navMenuActive','fadeInLeft');
+          
         });
-        navBarz.mouseleave(function() {
-        	$(this).removeClass('navMenuActive').css('color','#777');
+        navBarz.click(function(){  
+          if($(navBarz).hasClass('navMenuActive')){
+            $(this).removeClass('navMenuActive');
+            $(this).addClass('navMenuActive')
+          }
+          else{
+          $(this).addClass('navMenuActive');
+          }
         });
-        navBarz.click(function(){
-        	$(this).removeClass('navMenuActive')
-        	$(this).addClass('navMenuActive')
-        })
+        $scope.apply()
+*/
       }
     };
   });

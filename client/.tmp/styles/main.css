@@ -9030,22 +9030,32 @@ button.close {
   border-radius: 100%;
   background-position: 60%;
 }
-/* line 387, ../../app/styles/main.scss */
+/* line 388, ../../app/styles/main.scss */
 .navMenuActive a {
-  font-color: white;
+  color: white;
 }
 
-/* line 394, ../../app/styles/main.scss */
+/* line 397, ../../app/styles/main.scss */
+#mainNav a:focus {
+  background-image: url(/images/vinSwedFlag.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  border: 1px none;
+  border-radius: 100%;
+  background-position: 60%;
+  opacity: 0;
+}
+
+/* line 409, ../../app/styles/main.scss */
 #menuContainer {
   font-size: 20px;
 }
-/* line 398, ../../app/styles/main.scss */
+/* line 413, ../../app/styles/main.scss */
 #menuContainer .boxStyleBorder {
   /*background-color:rgba(0,0,0,0.2);*/
 }
-/* line 403, ../../app/styles/main.scss */
+/* line 418, ../../app/styles/main.scss */
 #menuContainer #outerBox {
-  float: left;
   height: 100%;
   color: black;
   margin-right: 10px;
@@ -9058,13 +9068,119 @@ button.close {
   height: auto;
   margin-bottom: 30px;
   /*border-radius: 18px;*/
-  float: right;
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
-/* line 422, ../../app/styles/main.scss */
+/* line 437, ../../app/styles/main.scss */
 #menuContainer #outerBox #boxxed {
   border-right: 6px solid rgba(102, 51, 0, 0.5);
   border-bottom: 4px solid rgba(102, 51, 0, 0.5);
   border-top: 2px solid rgba(102, 51, 0, 0.5);
   border-left: 1px solid rgba(102, 51, 0, 0.5);
 }
+
+/* line 446, ../../app/styles/main.scss */
+.storeDivImageBlurb {
+  height: inherit;
+  width: inherit;
+  border: 1px none;
+  position: relative;
+  bottom: 80%;
+  background-color: white;
+  padding: 0%;
+  box-shadow: 30px  30px  50px #fff, -30px -30px  50px #fff, -30px  30px  50px #fff, 30px -30px  50px #fff;
+}
+
+/* line 463, ../../app/styles/main.scss */
+#storeDivImageContainer {
+  height: 80%;
+  width: 100%;
+}
+/* line 468, ../../app/styles/main.scss */
+#storeDivImageContainer .storeDivImage {
+  height: inherit;
+  width: inherit;
+}
+
+/* line 475, ../../app/styles/main.scss */
+.fadeIn {
+  webkit-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+@-webkit-keyframes moveUp {
+  0% {
+    bottom: 0%;
+  }
+  25% {
+    bottom: 20%;
+  }
+  50% {
+    bottom: 40%;
+  }
+  75% {
+    bottom: 60%;
+  }
+  100% {
+    bottom: 80%;
+  }
+}
+@keyframes moveUp {
+  0% {
+    bottom: 0%;
+  }
+  25% {
+    bottom: 20%;
+  }
+  50% {
+    bottom: 40%;
+  }
+  75% {
+    bottom: 60%;
+  }
+  100% {
+    bottom: 80%;
+  }
+}
+/*.slide-animation-setup {
+  -webkit-transition: .5s linear all;
+  -moz-transition:.5s linear all;
+  -o-transition:.5s linear all;
+  transition:.5s linear all;
+  position:relative;
+  top:100%;
+  opacity:0;
+
+
+}
+
+.slide-animation-setup.slide-animation-start{
+
+    top:0%;
+    opacity:1;
+
+
+}*/
+/*.animate-enter, 
+.animate-leave
+ { 
+     -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+ } 
+  
+ .animate-enter {
+     left: 100%;
+ }
+ .animate-enter.animate-enter-active {
+     left: 0;
+ }
+  
+ .animate-leave {
+     left: 0;
+ }
+ .animate-leave.animate-leave-active{
+     left: -100%;
+ }*/

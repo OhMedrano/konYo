@@ -383,12 +383,27 @@ max-width:100%;
   border:1px none;
   border-radius:100%;
   background-position:60%;
+   
 
   a {
 
-    font-color:white;
+    color:white;
   }
 
+}
+#mainNav {
+
+
+  a:focus{
+
+    background-image:url(/images/vinSwedFlag.jpg);
+  background-size:cover;
+    opacity: 0.8;
+  border:1px none;
+  border-radius:100%;
+  background-position:60%;
+   opacity: 0;
+  }
 }
 
 #menuContainer {
@@ -403,7 +418,7 @@ max-width:100%;
       #outerBox{
 
 
-            float: left;
+            
           height: 100%;
           color:black;  
           margin-right: 10px;
@@ -416,7 +431,7 @@ max-width:100%;
           height: auto;
           margin-bottom:30px;
           /*border-radius: 18px;*/
-          float: right;
+          
           box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 
             #boxxed {
@@ -427,3 +442,106 @@ max-width:100%;
             }
         }
 }
+
+ .storeDivImageBlurb{
+                      height:inherit;
+                      width:inherit;
+                      border:1px none;
+                      position:relative;
+                      bottom:80%;
+                      background-color:white;
+                      padding:0%;
+                      
+              
+                      box-shadow:30px  30px  50px #fff,
+                    -30px -30px  50px #fff,
+                    -30px  30px  50px #fff,
+                     30px -30px  50px #fff;
+                     
+                     
+  }
+#storeDivImageContainer {
+  height:80%;
+  width:100%;
+                 
+
+  .storeDivImage {
+    height:inherit;
+    width:inherit;
+  }
+
+}
+
+.fadeIn{
+    webkit-transform: translateY(100%);
+-moz-transform: translateY(100%);
+-ms-transform: translateY(100%);
+-o-transform: translateY(100%);
+transform: translateY(100%);
+
+}
+
+@-webkit-keyframes moveUp {
+
+        0% {bottom:0%;}
+        25%{bottom:20%;}
+        50%{bottom:40%;}
+        75%{bottom:60%;}
+        100%{bottom:80%;}
+
+}
+@keyframes moveUp {
+
+        0% {bottom:0%;}
+        25%{bottom:20%;}
+        50%{bottom:40%;}
+        75%{bottom:60%;}
+        100%{bottom:80%;}
+
+}
+
+/*.slide-animation-setup {
+  -webkit-transition: .5s linear all;
+  -moz-transition:.5s linear all;
+  -o-transition:.5s linear all;
+  transition:.5s linear all;
+  position:relative;
+  top:100%;
+  opacity:0;
+
+
+}
+
+.slide-animation-setup.slide-animation-start{
+
+    top:0%;
+    opacity:1;
+
+
+}*/
+
+   /*.animate-enter, 
+   .animate-leave
+    { 
+        -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    } 
+     
+    .animate-enter {
+        left: 100%;
+    }
+    .animate-enter.animate-enter-active {
+        left: 0;
+    }
+     
+    .animate-leave {
+        left: 0;
+    }
+    .animate-leave.animate-leave-active{
+        left: -100%;
+    }*/
+
+

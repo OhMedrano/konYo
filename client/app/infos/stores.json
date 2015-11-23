@@ -9,7 +9,8 @@
 			"phone": "'347-384-2028'",
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/5thMain.png",
-			"instaGram":"'To be declared'"
+			"instaGram":"'To be declared'",
+			"desc":"...Have a coffee break close to the Barclays Center"
 			
 		}
 		,
@@ -20,7 +21,8 @@
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/5thMain.png",
 			"instaGram":"'To be declared'",
-			"id":"ps240"
+			"id":"ps240",
+			"desc":"...Perfect place for a stroll through Prospect Park"
 		},
 		{
 			"name":"'Prospect Heights'",
@@ -29,7 +31,8 @@
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/washMain.jpg",
 			"instaGram":"'To be declared'",
-			"id":"ph696"
+			"id":"ph696",
+			"desc":"...Enjoy an espresso next to Grand Army Plaza"
 		},
 		{
 			"name":"'Boreum Hill'",
@@ -38,7 +41,8 @@
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/smithMain.jpg",
 			"instaGram":"'To be declared'",
-			"id":"bh114"
+			"id":"bh114",
+			"desc":"...Something something something Smith Street"
 		},
 		{
 			"name":"'Williamsburg'",
@@ -47,7 +51,8 @@
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/5thMain.png",
 			"instaGram":"'To be declared'",
-			"id":"wil167"
+			"id":"wil167",
+			"desc":"...Something something williamsburg"
 
 		},
 		{
@@ -57,7 +62,8 @@
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/lesMain.png",
 			"instaGram":"'To be declared'",
-			"id":"les182"
+			"id":"les182",
+			"desc":"...A new yorker something something"
 		},
 		{
 			"name":"'Greenpoint'",
@@ -66,7 +72,8 @@
 			"gMaps":"'To be declared'",
 			"image":"images/storeImages/greenMain.jpg",
 			"instaGram":"'To be declared'",
-			"id":"gp687"
+			"id":"gp687",
+			"desc":"Blah blah blah blah"
 		}
 		
 

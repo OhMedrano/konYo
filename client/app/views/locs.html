@@ -1,7 +1,37 @@
-<div  id='locMenu' style='background-color:white;'>
-	<ul>
-		<li class='col-lg-3 col-md-3 col-xs-3' ng-repeat='store in stores' style=''><a href='#/locs/{{store.id}}'><span><img src='{{store.image}}'/></span><p>{{store.name}}<p></a></li>
+<div  id='menuContainer' class='col-md-12'style=' margin-top:1%;'>
+	
+		<div id='' class='col-md-12 col-md-offset-1' style=''>
 		
+			<div id='outerBox' class='col-md-5 clearfix' ng-repeat='store in stores' style='border:1px solid black;margin:1%;height:400px;z-index:4'>
+				
+					<a id='boxxed' href='#/locs/{{store.id}}'>
+
+					<div id='storeDivImageContainer' class='col-md-12'style='margin:0;'ng-mouseover='storeBlurb = !storeBlurb' >
+
+
+						<img src='{{store.image}}' class='storeDivImage'/>
+							
+
+							<div id='storeDivImageBlurb' class='storeDivImageBlurb'style='' 
+							ng-show='storeBlurb'>
+								
+
+								<div id='storeDivImageBlurbText'class='col-md-9 slide'style='position:relative;top:40%;left:14%;opacity:1.0;font-color:black;font-size:20px;' >
+									{{store.desc}}
+								</div>
+							</div>
+						
+
+						</div>
+
+
+					<div id=''class=''style='float:left;'>
+					<p>{{store.name}}</p>
+					</div>
+				</a>
+				
+			</li>
+		</div>
 	</ul>
 </div>
 

@@ -7,7 +7,7 @@
  * # navMenu
  */
 angular.module('tempGitApp')
-  .directive('navMenu', function () {
+  .directive('navMenu', function ($routeParams, $http, konStores ) {
     return {
       replace:true,
       templateUrl: 'templates/navMenu.html',
@@ -17,7 +17,7 @@ angular.module('tempGitApp')
         
         var backImage = $(this).css('background-image','url("/images/vinSwedFlag.jpg').fadeIn(200);
         
-
+          scope.stores = konStores.query({storeId: $routeParams.storeId});
 /*        
         navBarz.mouseenter(function(){
           $(this).addClass('navMenuActive');*/

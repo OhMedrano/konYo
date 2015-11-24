@@ -1,9 +1,12 @@
-<ul class="nav navbar-nav mainNav hidden-xs col-md-12" style=''>
-                <li id='navBarz'  ng-mouseenter='over1 = true' ng-click='clicked=true'ng-mouseleave='over1 = false'class='navBigStyle 'style=''><a ng-class="{'navMenuActive':over1}"style='font-size:24px; 'href="#/">What's <br>Brewin'</a></li>
-                <li id='navBarz'  ng-mouseenter='over2 = true' ng-click='clicked=true'ng-mouseleave='over2 = false'class='navBigStyle 'style=''><a ng-class="{'navMenuActive':over2}"style='font-size:24px;padding:53px 34px; 'ng-href="#/menu">Menu</a></li>
-                <li id='navBarz'  ng-mouseenter='over3 = true' ng-click='clicked=true'ng-mouseleave='over3 = false'class='navBigStyle 'style=''><a ng-class="{'navMenuActive':over3}"style='font-size:24px;padding:53px 15px; 'ng-href="#/locs">Locations</a></li>
-                <li id='navBarz'  ng-mouseenter='over4 = true' ng-click='clicked=true'ng-mouseleave='over4 = false'class='navBigStyle 'style=''><a ng-class="{'navMenuActive':over4}"style='font-size:24px;padding:53px 31px;'ng-href='#/media'>Press</a></li>
-                <li id='navBarz'  ng-mouseenter='over5 = true' ng-click='clicked=true'ng-mouseleave='over5 = false'class='navBigStyle 'style=''><a ng-class="{'navMenuActive':over5}"style='font-size:24px;padding:53px 20px;'ng-href=''>JUICED</a></li>
+<ul class="nav navbar-nav mainNav hidden-xs col-md-12 col-sm-11" style='position:relative;z-index:1;'>
+                
+                <li id='navBarz'  class=''ng-mouseenter='over1 = true' ng-click='clicked=true'ng-mouseleave='over1 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over1}"style='font-size:24px; 'href="#/">What's <br>Brewin'</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over2 = true' ng-click='clicked=true'ng-mouseleave='over2 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over2}"style='font-size:24px;padding:53px 34px; 'ng-href="#/menu">Menu</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over3 = true ' ng-click='clicked=true'ng-mouseleave='over3 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over3}"style='font-size:21px;padding:53px 24px;width:80% 'ng-href="#/locs">Locations</a><div id=''class='clearfix'style='background-color:white;position:relative;top:10px;border:none;display:inline;z-index:2'><ul id='navMenuItemStores'><li ng-repeat='store in stores' style='background-color:white;display:inline;'><a href='#/locs/{{store.id}}'style='position:relative;z-index:2'>{{store.name}}<br></a></li></ul> </li>
+                <li id='navBarz'  class=''ng-mouseenter='over4 = true' ng-click='clicked=true'ng-mouseleave='over4 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over4}"style='font-size:24px;padding:53px 31px;'ng-href='#/media'>Press</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over5 = true' ng-click='clicked=true'ng-mouseleave='over5 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over5}"style='font-size:24px;padding:53px 20px;'ng-href=''>JUICED</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over6 = true' ng-click='clicked=true'ng-mouseleave='over6 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over6}"style='font-size:24px;padding:53px 20px;'ng-href=''>Contact</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over7 = true' ng-click='clicked=true'ng-mouseleave='over7 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over7}"style='font-size:24px;padding:53px 30px;'ng-href=''>Ayyyy</a></li>
                 
 </ul>
 

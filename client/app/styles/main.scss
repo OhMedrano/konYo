@@ -169,9 +169,20 @@ max-width:100%;
       
     }
   }
+  li:nth-child(3){
+    #navMenuItemStores{
+        list-style:none;
 
-
-    li a{
+        li{
+          
+          }
+        }
+    a {
+    background-color:black;
+   
+  }
+}
+    #navMenuItems{
       background-color:rgba(199, 194, 193, 0.8);
       border: 1px solid black;
       padding: 43px 24px;
@@ -185,6 +196,7 @@ max-width:100%;
      
 
     }
+
   
    li:hover{
      a{
@@ -394,7 +406,7 @@ max-width:100%;
 #mainNav {
 
 
-  a:focus{
+  #navMenuItems:focus{
 
     background-image:url(/images/vinSwedFlag.jpg);
   background-size:cover;

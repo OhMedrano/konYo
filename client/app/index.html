@@ -31,7 +31,7 @@
             </div>
           </div>
         </div>
-      <div class="navbar navbar-default col-md-12" role="navigation" style='background-color:rgba(123, 114, 111, 0.50);box-shadow:inset 0px 0px 30px 0px rgba(0,0,0,0.25);border:1px none;border-radius:0px;margin:0;max-height:241px;'>
+      <div class="navbar navbar-default col-md-12" role="navigation" style='background-color:rgba(123, 114, 111, 0.50);box-shadow:inset 0px 0px 30px 0px rgba(0,0,0,0.25);border:1px none;border-radius:0px;margin:0;max-height:241px;z-index:1;'>
           <div class=" col-md-12 col-md-offset-1 col-sm-12 col-sm-offset-1">
             <div class="navbar-header" style=''>
 
@@ -43,9 +43,9 @@
               </button>
             </div>
 
-            <div class="collapse navbar-collapse col-md-1" id="js-navbar-collapse" style=''>
+            <div class="collapse navbar-collapse col-md-1" id="js-navbar-collapse" style='position:relative;z-index:1;'>
             <div class='col-md-12 col-sm-12 col-sm-offset-2 col-md-offset-1'>
-              <nav-Menu></nav-Menu>
+              <nav-Menu style='position:relative;z-index:1;'></nav-Menu>
 
 <ul class="nav navbar-nav visible-xs col-md-12 col-xs-12" style=''>Navigation
                 <li class='navBigStyle col-xs-12'style=''><a style=' 'href="#/">What's <br>Brewin'</a></li>
@@ -60,7 +60,7 @@
           </div>
         </div>
 
-      <div class='col-md-10 col-md-offset-1' style='background-color:#f0f0f0'>
+      <div class='col-md-10 col-md-offset-1' style=' background-image:url(/images/woodBack.jpg);background-size:cover;'>
             <div ng-view="" class='col-md-12' style='' ></div>
       </div>
 

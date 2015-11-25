@@ -1,3 +1,4 @@
+<div>
 <ul class="nav navbar-nav mainNav hidden-xs col-md-12 col-sm-12" style='position:relative;z-index:1;'>
                 
                 <li id='navBarz'  class=''ng-mouseenter='over1 = true' ng-click='clicked=true'ng-mouseleave='over1 = false'class='navBigStyle 'style=''>
@@ -12,15 +13,38 @@
                 </li>
                 <li id='navBarz'  class=''ng-mouseenter='over3 = true ' ng-click='clicked=true'ng-mouseleave='over3 = false'class='navBigStyle 'style=''>
                 <div>
-                	<a id='navMenuItems' ng-class="{'navMenuActive':over3}"style='font-size:21px;padding:53px 24px;width:100%;position:relative;top:53px;'ng-href="#/locs">Locations</a></div>
-                		<div id=''class='clearfix'style='background-color:white;position:relative;border:none;display:block;z-index:2'>
+                	<a id='navMenuItems' ng-class="{'navMenuActive':over3}"style='font-size:21px;padding:53px 24px;position:relative;top:53px;'ng-href="#/locs">Locations</a></div>
+                		</li>
+                <li id='navBarz'  class=''ng-mouseenter='over4 = true' ng-click='clicked=true'ng-mouseleave='over4 = false'class='navBigStyle 'style='position:relative;z-index:22'><a id='navMenuItems' ng-class="{'navMenuActive':over4}"style='font-size:24px;padding:53px 31px;'ng-href='#/media'>Press</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over5 = true' ng-click='clicked=true'ng-mouseleave='over5 = false'class='navBigStyle 'style=''position:relative;z-index:22><a id='navMenuItems' ng-class="{'navMenuActive':over5}"style='font-size:24px;padding:53px 20px;'ng-href=''>JUICED</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over6 = true' ng-click='clicked=true'ng-mouseleave='over6 = false'class='navBigStyle 'style='position:relative;z-index:22'><a id='navMenuItems' ng-class="{'navMenuActive':over6}"style='font-size:24px;padding:53px 20px;'ng-href=''>Contact</a></li>
+                <li id='navBarz'  class=''ng-mouseenter='over7 = true' ng-click='clicked=true'ng-mouseleave='over7 = false'class='navBigStyle 'style=''position:relative;z-index:22><a id='navMenuItems' ng-class="{'navMenuActive':over7}"style='font-size:24px;padding:53px 30px;'ng-href=''>Ayyyy</a></li>
+          
+
+                <!--  This is the start of the popup mini
+						navigation menus. 
+                 -->
+
+                 <!-- Locations Mini Nav Menu START  inline small col version-->
+
+                <div id='ayyyyy'class='clearfix col-md-2'style='
+                position:relative;
+                border:none;
+                z-index:-100; text-align:center;
+
+
+                '>
                 			<ul id='navMenuItemStores'>
-                				<li ng-repeat='store in stores' style='background-color:white;display:block;text-align:center;position:relative;top:30px;'>
-                					<a href='#/locs/{{store.id}}'style='position:relative;z-index:2;'>{{store.name}}</a></li></ul> </li>
-                <li id='navBarz'  class=''ng-mouseenter='over4 = true' ng-click='clicked=true'ng-mouseleave='over4 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over4}"style='font-size:24px;padding:53px 31px;'ng-href='#/media'>Press</a></li>
-                <li id='navBarz'  class=''ng-mouseenter='over5 = true' ng-click='clicked=true'ng-mouseleave='over5 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over5}"style='font-size:24px;padding:53px 20px;'ng-href=''>JUICED</a></li>
-                <li id='navBarz'  class=''ng-mouseenter='over6 = true' ng-click='clicked=true'ng-mouseleave='over6 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over6}"style='font-size:24px;padding:53px 20px;'ng-href=''>Contact</a></li>
-                <li id='navBarz'  class=''ng-mouseenter='over7 = true' ng-click='clicked=true'ng-mouseleave='over7 = false'class='navBigStyle 'style=''><a id='navMenuItems' ng-class="{'navMenuActive':over7}"style='font-size:24px;padding:53px 30px;'ng-href=''>Ayyyy</a></li>
-                
+                				<li ng-repeat='store in stores' class='' style='
+                				padding:10px
+                				
+                				text-align:left;
+                				position:relative;padding:12px;
+                				'>
+                					
+                					<a href='#/locs/{{store.id}}'style='position:relative;z-index:2;color:white;border-bottom:1px solid black;'>{{store.name}}</a></li></ul> </div>
+
+            <!-- Locations Mini Nav Menu END -->
+
 </ul>
 

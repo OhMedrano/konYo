@@ -16,7 +16,17 @@ angular.module('tempGitApp')
         var navBarz = $('#navBarz a');
         
         var backImage = $(this).css('background-image','url("/images/vinSwedFlag.jpg').fadeIn(200);
-        
+            
+        var locBarz = $('#navBarz a').eq(2);
+
+            locBarz.hover(function(event){
+              event.preventDefault();
+
+              $('#ayyyyy').css('display','block');
+
+
+            });
+
           scope.stores = konStores.query({storeId: $routeParams.storeId});
 /*        
         navBarz.mouseenter(function(){
@@ -41,7 +51,7 @@ angular.module('tempGitApp')
           }
         });
         $scope.apply()
-*/
+*/      
       }
     };
   });

@@ -156,7 +156,7 @@ max-width:100%;
   
   
   margin:0;
-  height:auto;
+  max-height:200px;
 
   ul{
     /*position:relative;left:10%;top:20px;*/
@@ -165,11 +165,51 @@ max-width:100%;
     display:inline;
     margin:3%;
 
-    li {
+    li:nth-child(3) {
+      
       
     }
   }
-  li:nth-child(3){
+
+  #ayyyyy {
+    
+    position:relative;
+     background-image:url(/images/vinSwedFlag.jpg);
+    background-size:93%;
+    background-repeat: no-repeat;
+    background-position:13px -30px; 
+    
+    border:1px solid black;
+    border-radius:10px;
+    right:44%;
+    top:152px;
+    display:none;
+    
+    
+    
+    border:1px solid black;
+
+    ul {
+        padding:10px;    
+      li {
+        display:inline;
+        background-color:transparent;
+
+        a {
+
+        }
+      }
+    }
+  }
+  /*#navBarz:nth-child(3):hover{
+      
+
+    #ayyyyy {
+      
+      opacity:1;
+      
+    }
+
     #navMenuItemStores{
         list-style:none;
 
@@ -180,8 +220,8 @@ max-width:100%;
     a {
     background-color:black;
    
-  }
-}
+  }*/
+
     #navMenuItems{
       background-color:rgba(199, 194, 193, 0.8);
       border: 1px solid black;
@@ -312,7 +352,7 @@ max-width:100%;
     margin-left: 10px;
     border-bottom: 4px solid rgba(33, 32, 31, 0.34);
     border-right: 6px solid rgba(35, 35, 35, 0.3);
-   /* background-color: rgba(162, 154, 152, 0.86);*/
+    background-color: rgba(162, 154, 152, 0.86);
     padding: 10%;
     margin: 0.3%;
     height: auto;
@@ -437,7 +477,7 @@ max-width:100%;
           margin-left: 10px;
           border-bottom: 4px solid rgba(51, 26, 0,0.4);
           border-right: 6px solid rgba(51, 26, 0,0.4);
-        /* background-color: rgba(162, 154, 152, 0.86);*/
+         background-color: rgba(162, 154, 152, 0.86);
           padding: 0;
           margin: 0.3%;
           height: auto;

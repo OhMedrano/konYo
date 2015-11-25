@@ -8847,7 +8847,27 @@ button.close {
 .mainNav {
   padding: 49px 0px 36px;
   margin: 0;
-  height: auto;
+  max-height: 200px;
+  /*#navBarz:nth-child(3):hover{
+      
+
+    #ayyyyy {
+      
+      opacity:1;
+      
+    }
+
+    #navMenuItemStores{
+        list-style:none;
+
+        li{
+          
+          }
+        }
+    a {
+    background-color:black;
+   
+  }*/
 }
 /* line 161, ../../app/styles/main.scss */
 .mainNav ul {
@@ -8857,15 +8877,30 @@ button.close {
   display: inline;
   margin: 3%;
 }
-/* line 173, ../../app/styles/main.scss */
-.mainNav li:nth-child(3) #navMenuItemStores {
-  list-style: none;
+/* line 174, ../../app/styles/main.scss */
+.mainNav #ayyyyy {
+  position: relative;
+  background-image: url(/images/vinSwedFlag.jpg);
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: 13px -30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  right: 44%;
+  top: 152px;
+  display: none;
+  border: 1px solid black;
 }
-/* line 180, ../../app/styles/main.scss */
-.mainNav li:nth-child(3) a {
-  background-color: black;
+/* line 192, ../../app/styles/main.scss */
+.mainNav #ayyyyy ul {
+  padding: 10px;
 }
-/* line 185, ../../app/styles/main.scss */
+/* line 194, ../../app/styles/main.scss */
+.mainNav #ayyyyy ul li {
+  display: inline;
+  background-color: transparent;
+}
+/* line 225, ../../app/styles/main.scss */
 .mainNav #navMenuItems {
   background-color: rgba(199, 194, 193, 0.8);
   border: 1px solid black;
@@ -8878,29 +8913,29 @@ button.close {
   border-radius: 100%;
   margin-right: 10px;
 }
-/* line 202, ../../app/styles/main.scss */
+/* line 242, ../../app/styles/main.scss */
 .mainNav li:hover a {
   font-color: #add8e6;
 }
 
-/* line 210, ../../app/styles/main.scss */
+/* line 250, ../../app/styles/main.scss */
 .footStyle {
   background-color: rgba(152, 129, 123, 0.5);
   width: 100%;
 }
 
-/* line 217, ../../app/styles/main.scss */
+/* line 257, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 221, ../../app/styles/main.scss */
+/* line 261, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 234, ../../app/styles/main.scss */
+/* line 274, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8915,31 +8950,31 @@ button.close {
     width:auto;
   }*/
 }
-/* line 251, ../../app/styles/main.scss */
+/* line 291, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 255, ../../app/styles/main.scss */
+/* line 295, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 262, ../../app/styles/main.scss */
+/* line 302, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/* line 270, ../../app/styles/main.scss */
+/* line 310, ../../app/styles/main.scss */
 #mainHTML {
   border: 1px none;
   padding: 20px;
   margin: 3px 20px 3px 20px;
   max-width: 100%;
 }
-/* line 277, ../../app/styles/main.scss */
+/* line 317, ../../app/styles/main.scss */
 #mainHTML .mainTitle {
   color: black;
   border: 1px none;
@@ -8951,17 +8986,17 @@ button.close {
   position: relative;
   top: 40%;
 }
-/* line 293, ../../app/styles/main.scss */
+/* line 333, ../../app/styles/main.scss */
 #mainHTML .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
-/* line 300, ../../app/styles/main.scss */
+/* line 340, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox {
   /*padding-left:140px;*/
   height: auto;
 }
-/* line 306, ../../app/styles/main.scss */
+/* line 346, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox .updateBox {
   float: left;
   height: 100%;
@@ -8970,7 +9005,7 @@ button.close {
   margin-left: 10px;
   border-bottom: 4px solid rgba(33, 32, 31, 0.34);
   border-right: 6px solid rgba(35, 35, 35, 0.3);
-  /* background-color: rgba(162, 154, 152, 0.86);*/
+  background-color: rgba(162, 154, 152, 0.86);
   padding: 10%;
   margin: 0.3%;
   height: auto;
@@ -8980,7 +9015,7 @@ button.close {
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
 
-/* line 332, ../../app/styles/main.scss */
+/* line 372, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -8992,16 +9027,16 @@ button.close {
   width: 100%;
   border-radius: 20px;
 }
-/* line 343, ../../app/styles/main.scss */
+/* line 383, ../../app/styles/main.scss */
 #locMenu img {
   height: 300px;
   width: 500px;
 }
-/* line 347, ../../app/styles/main.scss */
+/* line 387, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 349, ../../app/styles/main.scss */
+/* line 389, ../../app/styles/main.scss */
 #locMenu ul li {
   background-color: #f1f1f1;
   border-right: 4px solid rgba(173, 216, 230, 0.8);
@@ -9014,7 +9049,7 @@ button.close {
   display: inline-table;
   padding: 7px;
 }
-/* line 363, ../../app/styles/main.scss */
+/* line 403, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9024,12 +9059,12 @@ button.close {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 381, ../../app/styles/main.scss */
+/* line 421, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
 
-/* line 391, ../../app/styles/main.scss */
+/* line 431, ../../app/styles/main.scss */
 .navMenuActive {
   background-image: url(/images/vinSwedFlag.jpg);
   background-size: cover;
@@ -9038,12 +9073,12 @@ button.close {
   border-radius: 100%;
   background-position: 60%;
 }
-/* line 400, ../../app/styles/main.scss */
+/* line 440, ../../app/styles/main.scss */
 .navMenuActive a {
   color: white;
 }
 
-/* line 409, ../../app/styles/main.scss */
+/* line 449, ../../app/styles/main.scss */
 #mainNav #navMenuItems:focus {
   background-image: url(/images/vinSwedFlag.jpg);
   background-size: cover;
@@ -9054,15 +9089,15 @@ button.close {
   opacity: 0;
 }
 
-/* line 421, ../../app/styles/main.scss */
+/* line 461, ../../app/styles/main.scss */
 #menuContainer {
   font-size: 20px;
 }
-/* line 425, ../../app/styles/main.scss */
+/* line 465, ../../app/styles/main.scss */
 #menuContainer .boxStyleBorder {
   /*background-color:rgba(0,0,0,0.2);*/
 }
-/* line 430, ../../app/styles/main.scss */
+/* line 470, ../../app/styles/main.scss */
 #menuContainer #outerBox {
   height: 100%;
   color: black;
@@ -9070,7 +9105,7 @@ button.close {
   margin-left: 10px;
   border-bottom: 4px solid rgba(51, 26, 0, 0.4);
   border-right: 6px solid rgba(51, 26, 0, 0.4);
-  /* background-color: rgba(162, 154, 152, 0.86);*/
+  background-color: rgba(162, 154, 152, 0.86);
   padding: 0;
   margin: 0.3%;
   height: auto;
@@ -9078,7 +9113,7 @@ button.close {
   /*border-radius: 18px;*/
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
-/* line 449, ../../app/styles/main.scss */
+/* line 489, ../../app/styles/main.scss */
 #menuContainer #outerBox #boxxed {
   border-right: 6px solid rgba(102, 51, 0, 0.5);
   border-bottom: 4px solid rgba(102, 51, 0, 0.5);
@@ -9086,7 +9121,7 @@ button.close {
   border-left: 1px solid rgba(102, 51, 0, 0.5);
 }
 
-/* line 458, ../../app/styles/main.scss */
+/* line 498, ../../app/styles/main.scss */
 .storeDivImageBlurb {
   height: inherit;
   width: inherit;
@@ -9098,18 +9133,18 @@ button.close {
   box-shadow: 30px  30px  50px #fff, -30px -30px  50px #fff, -30px  30px  50px #fff, 30px -30px  50px #fff;
 }
 
-/* line 475, ../../app/styles/main.scss */
+/* line 515, ../../app/styles/main.scss */
 #storeDivImageContainer {
   height: 80%;
   width: 100%;
 }
-/* line 480, ../../app/styles/main.scss */
+/* line 520, ../../app/styles/main.scss */
 #storeDivImageContainer .storeDivImage {
   height: inherit;
   width: inherit;
 }
 
-/* line 487, ../../app/styles/main.scss */
+/* line 527, ../../app/styles/main.scss */
 .fadeIn {
   webkit-transform: translateY(100%);
   -webkit-transform: translateY(100%);
@@ -9192,5 +9227,3 @@ button.close {
  .animate-leave.animate-leave-active{
      left: -100%;
  }*/
-
-/*# sourceMappingURL=main.css.map */

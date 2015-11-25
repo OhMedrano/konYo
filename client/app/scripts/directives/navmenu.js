@@ -14,16 +14,14 @@ angular.module('tempGitApp')
       restrict: 'EA',
       link: function postLink(scope, element, attrs) {
         var navBarz = $('#navBarz a');
-        
+        $('#ayyyyy').hide();
         var backImage = $(this).css('background-image','url("/images/vinSwedFlag.jpg').fadeIn(200);
             
         var locBarz = $('#navBarz a').eq(2);
 
-            locBarz.hover(function(event){
-              event.preventDefault();
-
-              $('#ayyyyy').css('display','block');
-
+            locBarz.hover(function(){
+              $('#ayyyyy').show();
+            
 
             });
 

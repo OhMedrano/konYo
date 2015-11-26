@@ -8843,7 +8843,14 @@ button.close {
   padding: 3%;
 }
 
-/* line 151, ../../app/styles/main.scss */
+/* line 150, ../../app/styles/main.scss */
+.locationNav {
+  max-width: 240px;
+  z-index: 19px;
+  height: 147px;
+}
+
+/* line 159, ../../app/styles/main.scss */
 .mainNav {
   padding: 49px 0px 36px;
   margin: 0;
@@ -8869,7 +8876,7 @@ button.close {
    
   }*/
 }
-/* line 161, ../../app/styles/main.scss */
+/* line 169, ../../app/styles/main.scss */
 .mainNav ul {
   /*position:relative;left:10%;top:20px;*/
   font-size: 15px;
@@ -8877,7 +8884,7 @@ button.close {
   display: inline;
   margin: 3%;
 }
-/* line 174, ../../app/styles/main.scss */
+/* line 182, ../../app/styles/main.scss */
 .mainNav #ayyyyy {
   position: relative;
   background-image: url(/images/vinSwedFlag.jpg);
@@ -8885,21 +8892,21 @@ button.close {
   background-repeat: no-repeat;
   background-position: 13px -30px;
   border: 1px solid black;
-  border-radius: 10px;
-  right: 44%;
-  top: 152px;
+  top: 114px;
+  padding: 10px;
+  width: 337px;
   border: 1px solid black;
 }
-/* line 192, ../../app/styles/main.scss */
+/* line 200, ../../app/styles/main.scss */
 .mainNav #ayyyyy ul {
   padding: 10px;
 }
-/* line 194, ../../app/styles/main.scss */
+/* line 202, ../../app/styles/main.scss */
 .mainNav #ayyyyy ul li {
   display: inline;
   background-color: transparent;
 }
-/* line 225, ../../app/styles/main.scss */
+/* line 233, ../../app/styles/main.scss */
 .mainNav #navMenuItems {
   background-color: rgba(199, 194, 193, 0.8);
   border: 1px solid black;
@@ -8912,29 +8919,29 @@ button.close {
   border-radius: 100%;
   margin-right: 10px;
 }
-/* line 242, ../../app/styles/main.scss */
+/* line 250, ../../app/styles/main.scss */
 .mainNav li:hover a {
   font-color: #add8e6;
 }
 
-/* line 250, ../../app/styles/main.scss */
+/* line 258, ../../app/styles/main.scss */
 .footStyle {
   background-color: rgba(152, 129, 123, 0.5);
   width: 100%;
 }
 
-/* line 257, ../../app/styles/main.scss */
+/* line 265, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 261, ../../app/styles/main.scss */
+/* line 269, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 274, ../../app/styles/main.scss */
+/* line 282, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8949,31 +8956,31 @@ button.close {
     width:auto;
   }*/
 }
-/* line 291, ../../app/styles/main.scss */
+/* line 299, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 295, ../../app/styles/main.scss */
+/* line 303, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 302, ../../app/styles/main.scss */
+/* line 310, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/* line 310, ../../app/styles/main.scss */
+/* line 318, ../../app/styles/main.scss */
 #mainHTML {
   border: 1px none;
   padding: 20px;
   margin: 3px 20px 3px 20px;
   max-width: 100%;
 }
-/* line 317, ../../app/styles/main.scss */
+/* line 325, ../../app/styles/main.scss */
 #mainHTML .mainTitle {
   color: black;
   border: 1px none;
@@ -8985,17 +8992,17 @@ button.close {
   position: relative;
   top: 40%;
 }
-/* line 333, ../../app/styles/main.scss */
+/* line 341, ../../app/styles/main.scss */
 #mainHTML .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
-/* line 340, ../../app/styles/main.scss */
+/* line 348, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox {
   /*padding-left:140px;*/
   height: auto;
 }
-/* line 346, ../../app/styles/main.scss */
+/* line 354, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox .updateBox {
   float: left;
   height: 100%;
@@ -9014,7 +9021,7 @@ button.close {
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
 
-/* line 372, ../../app/styles/main.scss */
+/* line 380, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -9026,16 +9033,16 @@ button.close {
   width: 100%;
   border-radius: 20px;
 }
-/* line 383, ../../app/styles/main.scss */
+/* line 391, ../../app/styles/main.scss */
 #locMenu img {
   height: 300px;
   width: 500px;
 }
-/* line 387, ../../app/styles/main.scss */
+/* line 395, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 389, ../../app/styles/main.scss */
+/* line 397, ../../app/styles/main.scss */
 #locMenu ul li {
   background-color: #f1f1f1;
   border-right: 4px solid rgba(173, 216, 230, 0.8);
@@ -9048,7 +9055,7 @@ button.close {
   display: inline-table;
   padding: 7px;
 }
-/* line 403, ../../app/styles/main.scss */
+/* line 411, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9058,12 +9065,12 @@ button.close {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 421, ../../app/styles/main.scss */
+/* line 429, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
 
-/* line 431, ../../app/styles/main.scss */
+/* line 439, ../../app/styles/main.scss */
 .navMenuActive {
   background-image: url(/images/vinSwedFlag.jpg);
   background-size: cover;
@@ -9072,12 +9079,12 @@ button.close {
   border-radius: 100%;
   background-position: 60%;
 }
-/* line 440, ../../app/styles/main.scss */
+/* line 448, ../../app/styles/main.scss */
 .navMenuActive a {
   color: white;
 }
 
-/* line 449, ../../app/styles/main.scss */
+/* line 457, ../../app/styles/main.scss */
 #mainNav #navMenuItems:focus {
   background-image: url(/images/vinSwedFlag.jpg);
   background-size: cover;
@@ -9088,15 +9095,15 @@ button.close {
   opacity: 0;
 }
 
-/* line 461, ../../app/styles/main.scss */
+/* line 469, ../../app/styles/main.scss */
 #menuContainer {
   font-size: 20px;
 }
-/* line 465, ../../app/styles/main.scss */
+/* line 473, ../../app/styles/main.scss */
 #menuContainer .boxStyleBorder {
   /*background-color:rgba(0,0,0,0.2);*/
 }
-/* line 470, ../../app/styles/main.scss */
+/* line 478, ../../app/styles/main.scss */
 #menuContainer #outerBox {
   height: 100%;
   color: black;
@@ -9112,7 +9119,7 @@ button.close {
   /*border-radius: 18px;*/
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
-/* line 489, ../../app/styles/main.scss */
+/* line 497, ../../app/styles/main.scss */
 #menuContainer #outerBox #boxxed {
   border-right: 6px solid rgba(102, 51, 0, 0.5);
   border-bottom: 4px solid rgba(102, 51, 0, 0.5);
@@ -9120,7 +9127,7 @@ button.close {
   border-left: 1px solid rgba(102, 51, 0, 0.5);
 }
 
-/* line 498, ../../app/styles/main.scss */
+/* line 506, ../../app/styles/main.scss */
 .storeDivImageBlurb {
   height: inherit;
   width: inherit;
@@ -9132,18 +9139,18 @@ button.close {
   box-shadow: 30px  30px  50px #fff, -30px -30px  50px #fff, -30px  30px  50px #fff, 30px -30px  50px #fff;
 }
 
-/* line 515, ../../app/styles/main.scss */
+/* line 523, ../../app/styles/main.scss */
 #storeDivImageContainer {
   height: 80%;
   width: 100%;
 }
-/* line 520, ../../app/styles/main.scss */
+/* line 528, ../../app/styles/main.scss */
 #storeDivImageContainer .storeDivImage {
   height: inherit;
   width: inherit;
 }
 
-/* line 527, ../../app/styles/main.scss */
+/* line 535, ../../app/styles/main.scss */
 .fadeIn {
   webkit-transform: translateY(100%);
   -webkit-transform: translateY(100%);

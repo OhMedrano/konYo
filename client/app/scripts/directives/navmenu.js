@@ -19,8 +19,12 @@ angular.module('tempGitApp')
             
         var locBarz = $('#navBarz a').eq(2);
 
-            locBarz.hover(function(){
-              $('#ayyyyy').show();
+            $('.locationNav').hover(function(){
+              $('#ayyyyy').slideDown('fast');
+            
+            },function(){
+              $('#ayyyyy').hide();
+            
             
 
             });

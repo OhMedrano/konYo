@@ -9,6 +9,9 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-carousel/dist/angular-carousel.css" />
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -32,7 +35,7 @@
           </div>
         </div>
       <div class="navbar navbar-default col-md-12" role="navigation" style='background-color:rgba(123, 114, 111, 0.50);box-shadow:inset 0px 0px 30px 0px rgba(0,0,0,0.25);border:1px none;border-radius:0px;margin:0;max-height:241px;z-index:1;'>
-          <div class=" col-md-12 col-md-offset-1 col-sm-12 col-sm-offset-1">
+          <div class=" col-md-8 col-md-offset-1 col-sm-12 col-sm-offset-2">
             <div class="navbar-header" style=''>
 
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
@@ -60,7 +63,7 @@
           </div>
         </div>
 
-      <div class='col-md-10 col-md-offset-1' style=' background-image:url(/images/woodBack.jpg);background-size:cover;'>
+      <div class='col-md-10 col-md-offset-1' style=''>
             <div ng-view="" class='col-md-12' style='' ></div>
       </div>
 
@@ -152,6 +155,8 @@ Email is been sent at "+to+" . Please check inbox !
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/firebase/firebase.js"></script>
     <script src="bower_components/angularfire/dist/angularfire.js"></script>
+    <script src="bower_components/angular-carousel/dist/angular-carousel.js"></script>
+    <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -170,6 +175,9 @@ Email is been sent at "+to+" . Please check inbox !
         <script src="scripts/directives/emailcontact.js"></script>
         <script src="scripts/directives/twitterdisplay.js"></script>
         <script src="scripts/directives/faded.js"></script>
+        <script src="scripts/directives/aboutstore.js"></script>
+        <script src="scripts/directives/aboutbaristas.js"></script>
+        <script src="scripts/directives/aboutowners.js"></script>
         <!-- endbuild -->
 </body>
 </html>

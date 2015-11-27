@@ -34,6 +34,8 @@ module.exports = function(config) {
       'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/firebase/firebase.js',
       'bower_components/angularfire/dist/angularfire.js',
+      'bower_components/angular-carousel/dist/angular-carousel.js',
+      'bower_components/slick-carousel/slick/slick.min.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",

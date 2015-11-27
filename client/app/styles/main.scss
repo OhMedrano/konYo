@@ -180,22 +180,19 @@ max-width:100%;
   }
 
   #ayyyyy {
-    
-    position:relative;
-     background-image:url(/images/vinSwedFlag.jpg);
-    background-size:93%;
-    background-repeat: no-repeat;
-    background-position:13px -30px; 
-    
-    border:1px solid black;
-    top:114px;
-    padding:10px;
-    width:337px;
-    
-    
-    
-    
-    border:1px solid black;
+    position: relative;
+/*background-image: url(/images/vinSwedFlag.jpg);*/
+background-size: 93%;
+background-repeat: no-repeat;
+background-position: 13px -30px;
+border: 1px solid black;
+top: 114px;
+padding: 10px;
+width: 337px;
+right: 89px;
+border: 1px solid black;
+background-color: rgba(123,114,111,0.4);
+border-bottom: 1px solid black;
 
     ul {
         padding:10px;    
@@ -465,7 +462,20 @@ max-width:100%;
    opacity: 0;
   }
 }
-
+#slides_control > div{
+  height: 200px;
+}
+.image{
+  margin:auto;
+  width: 400px;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+ margin-left:-200px;
+}
 #menuContainer {
   
   
@@ -529,6 +539,30 @@ max-width:100%;
     height:inherit;
     width:inherit;
   }
+
+}
+
+.aboutNav {
+  height:64px !important;
+  
+
+  #aboutNavSelector {
+
+    #aboutNavSelectorImage {
+      border:1px none;
+      border-radius:100%;
+    }
+  }
+}
+#aboutNavSelector:hover {
+
+  #aboutNavSelectorImage {
+      background-image:url(/images/coffee_bean.jpg);
+      background-size:contain;
+
+  }
+
+
 
 }
 

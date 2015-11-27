@@ -1,0 +1,51 @@
+<div id=''class=''style='padding:1%;position:relative;z-index:200;'>
+	<div id=''class='col-md-6 col-md-offset-1
+	'style='background-color:#f1f1f1; font-size:24px;margin:1%;'>
+		<h3>KONDITORI (noun) \Khan- da- tor- ree\:</h3>
+
+		<p>1: Traditional Swedish gathering place to enjoy warm drinks, fine baked goods and confections
+			<br>
+
+			<p>2: Where one goes to Fika (take a coffee or tea break) 
+		</div>
+	<div id='aboutStoreImages'class='col-md-5 col-md-offset-1'style='height:300px;width:420px;padding:2px;border:1px solid black;margin:1%;position:relative;z-index:20'ng-controller="AboutCtrl">
+		 <div  id="somethings"class=''style='position:relative;z-index:18'>
+		 	<div id='something'class=''style=''ng-repeat='image in slides'>
+		 		<img ng-src='{{image.image}}' style='width:400px;height:280px;'/>
+		 	</div>
+ 		 </div>
+
+	</div>
+		
+		<div id=''class='col-md-10 col-md-offset-1'style='background-color:#f1f1f1;padding:1%;font-size:18px;position:relative;z-index:30;'>
+			<p>Established in 2010 in Park Slope, Brooklyn, KONDITORI has grown to seven locations as the go-to neighborhood coffeehouse.
+
+			<p>The creation of the flavorful Konditori coffee bean involves mixing Arabic beans from three different Central American countries through an air heated process which produces an exquisite flavor that is uniquely Konditori. Coffee is brewed fresh every hour on the hour to maximize the aromatic experience ensuring the perfect cup of coffee every time. We use Fresh Press for our medium to light house blends creating a very robust aroma with a uniquely clean finish. Our Iced Coffee is cold brewed for 24 hours - producing superior flavor with 70% less acidity and no bitterness for the perfect refresher.
+
+			<p>As a perfect complement to our coffee, we offer a cornucopia of Swedish and American treats including hand rolled kettle boiled bagels, gourmet muffins, sandwiches and fine Swedish baked goods like Cardamom Bread (coffee bread with almond filling), Kanelbulle (cinnamon rolls) and Coco Balls to name a few.
+
+			<p>Modeling after the Swedish tradition of clean healthy living, Konditori is soon expanding with a Bakery in their Prospect Heights Shop to include Vegan and Gluten Free delights. Everything is flavorful, natural and freshly prepared. 
+
+		</div>
+		
+			<script>
+			$(document).ready(function(){
+
+				$('#something > div:gt(0)').hide();
+
+				setInterval(function(){
+					$('#something > div:first')
+						.fadeOut(1000)
+						.next()
+						.fadeIn(1000)
+						.end()
+						.appendTo('#something');
+				},3000);
+
+			});
+
+			</script>
+
+
+
+		</div>

@@ -8887,7 +8887,7 @@ button.close {
 /* line 182, ../../app/styles/main.scss */
 .mainNav #ayyyyy {
   position: relative;
-  background-image: url(/images/vinSwedFlag.jpg);
+  /*background-image: url(/images/vinSwedFlag.jpg);*/
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: 13px -30px;
@@ -8895,18 +8895,21 @@ button.close {
   top: 114px;
   padding: 10px;
   width: 337px;
+  right: 89px;
   border: 1px solid black;
+  background-color: rgba(123, 114, 111, 0.4);
+  border-bottom: 1px solid black;
 }
-/* line 200, ../../app/styles/main.scss */
+/* line 197, ../../app/styles/main.scss */
 .mainNav #ayyyyy ul {
   padding: 10px;
 }
-/* line 202, ../../app/styles/main.scss */
+/* line 199, ../../app/styles/main.scss */
 .mainNav #ayyyyy ul li {
   display: inline;
   background-color: transparent;
 }
-/* line 233, ../../app/styles/main.scss */
+/* line 230, ../../app/styles/main.scss */
 .mainNav #navMenuItems {
   background-color: rgba(199, 194, 193, 0.8);
   border: 1px solid black;
@@ -8919,29 +8922,29 @@ button.close {
   border-radius: 100%;
   margin-right: 10px;
 }
-/* line 250, ../../app/styles/main.scss */
+/* line 247, ../../app/styles/main.scss */
 .mainNav li:hover a {
   font-color: #add8e6;
 }
 
-/* line 258, ../../app/styles/main.scss */
+/* line 255, ../../app/styles/main.scss */
 .footStyle {
   background-color: rgba(152, 129, 123, 0.5);
   width: 100%;
 }
 
-/* line 265, ../../app/styles/main.scss */
+/* line 262, ../../app/styles/main.scss */
 .locNav ul li {
   border: 1px black solid;
   display: inline;
 }
-/* line 269, ../../app/styles/main.scss */
+/* line 266, ../../app/styles/main.scss */
 .locNav ul li:hover {
   background-color: black;
   color: white;
 }
 
-/* line 282, ../../app/styles/main.scss */
+/* line 279, ../../app/styles/main.scss */
 .mainContent {
   color: white;
   float: left;
@@ -8956,31 +8959,31 @@ button.close {
     width:auto;
   }*/
 }
-/* line 299, ../../app/styles/main.scss */
+/* line 296, ../../app/styles/main.scss */
 .mainContent .clearfix {
   overflow: auto;
 }
-/* line 303, ../../app/styles/main.scss */
+/* line 300, ../../app/styles/main.scss */
 .mainContent #content1 {
   color: white;
   float: left;
   padding: 3px;
 }
-/* line 310, ../../app/styles/main.scss */
+/* line 307, ../../app/styles/main.scss */
 .mainContent #content2 {
   color: white;
   float: left;
   padding: 3px;
 }
 
-/* line 318, ../../app/styles/main.scss */
+/* line 315, ../../app/styles/main.scss */
 #mainHTML {
   border: 1px none;
   padding: 20px;
   margin: 3px 20px 3px 20px;
   max-width: 100%;
 }
-/* line 325, ../../app/styles/main.scss */
+/* line 322, ../../app/styles/main.scss */
 #mainHTML .mainTitle {
   color: black;
   border: 1px none;
@@ -8992,17 +8995,17 @@ button.close {
   position: relative;
   top: 40%;
 }
-/* line 341, ../../app/styles/main.scss */
+/* line 338, ../../app/styles/main.scss */
 #mainHTML .mainTitle h1 {
   font-size: 60px;
   margin-bottom: 0px;
 }
-/* line 348, ../../app/styles/main.scss */
+/* line 345, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox {
   /*padding-left:140px;*/
   height: auto;
 }
-/* line 354, ../../app/styles/main.scss */
+/* line 351, ../../app/styles/main.scss */
 #mainHTML #mainUpdateBox .updateBox {
   float: left;
   height: 100%;
@@ -9021,7 +9024,7 @@ button.close {
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
 
-/* line 380, ../../app/styles/main.scss */
+/* line 377, ../../app/styles/main.scss */
 #locMenu {
   display: inline-block;
   border: 1px none;
@@ -9033,16 +9036,16 @@ button.close {
   width: 100%;
   border-radius: 20px;
 }
-/* line 391, ../../app/styles/main.scss */
+/* line 388, ../../app/styles/main.scss */
 #locMenu img {
   height: 300px;
   width: 500px;
 }
-/* line 395, ../../app/styles/main.scss */
+/* line 392, ../../app/styles/main.scss */
 #locMenu ul {
   list-style-type: none;
 }
-/* line 397, ../../app/styles/main.scss */
+/* line 394, ../../app/styles/main.scss */
 #locMenu ul li {
   background-color: #f1f1f1;
   border-right: 4px solid rgba(173, 216, 230, 0.8);
@@ -9055,7 +9058,7 @@ button.close {
   display: inline-table;
   padding: 7px;
 }
-/* line 411, ../../app/styles/main.scss */
+/* line 408, ../../app/styles/main.scss */
 #locMenu ul li a {
   margin-top: 7px;
   text-decoration: none;
@@ -9065,12 +9068,12 @@ button.close {
   font-family: 'Noto serif', serif;
   text-align: center;
 }
-/* line 429, ../../app/styles/main.scss */
+/* line 426, ../../app/styles/main.scss */
 #locMenu li:hover a {
   color: black;
 }
 
-/* line 439, ../../app/styles/main.scss */
+/* line 436, ../../app/styles/main.scss */
 .navMenuActive {
   background-image: url(/images/vinSwedFlag.jpg);
   background-size: cover;
@@ -9079,12 +9082,12 @@ button.close {
   border-radius: 100%;
   background-position: 60%;
 }
-/* line 448, ../../app/styles/main.scss */
+/* line 445, ../../app/styles/main.scss */
 .navMenuActive a {
   color: white;
 }
 
-/* line 457, ../../app/styles/main.scss */
+/* line 454, ../../app/styles/main.scss */
 #mainNav #navMenuItems:focus {
   background-image: url(/images/vinSwedFlag.jpg);
   background-size: cover;
@@ -9095,15 +9098,35 @@ button.close {
   opacity: 0;
 }
 
-/* line 469, ../../app/styles/main.scss */
+/* line 465, ../../app/styles/main.scss */
+#slides_control > div {
+  height: 200px;
+}
+
+/* line 468, ../../app/styles/main.scss */
+.image {
+  margin: auto;
+  width: 400px;
+}
+
+/* line 472, ../../app/styles/main.scss */
+#slides_control {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 20px;
+  margin-left: -200px;
+}
+
+/* line 479, ../../app/styles/main.scss */
 #menuContainer {
   font-size: 20px;
 }
-/* line 473, ../../app/styles/main.scss */
+/* line 483, ../../app/styles/main.scss */
 #menuContainer .boxStyleBorder {
   /*background-color:rgba(0,0,0,0.2);*/
 }
-/* line 478, ../../app/styles/main.scss */
+/* line 488, ../../app/styles/main.scss */
 #menuContainer #outerBox {
   height: 100%;
   color: black;
@@ -9119,7 +9142,7 @@ button.close {
   /*border-radius: 18px;*/
   box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 }
-/* line 497, ../../app/styles/main.scss */
+/* line 507, ../../app/styles/main.scss */
 #menuContainer #outerBox #boxxed {
   border-right: 6px solid rgba(102, 51, 0, 0.5);
   border-bottom: 4px solid rgba(102, 51, 0, 0.5);
@@ -9127,7 +9150,7 @@ button.close {
   border-left: 1px solid rgba(102, 51, 0, 0.5);
 }
 
-/* line 506, ../../app/styles/main.scss */
+/* line 516, ../../app/styles/main.scss */
 .storeDivImageBlurb {
   height: inherit;
   width: inherit;
@@ -9139,18 +9162,34 @@ button.close {
   box-shadow: 30px  30px  50px #fff, -30px -30px  50px #fff, -30px  30px  50px #fff, 30px -30px  50px #fff;
 }
 
-/* line 523, ../../app/styles/main.scss */
+/* line 533, ../../app/styles/main.scss */
 #storeDivImageContainer {
   height: 80%;
   width: 100%;
 }
-/* line 528, ../../app/styles/main.scss */
+/* line 538, ../../app/styles/main.scss */
 #storeDivImageContainer .storeDivImage {
   height: inherit;
   width: inherit;
 }
 
-/* line 535, ../../app/styles/main.scss */
+/* line 545, ../../app/styles/main.scss */
+.aboutNav {
+  height: 64px !important;
+}
+/* line 551, ../../app/styles/main.scss */
+.aboutNav #aboutNavSelector #aboutNavSelectorImage {
+  border: 1px none;
+  border-radius: 100%;
+}
+
+/* line 559, ../../app/styles/main.scss */
+#aboutNavSelector:hover #aboutNavSelectorImage {
+  background-image: url(/images/coffee_bean.jpg);
+  background-size: contain;
+}
+
+/* line 569, ../../app/styles/main.scss */
 .fadeIn {
   webkit-transform: translateY(100%);
   -webkit-transform: translateY(100%);
@@ -9233,3 +9272,5 @@ button.close {
  .animate-leave.animate-leave-active{
      left: -100%;
  }*/
+
+/*# sourceMappingURL=main.css.map */

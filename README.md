@@ -222,3 +222,39 @@
 
 		- Fix the locations page (Using a modified version of the display that I 
 									have for the Menu and What's Brewin' content. )
+
+
+
+11/28 - 
+
+
+		Made a lot of progress in the past 2 days. 
+
+		Done - 
+
+			Make About Us Page 
+				-Set up routing for the different about us. (Store, Owners, Baristas)
+				-Finished up Stores and Owners pages
+				-Added Image carousel.
+
+			Changed Color Scheme
+
+			Readjusted Nav Menu for better centering 
+
+			Took out the box blur shadow from the Locations popup blurb. (Might take out blurb all together).
+
+
+		Still needs to be done
+
+			MAKE THE BACKEND FOR THE EMAIL!!!!!!!!!!!!
+
+			Make a better logo... (The files they gave me are either corrupt or it won't work aestestically).
+
+			Get the gallery up. (Be Ready for social media)
+
+			Add the added descriptions on to the menu json. 
+
+			Pick out better Fonts. 
+
+
+		So far it looks a lot better than it did before. 

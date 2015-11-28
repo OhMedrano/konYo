@@ -16,17 +16,13 @@ angular.module('tempGitApp')
         scope.ownImage = [
         {
         	image:'images/aboutImages/aboutOwner/kondiPhoto1.jpg'	
-
         },
         {
         	image:'images/aboutImages/aboutOwner/kondiPhoto2.jpg'	
-
         },
         {
         	image:'images/aboutImages/aboutOwner/kondiPhoto3.jpg'	
-
-        }
-        ];
+        }];
       }
     };
   });

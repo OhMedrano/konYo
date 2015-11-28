@@ -262,6 +262,7 @@ background-color:rgba(51,62,70,0.9);
 .footStyle {
   background-color:rgba(51,62,70,0.9);
   width:100%;
+  box-shadow: -9px 24px 200px -41px rgba(255, 255, 255, 0.1) inset;
  
 }
 .locNav {
@@ -387,6 +388,7 @@ background-color:rgba(51,62,70,0.9);
     /*border-radius: 18px;*/
    
     box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
+    
 
     }
     .updateBoxBorder {
@@ -504,9 +506,9 @@ background-color:rgba(51,62,70,0.9);
           color:black;  
           margin-right: 10px;
           margin-left: 10px;
-          border-bottom: 4px solid rgba(51, 26, 0,0.4);
-          border-right: 6px solid rgba(51, 26, 0,0.4);
-         background-color: rgba(162, 154, 152, 0.86);
+          border-bottom: 4px solid rgba(227,226,222, 0.6);
+          border-right: 6px solid rgba(227,226,222, 0.6);
+         
           padding: 0;
           margin: 0.3%;
           height: auto;
@@ -516,10 +518,11 @@ background-color:rgba(51,62,70,0.9);
           box-shadow: 7px 3px 14px rgba(0, 0, 0, 0.4);
 
             #boxxed {
-                border-right:6px solid rgba(102, 51, 0,0.5) ;
+               /* border-right:6px solid rgba(102, 51, 0,0.5) ;
                 border-bottom:4px solid rgba(102, 51, 0,0.5) ;
                 border-top:2px solid rgba(102, 51, 0,0.5) ;
-                border-left:1px solid rgba(102, 51, 0,0.5) ;
+                border-left:1px solid rgba(102, 51, 0,0.5) ;*/
+                color:#908777;
             }
         }
 }
@@ -533,12 +536,12 @@ background-color:rgba(51,62,70,0.9);
                       background-color:white;
                       padding:0%;
                       
-              
+              /*
                       box-shadow:30px  30px  50px #fff,
                     -30px -30px  50px #fff,
                     -30px  30px  50px #fff,
                      30px -30px  50px #fff;
-                     
+                     */
                      
   }
 #storeDivImageContainer {

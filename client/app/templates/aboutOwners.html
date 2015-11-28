@@ -1,0 +1,74 @@
+<div id=''class=''style='padding:1%;position:relative;z-index:200;'>
+	
+	<!-- <div id='aboutStoreImages'class='col-md-5 col-md-offset-1'style='height:300px;width:420px;padding:2px;border:1px solid black;margin:1%;position:relative;z-index:20;position:relative;'ng-controller="AboutCtrl">
+		 <div  id="somethings"class=''style='position:relative;z-index:18'>
+		 	<div id='something'class=''style='position:relative;'ng-repeat='image in slides'>
+		 		<img ng-src='{{image.image}}' style='width:400px;height:280px;position:absolute;top:0px;left:0px;'/>
+		 	</div>
+ 		 </div>
+
+	</div> -->
+		
+		<div id=''class='col-md-7 col-md-offset-1'style='padding:1%;font-size:18px;position:relative;z-index:30;color:#908777;float:left;'>
+
+		<div id=''class='col-md-10'style=''>
+				<p>A unique duo, Per Johan, Swedish born and Ronny Kaj, a native Brooklynite, merged their two worlds to create the unique Konditori brand. The concept was simple. Incorporate the Swedish lifestyle of a traditional European home-away-from-home coffee shop and marry it with a Brooklyn culture. Their mission still stands the same to create a unique vibe with a Swedish flair.
+		</div>
+		<hr class='col-md-8'style='color:rgba(227,226,222,0.6);'>
+		<div id=''class='col-md-10'style=''>
+			<p>Per Johan grew up in Stockholm, Sweden, a city of ice and water, Vikings, beautiful landscapes and culture. He attained his MBA at Stockholm University - spent summers sailing in the Archipeligo or hanging out on Gotland, and his winters skiing in the mountains of Sälen. His upbringing in Sweden where people are health conscious and outdoorsmen combined with an appreciation of different artistic expressions and cultures eventually landed him in the heart of Brooklyn when he moved to the States over 20 years ago. Konditori is a mix of all that is Sweden emulating a leisurely vibe and an appreciation for a chill, lax lifestyle - whatever the weather or people coming together and making a home at their local Konditiori.
+		</div>
+		<hr class='col-md-8'style='color:rgba(227,226,222,0.6);'>
+		<div id=''class='col-md-10'style=''>
+			<p>Ronny Kaj, a native Brooklynite, has the swagger of his hometown. With an eye of an artist and a background of a strong businessman, he is a natural people person. Previously, he has been in business for over 20 years starting his successful career in the world of fashion; owning and operating retail locations throughout the tri -state area as one of the premier go-to destinations for designer goods. He has been doing business with Per Johan since the 1990’s, which is where their unique friendship began. Their common esthetic passion mixed with their chill personalities has inspired the warm, vintage and rustic environment that can be found in each 
+		</div>
+
+		</div>
+		
+		<!-- <div id=''class='col-md-4 container'style='background-color:white;float:right;height:300px;margin-bottom:1%;'>
+		<img ng-src='{{ownImage[0].image}}' class=''style='height:inherit;width:100%;'/>
+
+
+		</div>
+		<br>
+		<div id=''class='col-md-4'style='background-color:white;float:right;height:300px;margin-bottom:1%;'>
+
+
+
+		</div>
+		<br> -->
+		<!-- <div id=''class='col-md-4'style='background-color:white;float:right;height:300px;margin-bottom:1%;' ng-repeat>
+
+
+
+		</div> -->
+		<div id=''class='col-md-4 container'style='background-color:white;float:right;height:300px;margin-bottom:1%;padding:0;'ng-repeat='image in ownImage'>
+		<img ng-src='{{image.image}}' class=''style='height:inherit;width:100%;'/>
+
+
+		</div>
+		
+		
+
+
+			<script>
+			$(document).ready(function(){
+
+				$('#something').hide();
+
+				setInterval(function(){
+					$('#something > div:first')
+						.fadeOut(500)
+						.next()
+						.fadeIn(500)
+						.end()
+						.appendTo('#something');
+				},2000);
+
+			});
+
+			</script>
+
+
+
+		</div>

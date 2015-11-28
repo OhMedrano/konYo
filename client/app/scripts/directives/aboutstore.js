@@ -15,7 +15,7 @@ angular.module('tempGitApp')
       link: function postLink(scope, element, attrs) {
         scope.myInterval = 3000;
 
-        $('#something').hide();
+        $('#something > div').hide();
         setInterval(function(){
         	$('#something')
         		.fadeOut(1000)
@@ -36,7 +36,13 @@ angular.module('tempGitApp')
     	},
     	{
     		image:'images/aboutImages/aboutStore/kondiPhoto3.jpg'
-    	}];
+    	},
+      {
+        image:'images/aboutImages/aboutStore/kondiPhoto4.jpg'
+      },
+      {
+        image:'images/aboutImages/aboutStore/kondiPhoto5.jpg'
+      }];
     	
 
       }

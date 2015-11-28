@@ -9,10 +9,24 @@
 angular.module('tempGitApp')
   .directive('aboutOwners', function () {
     return {
-      template: '<div></div>',
+      replace:true,	
+      templateUrl: 'templates/aboutOwners.html',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        element.text('this is the aboutOwners directive');
+        scope.ownImage = [
+        {
+        	image:'images/aboutImages/aboutOwner/kondiPhoto1.jpg'	
+
+        },
+        {
+        	image:'images/aboutImages/aboutOwner/kondiPhoto2.jpg'	
+
+        },
+        {
+        	image:'images/aboutImages/aboutOwner/kondiPhoto3.jpg'	
+
+        }
+        ];
       }
     };
   });

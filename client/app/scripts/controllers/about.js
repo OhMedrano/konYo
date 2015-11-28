@@ -24,4 +24,28 @@ angular.module('tempGitApp')
 
     	
 */
+        $('.notMain').hide();
+
+        $('#ownersInfo').click(function(){
+            $('#aboutSelections').children().removeClass('aboutNavActive');
+            $('#aboutContents').children().hide();
+            $('#aboutOwners').fadeIn('slow');
+            $(this).addClass('aboutNavActive');
+        });
+
+           $('#baristasInfo').click(function(){
+            $('#aboutSelections').children().removeClass('aboutNavActive');
+            $('#aboutContents').children().hide();
+            $('#aboutBaristass').fadeIn('slow');
+            $(this).addClass('aboutNavActive');
+        });
+              $('#storesInfo').click(function(){
+            $('#aboutSelections').children().removeClass('aboutNavActive');
+            $('#aboutContents').children().hide();
+            $('#aboutStores').fadeIn('slow');
+            $(this).addClass('aboutNavActive');
+        });
+
+
+       
   });
